@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27de369ffb814913a31b5244286a6334, type: 3}
+  m_Name: QuantumNormalHunterNormal
+  m_EditorClassIdentifier:
+  NameXlateKey:
+  Icon: {fileID: 0}
+  AnimatorOverride: {fileID: 0}
+  Structures:
+  - DefaultMaterials:
+    - {fileID: 2100000, guid: 7cc9ba09d5b14be4592c273d3ed2515f, type: 2}
+    Element: {fileID: 11400000, guid: 88c7ec7ab291ba4488870a14a191a4f9, type: 2}
+    ElementMaterials:
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    SupportsFaces: 1
+    FaceRules:
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 0
+      ShowMouth: 0
+  - DefaultMaterials:
+    - {fileID: 2100000, guid: 7cc9ba09d5b14be4592c273d3ed2515f, type: 2}
+    Element: {fileID: 11400000, guid: 7c92ae4f5a5c7234cb7040b621cc4deb, type: 2}
+    ElementMaterials:
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    SupportsFaces: 0
+    FaceRules: []
+  Face: {fileID: 11400000, guid: 677892ffd320f51468eb3bc3017a66f2, type: 2}
+  QubitAppearance: {fileID: 11400000, guid: 7eee8cd75d2b8a64fadaeddd7436a6dd, type: 2}
+  ShockedAppearance: {fileID: 0}
+  DependentAppearances:
+  - {fileID: 11400000, guid: adcade8e1fbca1640a38703244c0e165, type: 2}
+  - {fileID: 11400000, guid: de15db7e0abae4647a94ff34e57f2e64, type: 2}
+  ColorPalette:
+    Top: {r: 1, g: 0.97581166, b: 0.36764705, a: 1}
+    Middle: {r: 1, g: 0.6775059, b: 0, a: 1}
+    Bottom: {r: 0.53029567, g: 0.5808823, b: 0.48264486, a: 1}
+    Ammo: {r: 0, g: 0, b: 0, a: 0}
+  GlintAppearance: {fileID: 0}
+  TornadoAppearance: {fileID: 0}
+  VineAppearance: {fileID: 0}
+  CrystalAppearance: {fileID: 0}
+  ExplosionAppearance: {fileID: 0}
+  DeathAppearance: {fileID: 0}
+  SaveSet: 0

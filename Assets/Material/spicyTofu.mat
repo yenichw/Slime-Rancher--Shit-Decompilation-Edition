@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: spicyTofu
+  m_Shader: {fileID: 4800000, guid: 998f29945f1f3d74da4f9b923ebe50de, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: 732b2f0048142bb4b9e524d7b2d9059e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Mask:
+        m_Texture: {fileID: 2800000, guid: 5fdde0a47c498bf4aaca03ce09dae771, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RampBlack:
+        m_Texture: {fileID: 2800000, guid: 6bd07df5de80bca4185a565ca5296bbf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RampBlue:
+        m_Texture: {fileID: 2800000, guid: 77bcf5db51e60cc4cab57de80e68fe70, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RampGreen:
+        m_Texture: {fileID: 2800000, guid: 5d9c9195beea4fc46a135c7266a4fd6a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RampRed:
+        m_Texture: {fileID: 2800000, guid: c05de904ef14ed44da354dccc81a9436, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossBlack: 0.4
+      _GlossBlue: 0.2
+      _GlossGreen: 0.2
+      _GlossPower: 5
+      _GlossPowerBlack: 10
+      _GlossPowerBlue: 10
+      _GlossPowerGreen: 1
+      _GlossPowerRed: 1
+      _GlossRed: 0.2
+      _Glossiness: 0.5
+      _GlowShift: 0
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Rot: 0
+      _SrcBlend: 1
+      _SwayStrength: 0
+      _TriplanarNormals: 0
+      _UVSec: 0
+      _VertexColorMask: 0
+      _WindTurbulance: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _RotDirection: {r: 0, g: 0, b: 0, a: 0}

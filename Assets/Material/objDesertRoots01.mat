@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: objDesertRoots01
+  m_Shader: {fileID: 4800000, guid: 4e4d19c08736c554ea5c46f2e7f26505, type: 3}
+  m_ShaderKeywords: _ENABLEDETAILTEX_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DetailNoiseMask:
+        m_Texture: {fileID: 2800000, guid: 8863e566ac729f840a7670c0a597f522, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+      _TopperDepth:
+        m_Texture: {fileID: 2800000, guid: 2ca95a2978be4d543b189105de5c771d, type: 3}
+        m_Scale: {x: 0.15, y: 0.15}
+        m_Offset: {x: 0, y: 0}
+      _TopperDetailTex:
+        m_Texture: {fileID: 2800000, guid: cee5b029edf76b444b67275c91cb5743, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+      _TopperSpecular:
+        m_Texture: {fileID: 2800000, guid: 2ca95a2978be4d543b189105de5c771d, type: 3}
+        m_Scale: {x: 0.15, y: 0.15}
+        m_Offset: {x: 0, y: 0}
+      _Topper_MainTex:
+        m_Texture: {fileID: 2800000, guid: cee5b029edf76b444b67275c91cb5743, type: 3}
+        m_Scale: {x: 0.15, y: 0.15}
+        m_Offset: {x: 0, y: 0}
+      _VerticalRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Cutoff: 0.5
+      _EnableDetailTex: 1
+      _Gloss: 0.326
+      _GlossPower: 0.298
+      _OnlyUpwardFaces: 0
+      _RampOffset: 2.3
+      _RampScale: 0.667
+      _SeaLevelRampObjectPos: 0
+      _SeaLevelRampOffset: 45.3
+      _SeaLevelRampScale: 0.1
+      _ToporBottom: 0
+      _TopperCoverage: 0.561
+      _TopperDepthStrength: 0.5
+      _TopperEnableDetailTex: 0
+      _TopperSpecularNoiseAdjust: 0.5
+      _UseMeshUVs: 0
+      _VertexOffset: 0
+      _WindSpeed: 0.1
+      _WindStrength: 2
+      _WindTurbulance: 6
+      _node_2998: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _RampUpper: {r: 0.37629756, g: 0.72770065, b: 0.88235295, a: 1}
+      _SeaLevelRampLower: {r: 0.52205884, g: 0.52205884, b: 0.52205884, a: 1}
+      _SpecularColor: {r: 0, g: 0.5, b: 0.19117641, a: 1}

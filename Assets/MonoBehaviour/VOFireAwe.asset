@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6352c2bdfe3563dca499a115d021e7d5, type: 3}
+  m_Name: VOFireAwe
+  m_EditorClassIdentifier:
+  template: {fileID: 0}
+  bus: {fileID: 11400000, guid: 472c56473f8bef748b7d2627f081d58a, type: 2}
+  AudioClips:
+  - clip: {fileID: 8300000, guid: 01c068c6120e8e346b3ea4f8bcbb3086, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: c7e9ccfdeb9ef2845a4cc12105ee3cb8, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  PlaybackMode: 0
+  HDR: 0
+  Loudness: {x: 50, y: 50}
+  Volume: {x: 0.6, y: 0.65}
+  Pitch: {x: 1.05, y: 1.2}
+  Loops: 0
+  Priority: 202
+  ChanceToPlay: 0.508
+  BypassEffects: 0
+  MaxInstances: 5
+  FadeInTime: 0
+  FadeOutTime: 0
+  Spatialization: 2
+  Spread: 0
+  Pan2D: 0
+  Falloff: 0
+  MaxDistance: 25
+  MinDistance: 1
+  DopplerLevel: 0
+  ProximityLimit: 0
+  ProximityRange: 10
+  OcclusionScale: 1
+  PlayProbability: 1
+  Delay: {x: 0, y: 0}

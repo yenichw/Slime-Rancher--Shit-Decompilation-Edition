@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27de369ffb814913a31b5244286a6334, type: 3}
+  m_Name: GoldNormal
+  m_EditorClassIdentifier:
+  NameXlateKey: l.classic_appearance
+  Icon: {fileID: 21300000, guid: 80d423072a7c1414ead5dfa96935de8b, type: 2}
+  AnimatorOverride: {fileID: 0}
+  Structures:
+  - DefaultMaterials:
+    - {fileID: 2100000, guid: a60e5ce536ac8e649a25098da931c1a0, type: 2}
+    Element: {fileID: 11400000, guid: ad84d1ae65951b5469c7c51a1ca3e66d, type: 2}
+    ElementMaterials:
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 1
+      Materials:
+      - {fileID: 10301, guid: 0000000000000000f000000000000000, type: 0}
+    - OverrideDefaults: 1
+      Materials:
+      - {fileID: 2100000, guid: 3d108be16d7ad724cb6f328db680a1fa, type: 2}
+    SupportsFaces: 0
+    FaceRules:
+    - ShowEyes: 0
+      ShowMouth: 0
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 0
+      ShowMouth: 0
+    - ShowEyes: 0
+      ShowMouth: 0
+    - ShowEyes: 0
+      ShowMouth: 0
+  - DefaultMaterials:
+    - {fileID: 2100000, guid: 1b77abbc10fef734186b04e30d0dc3e4, type: 2}
+    Element: {fileID: 11400000, guid: 373b7db0c37fc324a8e19ed9f5202192, type: 2}
+    ElementMaterials:
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    SupportsFaces: 1
+    FaceRules:
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 1
+      ShowMouth: 1
+  Face: {fileID: 11400000, guid: 63848aa235cc0e242a7d03cd2ec541d5, type: 2}
+  QubitAppearance: {fileID: 0}
+  ShockedAppearance: {fileID: 0}
+  DependentAppearances: []
+  ColorPalette:
+    Top: {r: 0.8088235, g: 0.55223125, b: 0, a: 1}
+    Middle: {r: 0.47794116, g: 0.14832658, b: 0, a: 1}
+    Bottom: {r: 0.17647058, g: 0.05476674, b: 0, a: 1}
+    Ammo: {r: 0, g: 0.6573818, b: 1, a: 1}
+  GlintAppearance: {fileID: 0}
+  TornadoAppearance: {fileID: 0}
+  VineAppearance: {fileID: 0}
+  CrystalAppearance: {fileID: 0}
+  ExplosionAppearance: {fileID: 0}
+  DeathAppearance: {fileID: 0}
+  SaveSet: 1

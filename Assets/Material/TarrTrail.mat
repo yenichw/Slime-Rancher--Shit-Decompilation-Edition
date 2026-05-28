@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: TarrTrail
+  m_Shader: {fileID: 4800000, guid: 931619a4437e1f847aeee9bcc497a6f0, type: 3}
+  m_ShaderKeywords: _TOGGLEFRESNEL_ON _TOGGLEMASK_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Grid:
+        m_Texture: {fileID: 8900000, guid: f1e08cbe600b6db42a869cad63cc067a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Mask:
+        m_Texture: {fileID: 2800000, guid: 4f3150fe602362e489c538bd10fa4bd4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Noise:
+        m_Texture: {fileID: 2800000, guid: 15998d5e4e4d26f4bb2b76e0c062cd0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Pixels:
+        m_Texture: {fileID: 2800000, guid: 434831dabe349f24faa6c04c8f243b9e, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Alpha: 1
+      _Cutoff: 0.5
+      _EmissionLM: 0
+      _GlitchAmount: 0.5
+      _Gloss: 0
+      _GlossPower: 0.3
+      _GridMultiply: 1
+      _NoiseSpeed: 4
+      _NoiseTiles: 6
+      _Outline: 0.005
+      _RimPower: 2.375
+      _Shininess: 0.5954557
+      _Specularity: 0
+      _ToggleFresnel: 1
+      _ToggleMask: 1
+      _UseOverride: 1
+      __dirty: 0
+    m_Colors:
+      _BottomColor: {r: 0.1882353, g: 0.1529412, b: 0.1568628, a: 1}
+      _Color: {r: 0.6544118, g: 0.6544118, b: 0.6544118, a: 1}
+      _GridColor: {r: 0, g: 0.63664293, b: 1, a: 1}
+      _HorizonColor: {r: 0.854902, g: 1, b: 0.98823535, a: 1}
+      _MiddleColor: {r: 0.19744574, g: 0.4811321, b: 0.33310732, a: 1}
+      _OutlineColor: {r: 0.2352941, g: 0.5569979, b: 1, a: 0.5019608}
+      _RimColor: {r: 0.34596667, g: 0.4059106, b: 0.5808823, a: 1}
+      _SkyColor: {r: 0.227451, g: 0.28235295, b: 0.4156863, a: 1}
+      _SpecColor: {r: 0.88235295, g: 0.8831643, b: 1, a: 1}
+      _TopColor: {r: 0.735849, g: 0, b: 0.40571466, a: 1}

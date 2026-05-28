@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07f1b4f2b02d5ae0335be62c4572b0c3, type: 3}
+  m_Name: DroneMetadata
+  m_EditorClassIdentifier:
+  droneUI: {fileID: 114920064683898000, guid: 05de399b334826544a0db2e7a7f4d555, type: 2}
+  droneUIProgram: {fileID: 114242162737850065, guid: 489e0f3994d16cf44af751f9d7333635, type: 2}
+  droneUIProgramPicker: {fileID: 114386258558329975, guid: d5aa8e3a47716ad448a861089f0562ff, type: 2}
+  droneUIProgramButton: {fileID: 114068062157896040, guid: 3160aabf26faf80498e35cb2bbb5c555, type: 2}
+  imageTargetCollectionPlorts: {fileID: 21300000, guid: 19135189db7df4e42864a689930f88a0, type: 2}
+  imageTargetCollectionFruits: {fileID: 21300000, guid: 617cfe3f8365cdb42939966fd6951385, type: 2}
+  imageTargetCollectionVeggies: {fileID: 21300000, guid: cdc8761db4b098c4b9974ec4a80b3665, type: 2}
+  imageTargetCollectionMeats: {fileID: 21300000, guid: 86f697d0f8946dc4a99f884f21a1b11a, type: 2}
+  imageTargetCollectionElders: {fileID: 21300000, guid: 9289e48dec9f4eb47a7a6b4db750826b, type: 2}
+  imageSourceCorral: {fileID: 21300000, guid: 1fa9f23d118dade4cbee81cba396b08b, type: 2}
+  imageSourcePond: {fileID: 21300000, guid: ddb55c77efb64d54ab1a2a20d5f72cc3, type: 2}
+  imageSourceIncinerator: {fileID: 21300000, guid: f65119332dca47d428f77253936c025f, type: 2}
+  imageSourceGarden: {fileID: 21300000, guid: c2e4d14d66acf4940bb4dd215c4c46e0, type: 2}
+  imageSourceCoop: {fileID: 21300000, guid: 1437051a314cce34dbedaa768583a184, type: 2}
+  imageSourceSilo: {fileID: 21300000, guid: 48445a6470812944e800131ac8cc5e04, type: 2}
+  imageSourcePlortCollector: {fileID: 21300000, guid: 8b995366fc4224047a526b1ed99fe53d, type: 2}
+  imageSourceOutsidePlots: {fileID: 21300000, guid: dbc75e81dd3b2ff45a666a8f74d8655c, type: 2}
+  imageSourceFreeRange: {fileID: 21300000, guid: 1958ac4ae8f376341b320ab4c61289e9, type: 2}
+  imageDestinationCorral: {fileID: 21300000, guid: 1fa9f23d118dade4cbee81cba396b08b, type: 2}
+  imageDestinationSilo: {fileID: 21300000, guid: 48445a6470812944e800131ac8cc5e04, type: 2}
+  imageDestinationFeeder: {fileID: 21300000, guid: 75444bed9c21f324c88798e4c2416685, type: 2}
+  imageDestinationIncinerator: {fileID: 21300000, guid: f65119332dca47d428f77253936c025f, type: 2}
+  imageDestinationPlortMarket: {fileID: 21300000, guid: 082ab82f2ce204341af58af210b171d0, type: 2}
+  imageDestinationRefinery: {fileID: 21300000, guid: 48f5f2ab33b8c1c4ea1d85971a4c0645, type: 2}
+  imageNone: {fileID: 21300000, guid: 6faf675f75388724fab9ee79043e4388, type: 2}
+  pickTargetIcon: {fileID: 21300000, guid: af4ecd7b96f637e458b86f4134fa4888, type: 2}
+  pickSourceIcon: {fileID: 21300000, guid: 2ed52c6056c37ed45a8d39a72d0079b7, type: 2}
+  pickDestinationIcon: {fileID: 21300000, guid: bd406b08eaefdd84b986037713acefbb, type: 2}
+  onActiveCue: {fileID: 11400000, guid: bb6bb32e251e81345b1b6d003190a434, type: 2}
+  onGatherBeginCue: {fileID: 0}
+  onGatherLoopCue: {fileID: 11400000, guid: e34b48da8a945824594a646909189549, type: 2}
+  onGatherEndCue: {fileID: 11400000, guid: f561b5b755300ad4993a25bfb18022c9, type: 2}
+  onDepositBeginCue: {fileID: 11400000, guid: 4b10da2c73ee6c643933c116f8164757, type: 2}
+  onDepositLoopCue: {fileID: 11400000, guid: c9e28cefdae139d499a5757173105869, type: 2}
+  onDepositEndCue: {fileID: 0}
+  onRestBeginCue: {fileID: 11400000, guid: 06e0aa21723e7c84ab7791ab94a73603, type: 2}
+  onRestLoopCue: {fileID: 11400000, guid: 471d70a5bc7c89344833050e09e8cced, type: 2}
+  onRestEndCue: {fileID: 11400000, guid: 153a17f169c105b4b92e4972a50ad109, type: 2}
+  onHappyCue: {fileID: 11400000, guid: 8fb14b8574263ef47811e0e28024a680, type: 2}
+  onGrumpyCue: {fileID: 11400000, guid: 0db34fef2fd3c7045903ca1d3a384f35, type: 2}
+  onBoppedCue: {fileID: 11400000, guid: a36aed1a9c0edc44ab5b9e6922f7431b, type: 2}
+  onBatteryFilledCue: {fileID: 11400000, guid: 8040ca48d36c88543b44a9bf88373c0c, type: 2}
+  onGuiEnableCue: {fileID: 11400000, guid: 7479d0cd167f553439327b3b793cf8c2, type: 2}
+  onGuiDisableCue: {fileID: 11400000, guid: 5d7a0b9fc4842464680fa22be637e936, type: 2}
+  onGuiButtonTargetCue: {fileID: 11400000, guid: 53398451650574c4f8f5b3962a86e2a4, type: 2}
+  onGuiButtonSourceCue: {fileID: 11400000, guid: fed81a48c0e5a27448ee32d81ec1f5fd, type: 2}
+  onGuiButtonDestinationCue: {fileID: 11400000, guid: 2b05acb46ffe7944797bd4a7de8b418b, type: 2}
+  onGuiButtonActivateCue: {fileID: 11400000, guid: bf9f922dee2237a43b046751ae341b74, type: 2}
+  onGuiButtonResetCue: {fileID: 11400000, guid: cdd023a9d73c99d46bd9c9467895099f, type: 2}
+  onBatteryFilledFX: {fileID: 1502951517587219, guid: c361a0870508a6643bb173b71acf09c6, type: 2}
+  onTeleportFX: {fileID: 1600450855212880, guid: ed7917c4bd2052e4687937bc25bb5743, type: 2}
+  coinsIcon: {fileID: 21300000, guid: 5ed4496cff42a8a4bae5807a6afd012e, type: 2}
+  coinsColor: {r: 1, g: 1, b: 1, a: 1}
+  coinsCue: {fileID: 0}

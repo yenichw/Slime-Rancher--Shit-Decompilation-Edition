@@ -1,0 +1,133 @@
+using System.Collections.Generic;
+using UnityEngine;
+
+public class BoundsQuadtree<T>
+{
+	private BoundsQuadtreeNode<T> rootNode;
+
+	private readonly float looseness;
+
+	private readonly float initialSize;
+
+	private readonly float minSize;
+
+	public int Count { get; private set; }
+
+	public BoundsQuadtree(float initialWorldSize, Vector3 initialWorldPos, float minNodeSize, float loosenessVal)
+	{
+		if (minNodeSize > initialWorldSize)
+		{
+			Log.Warning("Minimum node size must be at least as big as the initial world size. Was: " + minNodeSize + " Adjusted to: " + initialWorldSize);
+			minNodeSize = initialWorldSize;
+		}
+		Count = 0;
+		initialSize = initialWorldSize;
+		minSize = minNodeSize;
+		looseness = Mathf.Clamp(loosenessVal, 1f, 2f);
+		rootNode = new BoundsQuadtreeNode<T>(initialSize, minSize, loosenessVal, initialWorldPos);
+	}
+
+	public void Add(T obj, Bounds objBounds)
+	{
+		int num = 0;
+		while (!rootNode.Add(obj, objBounds))
+		{
+			Grow(objBounds.center - rootNode.Center);
+			if (++num > 20)
+			{
+				Log.Error("Aborted Add operation as it seemed to be going on forever (" + (num - 1) + ") attempts at growing the quadtree.");
+				return;
+			}
+		}
+		Count++;
+	}
+
+	public bool Remove(T obj)
+	{
+		bool num = rootNode.Remove(obj);
+		if (num)
+		{
+			Count--;
+			Shrink();
+		}
+		return num;
+	}
+
+	public bool IsColliding(Bounds checkBounds)
+	{
+		return rootNode.IsColliding(checkBounds);
+	}
+
+	public List<T> GetColliding(Bounds checkBounds, ref List<T> result)
+	{
+		if (rootNode.IntersectsBounds(checkBounds))
+		{
+			rootNode.GetColliding(checkBounds, ref result);
+		}
+		return result;
+	}
+
+	public List<T> GetColliding(Vector3 checkPoint, ref List<T> result)
+	{
+		if (rootNode.ContainsPoint(checkPoint))
+		{
+			rootNode.GetColliding(checkPoint, ref result);
+		}
+		return result;
+	}
+
+	public List<T> GetAll(ref List<T> result)
+	{
+		return GetColliding(new Bounds(Vector3.zero, Vector3.one * float.PositiveInfinity), ref result);
+	}
+
+	public void DrawAllBounds()
+	{
+		rootNode.DrawAllBounds();
+	}
+
+	public void DrawAllObjects()
+	{
+		rootNode.DrawAllObjects();
+	}
+
+	private void Grow(Vector3 direction)
+	{
+		int num = ((direction.x >= 0f) ? 1 : (-1));
+		int num2 = ((direction.z >= 0f) ? 1 : (-1));
+		BoundsQuadtreeNode<T> boundsQuadtreeNode = rootNode;
+		float num3 = rootNode.BaseLength / 2f;
+		float baseLengthVal = rootNode.BaseLength * 2f;
+		Vector3 vector = rootNode.Center + new Vector3((float)num * num3, 0f, (float)num2 * num3);
+		rootNode = new BoundsQuadtreeNode<T>(baseLengthVal, minSize, looseness, vector);
+		int rootPosIndex = GetRootPosIndex(num, num2);
+		BoundsQuadtreeNode<T>[] array = new BoundsQuadtreeNode<T>[4];
+		for (int i = 0; i < 4; i++)
+		{
+			if (i == rootPosIndex)
+			{
+				array[i] = boundsQuadtreeNode;
+				continue;
+			}
+			num = ((i % 2 != 0) ? 1 : (-1));
+			num2 = ((i >= 2) ? 1 : (-1));
+			array[i] = new BoundsQuadtreeNode<T>(rootNode.BaseLength, minSize, looseness, vector + new Vector3((float)num * num3, rootNode.Center.y, (float)num2 * num3));
+		}
+		rootNode.SetChildren(array);
+	}
+
+	private void Shrink()
+	{
+		rootNode = rootNode.ShrinkIfPossible(initialSize);
+	}
+
+	private static int GetRootPosIndex(int xDir, int zDir)
+	{
+		int num = ((xDir > 0) ? 1 : 0);
+		if (zDir > 0)
+		{
+			num += 2;
+		}
+		return num;
+	}
+}

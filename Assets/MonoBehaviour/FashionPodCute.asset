@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: FashionPodCute
+  m_EditorClassIdentifier:
+  id: 606
+  prefab: {fileID: 1476162876654658, guid: c948f602a4e22094087823989a4813c0, type: 2}
+  icon: {fileID: 21300000, guid: 4b5e937ce679a0043b2221aa8080bc9a, type: 2}
+  pediaLink: 5011
+  blueprintCost: 9000
+  craftCosts:
+  - id: 6
+    amount: 25
+  - id: 60
+    amount: 25
+  - id: 11004
+    amount: 25
+  - id: 11010
+    amount: 12
+  - id: 11003
+    amount: 2
+  buyCountLimit: 0
+  countLimit: 0
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 0

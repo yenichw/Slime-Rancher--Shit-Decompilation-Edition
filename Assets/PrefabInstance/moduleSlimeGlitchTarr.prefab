@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1337967432068765
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4894063921714250}
+  - component: {fileID: 114493925489722365}
+  - component: {fileID: 114748691059694178}
+  - component: {fileID: 114158439212995896}
+  - component: {fileID: 114960699050213907}
+  - component: {fileID: 114186428739733290}
+  - component: {fileID: 114638502351893781}
+  - component: {fileID: 114100466652938580}
+  - component: {fileID: 114957813890669205}
+  - component: {fileID: 114366934769818554}
+  - component: {fileID: 114645141377307854}
+  m_Layer: 0
+  m_Name: moduleSlimeGlitchTarr
+  m_TagString: Black Slime
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1209270120109314
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4389571244303362}
+  - component: {fileID: 114581578455423044}
+  m_Layer: 0
+  m_Name: IdleSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4894063921714250
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4389571244303362}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114493925489722365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03d5a96bad1c0e47672ffe0d570d095, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slimeDefinition: {fileID: 0}
+  chanceToSkipProduce: 0
+  damagePerAttack: 20
+  EatFX: {fileID: 1634971653033786, guid: 9913a25419630514d884751b6025c3cc, type: 2}
+  EatFavoriteFX: {fileID: 1447475533152647, guid: d6857fa52efc8dd4dbe9f43b3a7038cc, type: 2}
+  TransformFX: {fileID: 1634971653033786, guid: 9913a25419630514d884751b6025c3cc, type: 2}
+  ProduceFX: {fileID: 0}
+  foodGroupsExceptions: []
+  foodGroupsProduceId:
+  - 16003
+  foodGroupsBecomesId: 0
+  foodGroupsDriver: 1
+  foodGroupsExtraDrive: 0
+  foodGroupsMinDrive: 0
+  minDriveToEat: 0.333
+  drivePerEat: 0.333
+  agitationPerEat: 0.15
+  agitationPerFavEat: 0.3
+--- !u!114 &114748691059694178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c06a151850f8dabb8ebaffdf3c212ab3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  lifeTimeHours: 1
+  nightLifeTimeFactor: 2
+  destroyFX: {fileID: 1071663435933738, guid: d67a70bb20f79174d9809791c849830e, type: 2}
+  destroyAsActor: 1
+--- !u!114 &114158439212995896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68fb8350a7e49737c751d67757d72ae9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  minSearchRad: 12
+  maxSearchRad: 12
+  facingStability: 1
+  facingSpeed: 5
+  pursuitSpeedFactor: 1
+  minDist: 0
+  tentaclePrefab: {fileID: 1394552746636308, guid: 4d4fab543a1d2a74a8900dafe2706e3c, type: 2}
+  cooldown: 2
+  causeFear: 1
+  heightsAboveToGrapple: []
+  addSlimesToSearchList: 0
+  ignoreGrapplers: 0
+  groundedOnly: 0
+--- !u!114 &114960699050213907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 511cfd36d78b1bcabfa1a93611f5daa8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114186428739733290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b8e72ed593e631cf1d9d83502b198f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slimeSounds: {fileID: 0}
+--- !u!114 &114638502351893781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bf259e4b3bdcc0a3420a31630d04bff, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  timeRemainingFactor: 0.5
+  hoursPerHit: 0.2
+  sterileRampTex: {fileID: 2800000, guid: b5dde11eb18feaa4dbad6d8d25dea92b, type: 3}
+--- !u!114 &114100466652938580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2187b353436366a6cced7d80fa247a1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  shouldAttackPlayer: 1
+  damagePerAttack: 20
+--- !u!114 &114957813890669205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6828c474199cc53811156318a67d3253, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114366934769818554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0936e8d45d67db6b356a36d9e5ca371d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  minSearchRad: 5
+  maxSearchRad: 30
+  facingStability: 1
+  facingSpeed: 5
+  pursuitSpeedFactor: 1
+  minDist: 0
+  maxJump: 12
+  attemptTime: 10
+  giveUpTime: 10
+  shouldGotoPlayer: 1
+  driver: 1
+  extraDrive: 0
+  minDrive: 0
+--- !u!114 &114645141377307854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337967432068765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a74ce28c383372df312b533739c199, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  SpawnFX: {fileID: 1783074459573943, guid: 95ffffd381195a7428ff3e48ccb9d461, type: 2}
+--- !u!4 &4389571244303362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209270120109314}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4894063921714250}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114581578455423044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1209270120109314}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143f281eb9f646ee098775a262dda3f9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  volume: 1
+  pitch: 1
+  Cue: {fileID: 11400000, guid: 2b659f92cc390ae449e5fd4bda8e62c9, type: 2}
+  Loop: 1
+  PlayOnStart: 1
+  RestartLoopsOnEnabled: 1

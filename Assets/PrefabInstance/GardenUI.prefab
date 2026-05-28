@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1482091491814541
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4098234405685963}
+  - component: {fileID: 114658007111508175}
+  - component: {fileID: 114635531376021892}
+  m_Layer: 5
+  m_Name: GardenUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4098234405685963
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482091491814541}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114658007111508175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482091491814541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb25f6a2d49f6eb8b7f1e3e781be99c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  statusArea: {fileID: 0}
+  soil:
+    icon: {fileID: 21300000, guid: 0d3f8e80e6807264aa046100037b8979, type: 2}
+    img: {fileID: 21300000, guid: 0d3f8e80e6807264aa046100037b8979, type: 2}
+    cost: 350
+    upgrade: 6
+  sprinkler:
+    icon: {fileID: 21300000, guid: a503cba0e7cac0b48be9ab48bd2fd4a8, type: 2}
+    img: {fileID: 21300000, guid: a503cba0e7cac0b48be9ab48bd2fd4a8, type: 2}
+    cost: 500
+    upgrade: 7
+  scareslime:
+    icon: {fileID: 21300000, guid: 28b322cb5fe76fe4a902943c1fd276a6, type: 2}
+    img: {fileID: 21300000, guid: 28b322cb5fe76fe4a902943c1fd276a6, type: 2}
+    cost: 425
+    upgrade: 8
+  miracleMix:
+    icon: {fileID: 21300000, guid: e8942884c2e087b4982e7f379c5c0264, type: 2}
+    img: {fileID: 21300000, guid: e8942884c2e087b4982e7f379c5c0264, type: 2}
+    cost: 500
+    upgrade: 15
+  deluxe:
+    icon: {fileID: 21300000, guid: 5924eb359d224544abd673e304a2d122, type: 2}
+    img: {fileID: 21300000, guid: 5924eb359d224544abd673e304a2d122, type: 2}
+    cost: 650
+    upgrade: 16
+  clearCrop:
+    icon: {fileID: 21300000, guid: f6fbec2425e41b048b116252b8ff1a2c, type: 2}
+    img: {fileID: 21300000, guid: f6fbec2425e41b048b116252b8ff1a2c, type: 2}
+    cost: 10
+  demolish:
+    icon: {fileID: 21300000, guid: 3e44781b72366b549af8ad45e2833229, type: 2}
+    img: {fileID: 21300000, guid: 3e44781b72366b549af8ad45e2833229, type: 2}
+    cost: 100
+    plotPrefab: {fileID: 1378973018571350, guid: 24fce221e119f904e9846e3af9e49313, type: 2}
+  titleIcon: {fileID: 21300000, guid: c2e4d14d66acf4940bb4dd215c4c46e0, type: 2}
+  plantButtonPanelObject: {fileID: 0}
+--- !u!114 &114635531376021892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482091491814541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a44d507276b0e45c715c72dedad085, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  lockEvenSpecialScenes: 0

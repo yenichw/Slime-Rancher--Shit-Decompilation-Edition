@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: LampAmber
+  m_EditorClassIdentifier:
+  id: 506
+  prefab: {fileID: 1193071372800179, guid: 4acebb068dd81944b823b2c5bf017871, type: 2}
+  icon: {fileID: 21300000, guid: 8c0869881492e634d8e205f5e5be11e6, type: 2}
+  pediaLink: 5010
+  blueprintCost: 850
+  craftCosts:
+  - id: 36
+    amount: 12
+  - id: 60
+    amount: 12
+  - id: 11004
+    amount: 8
+  - id: 11009
+    amount: 8
+  buyCountLimit: 0
+  countLimit: 0
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 0

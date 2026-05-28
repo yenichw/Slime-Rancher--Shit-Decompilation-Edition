@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: envMetal05
+  m_Shader: {fileID: 4800000, guid: c6c1c6e7e0412ba4a9019b972f92be61, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: 07c9c6ddbb8c9174bb0748ccaff6d1e3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColorMask:
+        m_Texture: {fileID: 2800000, guid: 5fa1943b42702114dac92db13a1c27f6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: 0efac373b462b1a4c834a78a21fbc701, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Override:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PaintStrokes:
+        m_Texture: {fileID: 2800000, guid: bbf6823d78a7f8f418a620e7d7e47b95, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+      _RampAlphaGlow:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Rim:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AOUV1: 0
+      _EnableDetailTex: 0
+      _GlowMultiplier: 0
+      _GlowSpeed: 0
+      _NRMUV1: 0
+      _OverrideUV1: 0
+      _PaintRim: 1
+      _RampOffset: 2
+      _RampScale: 1
+      _RimPower: 5.991071
+      _RimStrength: 0
+      _SeaLevelRampOffset: -3
+      _SeaLevelRampScale: 1
+      _SpiralColor: 0
+      __dirty: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Color00: {r: 0.83921576, g: 0.5764706, b: 0.19607845, a: 0}
+      _Color01: {r: 0.67058825, g: 0.5882353, b: 0.227451, a: 0.134}
+      _Color10: {r: 0.16480237, g: 0.14208478, b: 0.2647059, a: 0}
+      _Color11: {r: 0.31194952, g: 0.26967993, b: 0.31617647, a: 0.616}
+      _Color20: {r: 0.41176468, g: 0.24966726, b: 0.1483564, a: 0}
+      _Color21: {r: 0.27450982, g: 0.23137257, b: 0.21568629, a: 0.103}
+      _Color30: {r: 0.5647059, g: 0.5411765, b: 0.5019608, a: 0}
+      _Color31: {r: 0.6392157, g: 0.6039216, b: 0.4901961, a: 0.266}
+      _Color40: {r: 0.7686275, g: 0.13333334, b: 0.2509804, a: 0}
+      _Color41: {r: 0.9686275, g: 0.21568629, b: 0.50980395, a: 0}
+      _Color50: {r: 0.4039216, g: 0.427451, b: 0.4156863, a: 0}
+      _Color51: {r: 0.5294118, g: 0.5294118, b: 0.54509807, a: 1}
+      _Color60: {r: 0, g: 0, b: 0, a: 0}
+      _Color61: {r: 0, g: 0, b: 0, a: 0}
+      _Color70: {r: 0, g: 0, b: 0, a: 0}
+      _Color71: {r: 0, g: 0, b: 0, a: 0}
+      _RampUpper: {r: 0.4431373, g: 0.3921569, b: 0.5686275, a: 1}
+      _RimColor: {r: 0.22794116, g: 0.22794116, b: 0.22794116, a: 0}
+      _SeaLevelRampLower: {r: 0.3098039, g: 0.4078431, b: 0.3921569, a: 1}
+      _SpecColor: {r: 1, g: 1, b: 1, a: 1}

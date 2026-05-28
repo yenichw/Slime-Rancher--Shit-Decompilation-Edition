@@ -1,0 +1,314 @@
+using System.Collections.Generic;
+using System.IO;
+using MonomiPark.SlimeRancher.Regions;
+
+namespace MonomiPark.SlimeRancher.Persist
+{
+	public class PlayerV11 : VersionedPersistedDataSet<PlayerV10>
+	{
+		public int health;
+
+		public int energy;
+
+		public int radiation;
+
+		public int currency;
+
+		public int keys;
+
+		public int currencyEverCollected;
+
+		public string version = "0.3.0";
+
+		public PlayerState.GameMode gameMode;
+
+		public Identifiable.Id gameIconId = Identifiable.Id.CARROT_VEGGIE;
+
+		public Vector3V02 playerPos;
+
+		public Vector3V02 playerRotEuler;
+
+		public List<PlayerState.Upgrade> upgrades;
+
+		public List<AmmoDataV02> ammo;
+
+		public List<MailV02> mail;
+
+		public List<PlayerState.Upgrade> availUpgrades;
+
+		public Dictionary<PlayerState.Upgrade, PlayerState.UpgradeLockData> upgradeLocks;
+
+		public Dictionary<ProgressDirector.ProgressType, int> progress;
+
+		public Dictionary<ProgressDirector.ProgressTrackerId, double> delayedProgress;
+
+		public List<Gadget.Id> blueprints;
+
+		public List<Gadget.Id> availBlueprints;
+
+		public Dictionary<Gadget.Id, GadgetDirector.BlueprintLockData> blueprintLocks;
+
+		public Dictionary<Gadget.Id, int> gadgets;
+
+		public Dictionary<Identifiable.Id, int> craftMatCounts;
+
+		public RegionRegistry.RegionSetId regionSetId;
+
+		public List<ZoneDirector.Zone> unlockedZoneMaps;
+
+		public override string Identifier => "SRPL";
+
+		public override uint Version => 11u;
+
+		public PlayerV11()
+		{
+		}
+
+		public PlayerV11(PlayerV10 legacyData)
+		{
+			UpgradeFrom(legacyData);
+		}
+
+		protected override void LoadData(BinaryReader reader)
+		{
+			health = reader.ReadInt32();
+			energy = reader.ReadInt32();
+			radiation = reader.ReadInt32();
+			currency = reader.ReadInt32();
+			keys = reader.ReadInt32();
+			currencyEverCollected = reader.ReadInt32();
+			version = reader.ReadString();
+			gameMode = (PlayerState.GameMode)reader.ReadInt32();
+			gameIconId = (Identifiable.Id)reader.ReadInt32();
+			playerPos = new Vector3V02();
+			playerPos.Load(reader.BaseStream);
+			playerRotEuler = new Vector3V02();
+			playerRotEuler.Load(reader.BaseStream);
+			upgrades = PersistedDataSet.LoadList(reader, (int x) => (PlayerState.Upgrade)x);
+			ammo = PersistedDataSet.LoadList<AmmoDataV02>(reader);
+			mail = PersistedDataSet.LoadList<MailV02>(reader);
+			availUpgrades = PersistedDataSet.LoadList(reader, (int x) => (PlayerState.Upgrade)x);
+			upgradeLocks = LoadDictionary(reader, (BinaryReader r) => (PlayerState.Upgrade)r.ReadInt32(), (BinaryReader r) => new PlayerState.UpgradeLockData(r.ReadBoolean(), r.ReadDouble()));
+			progress = LoadDictionary(reader, (BinaryReader r) => (ProgressDirector.ProgressType)r.ReadInt32(), (BinaryReader r) => r.ReadInt32());
+			delayedProgress = LoadDictionary(reader, (BinaryReader r) => (ProgressDirector.ProgressTrackerId)r.ReadInt32(), (BinaryReader r) => r.ReadDouble());
+			blueprints = PersistedDataSet.LoadList(reader, (int x) => (Gadget.Id)x);
+			availBlueprints = PersistedDataSet.LoadList(reader, (int x) => (Gadget.Id)x);
+			blueprintLocks = LoadDictionary(reader, (BinaryReader r) => (Gadget.Id)r.ReadInt32(), (BinaryReader r) => new GadgetDirector.BlueprintLockData(r.ReadBoolean(), r.ReadDouble()));
+			gadgets = LoadDictionary(reader, (BinaryReader r) => (Gadget.Id)r.ReadInt32(), (BinaryReader r) => r.ReadInt32());
+			craftMatCounts = LoadDictionary(reader, (BinaryReader r) => (Identifiable.Id)r.ReadInt32(), (BinaryReader r) => r.ReadInt32());
+			regionSetId = (RegionRegistry.RegionSetId)reader.ReadInt32();
+			unlockedZoneMaps = PersistedDataSet.LoadList(reader, (int x) => (ZoneDirector.Zone)x);
+		}
+
+		protected override void WriteData(BinaryWriter writer)
+		{
+			writer.Write(health);
+			writer.Write(energy);
+			writer.Write(radiation);
+			writer.Write(currency);
+			writer.Write(keys);
+			writer.Write(currencyEverCollected);
+			writer.Write(version);
+			writer.Write((int)gameMode);
+			writer.Write((int)gameIconId);
+			playerPos.Write(writer.BaseStream);
+			playerRotEuler.Write(writer.BaseStream);
+			PersistedDataSet.WriteList(writer, upgrades, (PlayerState.Upgrade item) => (int)item);
+			PersistedDataSet.WriteList(writer, ammo);
+			PersistedDataSet.WriteList(writer, mail);
+			PersistedDataSet.WriteList(writer, availUpgrades, (PlayerState.Upgrade item) => (int)item);
+			WriteDictionary(writer, upgradeLocks, delegate(BinaryWriter w, PlayerState.Upgrade v)
+			{
+				w.Write((int)v);
+			}, delegate(BinaryWriter w, PlayerState.UpgradeLockData v)
+			{
+				w.Write(v.timedLock);
+				w.Write(v.lockedUntil);
+			});
+			WriteDictionary(writer, progress, delegate(BinaryWriter w, ProgressDirector.ProgressType v)
+			{
+				w.Write((int)v);
+			}, delegate(BinaryWriter w, int v)
+			{
+				w.Write(v);
+			});
+			WriteDictionary(writer, delayedProgress, delegate(BinaryWriter w, ProgressDirector.ProgressTrackerId v)
+			{
+				w.Write((int)v);
+			}, delegate(BinaryWriter w, double v)
+			{
+				w.Write(v);
+			});
+			PersistedDataSet.WriteList(writer, blueprints, (Gadget.Id item) => (int)item);
+			PersistedDataSet.WriteList(writer, availBlueprints, (Gadget.Id item) => (int)item);
+			WriteDictionary(writer, blueprintLocks, delegate(BinaryWriter w, Gadget.Id v)
+			{
+				w.Write((int)v);
+			}, delegate(BinaryWriter w, GadgetDirector.BlueprintLockData v)
+			{
+				w.Write(v.timedLock);
+				w.Write(v.lockedUntil);
+			});
+			WriteDictionary(writer, gadgets, delegate(BinaryWriter w, Gadget.Id v)
+			{
+				w.Write((int)v);
+			}, delegate(BinaryWriter w, int v)
+			{
+				w.Write(v);
+			});
+			WriteDictionary(writer, craftMatCounts, delegate(BinaryWriter w, Identifiable.Id v)
+			{
+				w.Write((int)v);
+			}, delegate(BinaryWriter w, int v)
+			{
+				w.Write(v);
+			});
+			writer.Write((int)regionSetId);
+			PersistedDataSet.WriteList(writer, unlockedZoneMaps, (ZoneDirector.Zone item) => (int)item);
+		}
+
+		public static PlayerV11 Load(BinaryReader reader)
+		{
+			PlayerV11 playerV = new PlayerV11();
+			playerV.Load(reader.BaseStream);
+			return playerV;
+		}
+
+		public static void AssertAreEqual(PlayerV11 expected, PlayerV11 actual)
+		{
+			Vector3V02.AssertAreEqual(expected.playerPos, actual.playerPos);
+			Vector3V02.AssertAreEqual(expected.playerRotEuler, actual.playerRotEuler);
+			for (int i = 0; i < expected.ammo.Count; i++)
+			{
+				AmmoDataV02.AssertAreEqual(expected.ammo[i], actual.ammo[i]);
+			}
+			for (int j = 0; j < expected.mail.Count; j++)
+			{
+				MailV02.AssertAreEqual(expected.mail[j], actual.mail[j]);
+			}
+			for (int k = 0; k < expected.upgrades.Count; k++)
+			{
+			}
+			foreach (KeyValuePair<ProgressDirector.ProgressType, int> item in expected.progress)
+			{
+				_ = item;
+			}
+			for (int l = 0; l < expected.availUpgrades.Count; l++)
+			{
+			}
+			foreach (KeyValuePair<PlayerState.Upgrade, PlayerState.UpgradeLockData> upgradeLock in expected.upgradeLocks)
+			{
+				_ = upgradeLock;
+			}
+			foreach (KeyValuePair<ProgressDirector.ProgressTrackerId, double> item2 in expected.delayedProgress)
+			{
+				_ = item2;
+			}
+			for (int m = 0; m < expected.blueprints.Count; m++)
+			{
+			}
+			for (int n = 0; n < expected.availBlueprints.Count; n++)
+			{
+			}
+			foreach (KeyValuePair<Gadget.Id, GadgetDirector.BlueprintLockData> blueprintLock in expected.blueprintLocks)
+			{
+				_ = blueprintLock;
+			}
+			foreach (KeyValuePair<Gadget.Id, int> gadget in expected.gadgets)
+			{
+				_ = gadget;
+			}
+			foreach (KeyValuePair<Identifiable.Id, int> craftMatCount in expected.craftMatCounts)
+			{
+				_ = craftMatCount;
+			}
+			TestUtil.AssertAreEqual(expected.unlockedZoneMaps, actual.unlockedZoneMaps, "unlockedMapZones");
+		}
+
+		private static string UpgradesListStr(List<PlayerState.Upgrade> upgrades)
+		{
+			string text = "";
+			foreach (PlayerState.Upgrade upgrade in upgrades)
+			{
+				text = string.Concat(text, upgrade, ",");
+			}
+			return text;
+		}
+
+		public static void AssertAreEqual(PlayerV10 expected, PlayerV11 actual)
+		{
+			Vector3V02.AssertAreEqual(expected.playerPos, actual.playerPos);
+			Vector3V02.AssertAreEqual(expected.playerRotEuler, actual.playerRotEuler);
+			for (int i = 0; i < expected.ammo.Count; i++)
+			{
+				AmmoDataV02.AssertAreEqual(expected.ammo[i], actual.ammo[i]);
+			}
+			for (int j = 0; j < expected.mail.Count; j++)
+			{
+				MailV02.AssertAreEqual(expected.mail[j], actual.mail[j]);
+			}
+			for (int k = 0; k < expected.upgrades.Count; k++)
+			{
+			}
+			foreach (KeyValuePair<ProgressDirector.ProgressType, int> item in expected.progress)
+			{
+				_ = item;
+			}
+			foreach (KeyValuePair<PlayerState.Upgrade, PlayerState.UpgradeLockData> upgradeLock in expected.upgradeLocks)
+			{
+				_ = upgradeLock;
+			}
+			foreach (KeyValuePair<ProgressDirector.ProgressTrackerId, double> item2 in expected.delayedProgress)
+			{
+				_ = item2;
+			}
+			for (int l = 0; l < expected.blueprints.Count; l++)
+			{
+			}
+			for (int m = 0; m < expected.availBlueprints.Count; m++)
+			{
+			}
+			foreach (KeyValuePair<Gadget.Id, GadgetDirector.BlueprintLockData> blueprintLock in expected.blueprintLocks)
+			{
+				_ = blueprintLock;
+			}
+			foreach (KeyValuePair<Gadget.Id, int> gadget in expected.gadgets)
+			{
+				_ = gadget;
+			}
+			foreach (KeyValuePair<Identifiable.Id, int> craftMatCount in expected.craftMatCounts)
+			{
+				_ = craftMatCount;
+			}
+		}
+
+		protected override void UpgradeFrom(PlayerV10 legacyData)
+		{
+			health = legacyData.health;
+			energy = legacyData.energy;
+			radiation = legacyData.radiation;
+			currency = legacyData.currency;
+			keys = legacyData.keys;
+			currencyEverCollected = legacyData.currencyEverCollected;
+			version = legacyData.version;
+			gameMode = legacyData.gameMode;
+			gameIconId = legacyData.gameIconId;
+			playerPos = legacyData.playerPos;
+			playerRotEuler = legacyData.playerRotEuler;
+			upgrades = legacyData.upgrades;
+			ammo = legacyData.ammo;
+			mail = legacyData.mail;
+			upgradeLocks = legacyData.upgradeLocks;
+			progress = legacyData.progress;
+			delayedProgress = legacyData.delayedProgress;
+			blueprints = legacyData.blueprints;
+			availBlueprints = legacyData.availBlueprints;
+			blueprintLocks = legacyData.blueprintLocks;
+			gadgets = legacyData.gadgets;
+			craftMatCounts = legacyData.craftMatCounts;
+			availUpgrades = legacyData.availUpgrades;
+			regionSetId = legacyData.regionSetId;
+			unlockedZoneMaps = new List<ZoneDirector.Zone>();
+		}
+	}
+}

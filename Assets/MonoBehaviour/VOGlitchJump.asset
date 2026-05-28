@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6352c2bdfe3563dca499a115d021e7d5, type: 3}
+  m_Name: VOGlitchJump
+  m_EditorClassIdentifier:
+  template: {fileID: 0}
+  bus: {fileID: 11400000, guid: df73852841631bd46b8948583d83a75c, type: 2}
+  AudioClips:
+  - clip: {fileID: 8300000, guid: 590f8345da5cda3489df009d2649fc60, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: 25e149190f5bfeb4295e53010eaf240a, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: fa13b77c8cbe8764b96b2664c74b20df, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: f128592cf02057a4a8a7c481a1c49032, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: 72a242293406e1e4b923fe151b4f6b3d, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: ba151bca631bb364c959a685abf5f268, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: 8e20ac81d8fd99a4f95d779c6918b282, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: 30813d1905798ec41b8264fdbc6d8454, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  PlaybackMode: 0
+  HDR: 0
+  Loudness: {x: 50, y: 50}
+  Volume: {x: 0.5, y: 0.55}
+  Pitch: {x: 0.9, y: 1.1}
+  Loops: 0
+  Priority: 128
+  ChanceToPlay: 0.2
+  BypassEffects: 0
+  MaxInstances: 3
+  FadeInTime: 0
+  FadeOutTime: 0
+  Spatialization: 2
+  Spread: 0
+  Pan2D: 0
+  Falloff: 0
+  MaxDistance: 25
+  MinDistance: 1
+  DopplerLevel: 0
+  ProximityLimit: 0
+  ProximityRange: 10
+  OcclusionScale: 1
+  PlayProbability: 0.25
+  Delay: {x: 0, y: 0}

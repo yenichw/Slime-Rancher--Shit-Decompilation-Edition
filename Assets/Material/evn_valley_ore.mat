@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: evn_valley_ore
+  m_Shader: {fileID: 4800000, guid: aa6866502580f5b4aae9f19884041751, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _ColorRamp:
+        m_Texture: {fileID: 2800000, guid: f6aa2e5aa71e5834d8f1c2079a493592, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Depth:
+        m_Texture: {fileID: 2800000, guid: 4b405f08a1178684d96d529825045b5e, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+      _DetailNoiseMask:
+        m_Texture: {fileID: 2800000, guid: 960f22bfdd0fd9f4283b15348a11cc42, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: 3cb2951e7eb6a0d448f2653b2f3a4649, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+      _PrimaryTex:
+        m_Texture: {fileID: 2800000, guid: a3256df7dd3093043be564bb0f5f187b, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _Gloss: 0.66
+      _GlossMapScale: 1
+      _GlossPower: 0.29
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _RampOffset: 2
+      _RampScale: 1
+      _SeaLevelRampObjectPos: 0
+      _SeaLevelRampOffset: -3
+      _SeaLevelRampScale: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _UVSec: 0
+      _UseMeshUVs: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 0.2580645, g: 0.2580645, b: 0.2580645, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _RampUpper: {r: 0.4431373, g: 0.3921569, b: 0.5686275, a: 1}
+      _SeaLevelRampLower: {r: 0.3098039, g: 0.4078431, b: 0.3921569, a: 1}
+      _SpecularColor: {r: 0.25302765, g: 0.28397265, b: 0.28676468, a: 1}

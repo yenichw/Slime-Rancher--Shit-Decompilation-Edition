@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b4fae4ff5f97241a58c4b07a86ae2b, type: 3}
+  m_Name: Lucky
+  m_EditorClassIdentifier:
+  Name: Lucky
+  IdentifiableId: 77
+  BaseSlimes: []
+  IsLargo: 0
+  CanLargofy: 0
+  PrefabScale: 1
+  AppearancesDefault:
+  - {fileID: 11400000, guid: 620cfdf299390394a834400ddce48efe, type: 2}
+  Sounds: {fileID: 11400000, guid: 67ce1bda7dfe68f40a14ceeab95cdf8f, type: 2}
+  Diet:
+    MajorFoodGroups:
+    - 2
+    Favorites: []
+    AdditionalFoods: []
+    Produces:
+    - 0
+    FavoriteProductionCount: 2
+  FavoriteToys: []
+  BaseModule: {fileID: 1701888289156532, guid: 2d481cfff47e4e948b189e20e0342456, type: 2}
+  SlimeModules:
+  - {fileID: 1048639961455967, guid: 11e6f1ae09f1c8d4399c1a97166da48d, type: 2}

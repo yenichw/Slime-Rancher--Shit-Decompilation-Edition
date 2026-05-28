@@ -1,0 +1,200 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1048639961455967
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4469837980026892}
+  - component: {fileID: 114285274053681351}
+  - component: {fileID: 135000749309190769}
+  - component: {fileID: 114742896736645547}
+  - component: {fileID: 114152148566566428}
+  - component: {fileID: 114484918009786450}
+  - component: {fileID: 114766930143207377}
+  m_Layer: 0
+  m_Name: moduleSlimeLucky
+  m_TagString: Gold Slime
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1843107284429471
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4919209152433814}
+  - component: {fileID: 114223976957188241}
+  m_Layer: 0
+  m_Name: IdleSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4469837980026892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048639961455967}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4919209152433814}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114285274053681351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048639961455967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03d5a96bad1c0e47672ffe0d570d095, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slimeDefinition: {fileID: 0}
+  chanceToSkipProduce: 0
+  damagePerAttack: 20
+  EatFX: {fileID: 1664729440924938, guid: 4196648a4a4c4b44fb873d016a783659, type: 2}
+  EatFavoriteFX: {fileID: 1447475533152647, guid: d6857fa52efc8dd4dbe9f43b3a7038cc, type: 2}
+  TransformFX: {fileID: 1442582126425924, guid: 521e13c7e843c164ca522cbfb69d119c, type: 2}
+  ProduceFX: {fileID: 1220674327614445, guid: 080ee842af2c5174a8882d1f97552918, type: 2}
+  foodGroupsExceptions: []
+  foodGroupsProduceId: []
+  foodGroupsBecomesId: 0
+  foodGroupsDriver: 0
+  foodGroupsExtraDrive: 0
+  foodGroupsMinDrive: 0
+  minDriveToEat: 0.333
+  drivePerEat: 0.333
+  agitationPerEat: 0.15
+  agitationPerFavEat: 0.3
+--- !u!135 &135000749309190769
+SphereCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048639961455967}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 8
+  m_Center: {x: 0, y: 0, z: 6}
+--- !u!114 &114742896736645547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048639961455967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b78e4e8807265ed7f44c74aec56b9b56, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  disappearFX: {fileID: 1911267885758864, guid: d77560cac1eb87448a55f4ebef1f900e, type: 2}
+  disappearCue: {fileID: 11400000, guid: 7e826e4ffca1c284e96204835ed81de5, type: 2}
+--- !u!114 &114152148566566428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048639961455967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e9db63247c2c6ecd733b27e1528d5c, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  coinsPrefab: {fileID: 1524974337340769, guid: c7ec3fa8c0b94514a899824209d377ef, type: 2}
+--- !u!114 &114484918009786450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048639961455967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b8e72ed593e631cf1d9d83502b198f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slimeSounds: {fileID: 0}
+--- !u!114 &114766930143207377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048639961455967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b26d75123e7e9a35fec5563143212b9f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  initHunger:
+    emotion: 0
+    currVal: 0
+    defVal: 0
+    sensitivity: 0
+    recoveryPerGameHour: 0
+  initAgitation:
+    emotion: 1
+    currVal: 0
+    defVal: 0
+    sensitivity: 1
+    recoveryPerGameHour: 0.333
+  initFear:
+    emotion: 2
+    currVal: 0
+    defVal: 0
+    sensitivity: 1
+    recoveryPerGameHour: 5
+--- !u!4 &4919209152433814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843107284429471}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4469837980026892}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114223976957188241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1843107284429471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143f281eb9f646ee098775a262dda3f9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  volume: 1
+  pitch: 1
+  Cue: {fileID: 11400000, guid: 6fff113462b0e794ca82bc9cce0a0818, type: 2}
+  Loop: 1
+  PlayOnStart: 1
+  RestartLoopsOnEnabled: 1

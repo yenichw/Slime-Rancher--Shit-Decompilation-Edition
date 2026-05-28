@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1379861498656551
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4404635383301809}
+  - component: {fileID: 114459889353749458}
+  - component: {fileID: 114790149511525538}
+  - component: {fileID: 135260760609795794}
+  - component: {fileID: 114153029823353049}
+  m_Layer: 0
+  m_Name: moduleSlimeGold
+  m_TagString: Gold Slime
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1042260843958767
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4362588709432715}
+  - component: {fileID: 114463813478216103}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4404635383301809
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379861498656551}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4362588709432715}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114459889353749458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379861498656551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03d5a96bad1c0e47672ffe0d570d095, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slimeDefinition: {fileID: 0}
+  chanceToSkipProduce: 0
+  damagePerAttack: 20
+  EatFX: {fileID: 1664729440924938, guid: 4196648a4a4c4b44fb873d016a783659, type: 2}
+  EatFavoriteFX: {fileID: 1447475533152647, guid: d6857fa52efc8dd4dbe9f43b3a7038cc, type: 2}
+  TransformFX: {fileID: 1442582126425924, guid: 521e13c7e843c164ca522cbfb69d119c, type: 2}
+  ProduceFX: {fileID: 1220674327614445, guid: 080ee842af2c5174a8882d1f97552918, type: 2}
+  foodGroupsExceptions: []
+  foodGroupsProduceId: []
+  foodGroupsBecomesId: 0
+  foodGroupsDriver: 0
+  foodGroupsExtraDrive: 0
+  foodGroupsMinDrive: 0
+  minDriveToEat: 0.333
+  drivePerEat: 0.333
+  agitationPerEat: 0.15
+  agitationPerFavEat: 0.3
+--- !u!114 &114790149511525538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379861498656551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1c70d93edca487a3a6b02d016ea0716, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  disappearFX: {fileID: 1911267885758864, guid: d77560cac1eb87448a55f4ebef1f900e, type: 2}
+  facingStability: 1
+  facingSpeed: 5
+  fleeSpeedFactor: 1
+  fleeCue: {fileID: 11400000, guid: 03eea88b6f579ab40b4dd53ec5221554, type: 2}
+--- !u!135 &135260760609795794
+SphereCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379861498656551}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 8
+  m_Center: {x: 0, y: 0, z: 6}
+--- !u!114 &114153029823353049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379861498656551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a389b9c254d128f4c79ff34a4b2bd1b4, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  plortPrefab: {fileID: 1680783959739877, guid: f17ed46faf1fd0a4cb4deff40291e420, type: 2}
+  plortFX: {fileID: 1013632072896686, guid: 40b848262d281ee48abe0ddc625c2c94, type: 2}
+--- !u!4 &4362588709432715
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042260843958767}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4404635383301809}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114463813478216103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042260843958767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143f281eb9f646ee098775a262dda3f9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  volume: 1
+  pitch: 1
+  Cue: {fileID: 11400000, guid: 65f2730fa30e31d47939ffdbd32b555a, type: 2}
+  Loop: 1
+  PlayOnStart: 1
+  RestartLoopsOnEnabled: 1

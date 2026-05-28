@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: WarpDepotBlue
+  m_EditorClassIdentifier:
+  id: 301
+  prefab: {fileID: 1649884130774738, guid: b417738f2a4140a47b3ead7823b61e0d, type: 2}
+  icon: {fileID: 21300000, guid: 2743e2e39aeab9a4986d79687eb81014, type: 2}
+  pediaLink: 5009
+  blueprintCost: 1250
+  craftCosts:
+  - id: 5
+    amount: 20
+  - id: 11008
+    amount: 6
+  - id: 11010
+    amount: 3
+  - id: 11003
+    amount: 1
+  buyCountLimit: 2
+  countLimit: 2
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 1

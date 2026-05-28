@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b4fae4ff5f97241a58c4b07a86ae2b, type: 3}
+  m_Name: Puddle
+  m_EditorClassIdentifier:
+  Name: Puddle
+  IdentifiableId: 72
+  BaseSlimes: []
+  IsLargo: 0
+  CanLargofy: 0
+  PrefabScale: 1
+  AppearancesDefault:
+  - {fileID: 11400000, guid: fade740d07b93e14ebfac656c546626d, type: 2}
+  Sounds: {fileID: 11400000, guid: 6f84b642c7495aa45b529dcd6452c512, type: 2}
+  Diet:
+    MajorFoodGroups: []
+    Favorites: []
+    AdditionalFoods: []
+    Produces: []
+    FavoriteProductionCount: 2
+  FavoriteToys:
+  - 13007
+  BaseModule: {fileID: 1701888289156532, guid: 2d481cfff47e4e948b189e20e0342456, type: 2}
+  SlimeModules:
+  - {fileID: 1282034799287201, guid: cdcc7fbe4b220e94d97fb2179c4b2a9b, type: 2}

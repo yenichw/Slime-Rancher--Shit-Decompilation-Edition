@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Lab_Fab_Assmbler
+  m_Shader: {fileID: 4800000, guid: 73b480f7ab1bcbc4b8fb1fa7aaa26ec9, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _ColorRamp:
+        m_Texture: {fileID: 2800000, guid: b7e7d8b5edd6de441b938e045208196c, type: 3}
+        m_Scale: {x: 1, y: 0.03}
+        m_Offset: {x: 0, y: 0.44}
+      _Mask:
+        m_Texture: {fileID: 2800000, guid: f0d53e804a564d747b696080b1588628, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+      _Noise:
+        m_Texture: {fileID: 8900000, guid: 552b29a8fd6eee5449cd69542cdf8844, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Stripes:
+        m_Texture: {fileID: 2800000, guid: 9fe0d77437a4d334f8def424245bc373, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Cutoff: 0.5
+      _EmissionLM: 0
+      _Health: 1
+      _Parallax: 0.02
+      _Shininess: 0.078125
+      _ToggleMask: 0
+      _VertexWobble: 0
+    m_Colors:
+      _Color: {r: 0.03448726, g: 0.2794118, b: 0.014381486, a: 1}
+      _Emission: {r: 0, g: 0, b: 0, a: 0}
+      _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0}

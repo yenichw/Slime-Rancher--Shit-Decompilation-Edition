@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b4fae4ff5f97241a58c4b07a86ae2b, type: 3}
+  m_Name: Tarr
+  m_EditorClassIdentifier:
+  Name: Tarr
+  IdentifiableId: 10
+  BaseSlimes: []
+  IsLargo: 0
+  CanLargofy: 0
+  PrefabScale: 2
+  AppearancesDefault:
+  - {fileID: 11400000, guid: aee20e2994e8a8e4aa879048a100b4ed, type: 2}
+  Sounds: {fileID: 11400000, guid: 10f72b86dcc1933469bda6351e3585cb, type: 2}
+  Diet:
+    MajorFoodGroups:
+    - 3
+    Favorites: []
+    AdditionalFoods:
+    - 149
+    Produces:
+    - 10
+    FavoriteProductionCount: 2
+  FavoriteToys: []
+  BaseModule: {fileID: 1080109482866384, guid: cca069605b150b74390491c66ee7dcf8, type: 2}
+  SlimeModules:
+  - {fileID: 1971935531157660, guid: 6e743cfb573e6db4eb5e0e1e7984b94c, type: 2}

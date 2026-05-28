@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b4fae4ff5f97241a58c4b07a86ae2b, type: 3}
+  m_Name: Quantum
+  m_EditorClassIdentifier:
+  Name: Quantum
+  IdentifiableId: 89
+  BaseSlimes: []
+  IsLargo: 0
+  CanLargofy: 1
+  PrefabScale: 1
+  AppearancesDefault:
+  - {fileID: 11400000, guid: adcade8e1fbca1640a38703244c0e165, type: 2}
+  Sounds: {fileID: 11400000, guid: 7983b837cd7051d44a2d2783c77a6e5f, type: 2}
+  Diet:
+    MajorFoodGroups:
+    - 0
+    Favorites:
+    - 100
+    AdditionalFoods:
+    - 149
+    Produces:
+    - 99
+    FavoriteProductionCount: 2
+  FavoriteToys:
+  - 13010
+  BaseModule: {fileID: 1701888289156532, guid: 2d481cfff47e4e948b189e20e0342456, type: 2}
+  SlimeModules:
+  - {fileID: 1906232459208628, guid: 47818c766656f3345b5fc7ffd2e2d79f, type: 2}

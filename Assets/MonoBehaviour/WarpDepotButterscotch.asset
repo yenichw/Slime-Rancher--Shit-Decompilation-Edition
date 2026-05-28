@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: WarpDepotButterscotch
+  m_EditorClassIdentifier:
+  id: 310
+  prefab: {fileID: 1129925001264803, guid: 0d29a398524ff1d4294869f0f0325409, type: 2}
+  icon: {fileID: 21300000, guid: f65b1e41f7ef0c9488d1cb5d44352717, type: 2}
+  pediaLink: 5009
+  blueprintCost: 3000
+  craftCosts:
+  - id: 99
+    amount: 20
+  - id: 11016
+    amount: 6
+  - id: 11010
+    amount: 3
+  - id: 11003
+    amount: 1
+  buyCountLimit: 2
+  countLimit: 2
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 1

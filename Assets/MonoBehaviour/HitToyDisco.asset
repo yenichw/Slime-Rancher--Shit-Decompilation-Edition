@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6352c2bdfe3563dca499a115d021e7d5, type: 3}
+  m_Name: HitToyDisco
+  m_EditorClassIdentifier:
+  template: {fileID: 0}
+  bus: {fileID: 11400000, guid: d6bbcad0697824f478022fa91492ed8c, type: 2}
+  AudioClips:
+  - clip: {fileID: 8300000, guid: fcbdb38831591b54d819a7a8c5f225d4, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: af4d6179cc9ff5d4e94dcf9ee5f64605, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: 84b04145268e0c64c8bfc6e8740c236c, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: 4db69663c60a9eb4f8f4bededc84a220, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: 5bc41b810825fe94da92cafc710e5e1d, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: 5e95f49de8f366244a6d506a11a763b5, type: 3}
+    playedInShuffle: 0
+    volume: 1
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: 2514e164f4af9b54c91d9f4c65e34795, type: 3}
+    playedInShuffle: 0
+    volume: 0.8
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - clip: {fileID: 8300000, guid: f202bb882e079ac478cd89290a940947, type: 3}
+    playedInShuffle: 0
+    volume: 0.8
+    bakeTimestamp:
+      first: 0
+      second: 0
+    HDRCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  PlaybackMode: 0
+  HDR: 0
+  Loudness: {x: 50, y: 50}
+  Volume: {x: 0.5094908, y: 0.60543174}
+  Pitch: {x: 0.8782288, y: 1}
+  Loops: 0
+  Priority: 128
+  ChanceToPlay: 1
+  BypassEffects: 0
+  MaxInstances: 5
+  FadeInTime: 0
+  FadeOutTime: 0
+  Spatialization: 2
+  Spread: 0
+  Pan2D: 0
+  Falloff: 0
+  MaxDistance: 25
+  MinDistance: 1
+  DopplerLevel: 0
+  ProximityLimit: 0
+  ProximityRange: 10
+  OcclusionScale: 1
+  PlayProbability: 1
+  Delay: {x: 0, y: 0}

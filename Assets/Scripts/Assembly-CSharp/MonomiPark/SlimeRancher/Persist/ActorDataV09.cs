@@ -1,0 +1,148 @@
+using System.Collections.Generic;
+using System.IO;
+using MonomiPark.SlimeRancher.Regions;
+
+namespace MonomiPark.SlimeRancher.Persist
+{
+	public class ActorDataV09 : VersionedPersistedDataSet<ActorDataV08>
+	{
+		public long actorId;
+
+		public Vector3V02 pos;
+
+		public Vector3V02 rot;
+
+		public int typeId;
+
+		public SlimeEmotionDataV02 emotions;
+
+		public double transformTime;
+
+		public double reproduceTime;
+
+		public double destroyTime;
+
+		public ResourceCycleDataV03 cycleData;
+
+		public double? disabledAtTime;
+
+		public bool isFeral;
+
+		public List<Identifiable.Id> fashions = new List<Identifiable.Id>();
+
+		public bool isGlitch;
+
+		public RegionRegistry.RegionSetId regionSetId;
+
+		private const float ACTOR_MOVE_TOLERANCE = 0.01f;
+
+		public override string Identifier => "SRAD";
+
+		public override uint Version => 9u;
+
+		public ActorDataV09()
+		{
+		}
+
+		public ActorDataV09(ActorDataV08 legacyData)
+		{
+			UpgradeFrom(legacyData);
+		}
+
+		protected override void LoadData(BinaryReader reader)
+		{
+			pos = new Vector3V02();
+			pos.Load(reader.BaseStream);
+			rot = new Vector3V02();
+			rot.Load(reader.BaseStream);
+			actorId = reader.ReadInt64();
+			typeId = reader.ReadInt32();
+			emotions = new SlimeEmotionDataV02();
+			emotions.Load(reader.BaseStream);
+			transformTime = reader.ReadDouble();
+			reproduceTime = reader.ReadDouble();
+			destroyTime = reader.ReadDouble();
+			cycleData = new ResourceCycleDataV03();
+			cycleData.Load(reader.BaseStream);
+			LoadNullable(reader, out disabledAtTime);
+			isFeral = reader.ReadBoolean();
+			fashions = PersistedDataSet.LoadList(reader, (int v) => (Identifiable.Id)v);
+			isGlitch = reader.ReadBoolean();
+			regionSetId = (RegionRegistry.RegionSetId)reader.ReadInt32();
+		}
+
+		protected override void WriteData(BinaryWriter writer)
+		{
+			pos.Write(writer.BaseStream);
+			rot.Write(writer.BaseStream);
+			writer.Write(actorId);
+			writer.Write(typeId);
+			emotions.Write(writer.BaseStream);
+			writer.Write(transformTime);
+			writer.Write(reproduceTime);
+			writer.Write(destroyTime);
+			cycleData.Write(writer.BaseStream);
+			WriteNullable(writer, disabledAtTime);
+			writer.Write(isFeral);
+			PersistedDataSet.WriteList(writer, fashions, (Identifiable.Id v) => (int)v);
+			writer.Write(isGlitch);
+			writer.Write((int)regionSetId);
+		}
+
+		public static void AssertAreEqual(ActorDataV09 expected, ActorDataV09 actual, bool allowActorMovement = false)
+		{
+			if (allowActorMovement)
+			{
+				Vector3V02.AssertAreApproximatelyEqual(expected.pos, actual.pos, 0.01f);
+			}
+			else
+			{
+				Vector3V02.AssertAreEqual(expected.pos, actual.pos);
+			}
+			Vector3V02.AssertAreApproximatelyEqual(expected.rot, actual.rot, 0.1f);
+			ResourceCycleDataV03.AssertAreEqual(expected.cycleData, actual.cycleData);
+			SlimeEmotionDataV02.AssertAreEqual(expected.emotions, actual.emotions);
+			TestUtil.AssertAreEqual(expected.fashions, actual.fashions, "fashions");
+		}
+
+		public static void AssertAreEqual(ActorDataV08 expected, ActorDataV09 actual)
+		{
+			Vector3V02.AssertAreEqual(expected.pos, actual.pos);
+			Vector3V02.AssertAreEqual(expected.rot, actual.rot);
+			ResourceCycleDataV03.AssertAreEqual(expected.cycleData, actual.cycleData);
+			SlimeEmotionDataV02.AssertAreEqual(expected.emotions, actual.emotions);
+			TestUtil.AssertAreEqual(expected.fashions, actual.fashions, "fashions");
+		}
+
+		protected override void UpgradeFrom(ActorDataV08 legacyData)
+		{
+			pos = legacyData.pos;
+			rot = legacyData.rot;
+			typeId = legacyData.typeId;
+			emotions = legacyData.emotions;
+			transformTime = legacyData.transformTime;
+			reproduceTime = legacyData.reproduceTime;
+			cycleData = legacyData.cycleData;
+			disabledAtTime = legacyData.disabledAtTime;
+			isFeral = legacyData.isFeral;
+			fashions = legacyData.fashions;
+			actorId = legacyData.actorId;
+			destroyTime = legacyData.destroyTime;
+			isGlitch = legacyData.isGlitch;
+			regionSetId = GetRegionSetForPos(pos);
+		}
+
+		private static RegionRegistry.RegionSetId GetRegionSetForPos(Vector3V02 pos)
+		{
+			if (pos.value.y > 900f)
+			{
+				return RegionRegistry.RegionSetId.DESERT;
+			}
+			if (pos.value.z < -550f)
+			{
+				return RegionRegistry.RegionSetId.VALLEY;
+			}
+			return RegionRegistry.RegionSetId.HOME;
+		}
+	}
+}

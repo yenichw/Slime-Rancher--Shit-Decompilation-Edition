@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SwitchRing
+  m_Shader: {fileID: 4800000, guid: 1f65a50303a89b9468736e2c16278251, type: 3}
+  m_ShaderKeywords: _AOUV1_ON _NRMTRIPLANAR_ON _PAINTMASKTRIPLANAR_ON _TRIPLANARNORMALS_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: cdb13fb88fe68414d8a82ee81175da14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColorMask:
+        m_Texture: {fileID: 2800000, guid: af2ade562e6bf82489d00ba281572e57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GlowRamp:
+        m_Texture: {fileID: 2800000, guid: ef9c26635825cec47a4f08966759b4da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.25, y: 0.25}
+        m_Offset: {x: 0, y: 0}
+      _Override:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PaintStrokes:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _Rim:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AOUV1: 1
+      _Assemble: 1
+      _AssembleDif: 0.25
+      _AssembleDistance: 15
+      _AssembleFalloff: 1
+      _AssembleOffset: 0.67
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossBlack: 0.1
+      _GlossBlue: 0
+      _GlossGreen: 0.5
+      _GlossRed: 0
+      _Glossiness: 0.5
+      _GlowColor: 0
+      _GlowMultiplier: 1
+      _GlowShift: 0
+      _GlowSpeed: 0
+      _Metallic: 0
+      _Mode: 0
+      _NRMTriplanar: 1
+      _NRMUV1: 0
+      _OcclusionStrength: 1
+      _OverrideUV1: 0
+      _PaintMaskTriplanar: 1
+      _Parallax: 0.02
+      _RimStrength: 0.5
+      _SpiralColor: 0
+      _SrcBlend: 1
+      _Transparency: 1
+      _TriplanarNormals: 1
+      _UVSec: 0
+      _ZWrite: 1
+      _node_5608: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Color00: {r: 0.8352942, g: 0.54509807, b: 0.16862746, a: 0}
+      _Color01: {r: 0.7568628, g: 0.6784314, b: 0.32156864, a: 0}
+      _Color10: {r: 0.4039216, g: 0.31764707, b: 0.30980393, a: 0}
+      _Color11: {r: 0.73333335, g: 0.59607846, b: 0.5529412, a: 0.503}
+      _Color20: {r: 0.56078434, g: 0.3647059, b: 0.24313727, a: 0}
+      _Color21: {r: 0.2784314, g: 0.23137257, b: 0.21568629, a: 0}
+      _Color30: {r: 0.5686275, g: 0.5411765, b: 0.5019608, a: 0}
+      _Color31: {r: 0.6431373, g: 0.6039216, b: 0.4901961, a: 0.178}
+      _Color40: {r: 0, g: 0, b: 0, a: 0}
+      _Color41: {r: 0, g: 0, b: 0, a: 0}
+      _Color50: {r: 0, g: 0, b: 0, a: 0}
+      _Color51: {r: 0, g: 0, b: 0, a: 0}
+      _Color60: {r: 0, g: 0, b: 0, a: 0}
+      _Color61: {r: 0, g: 0, b: 0, a: 0}
+      _Color70: {r: 0, g: 0, b: 0, a: 0}
+      _Color71: {r: 0, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

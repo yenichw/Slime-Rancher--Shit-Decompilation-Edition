@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: carrot rotten
+  m_Shader: {fileID: 4800000, guid: 998f29945f1f3d74da4f9b923ebe50de, type: 3}
+  m_ShaderKeywords: _VERTEXCOLORMASK_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: f80181b8a930a044c9b3f0c6b17d9824, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Mask:
+        m_Texture: {fileID: 2800000, guid: b67af4ada99102941ac0f195fee3074b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RampBlack:
+        m_Texture: {fileID: 2800000, guid: 77bcf5db51e60cc4cab57de80e68fe70, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RampBlue:
+        m_Texture: {fileID: 2800000, guid: 0ce8058dd46144e4da9911b68f1e5e0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RampGreen:
+        m_Texture: {fileID: 2800000, guid: ff69b32e6eff5e642a72fe3a08c55cd8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _RampRed:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossBlack: 0.405
+      _GlossBlue: 0.405
+      _GlossGreen: 0
+      _GlossPower: 1
+      _GlossPowerBlack: 1
+      _GlossPowerBlue: 1
+      _GlossPowerGreen: 1
+      _GlossPowerRed: 1
+      _GlossRed: 0
+      _Glossiness: 0.5
+      _GlowShift: 0
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _Rot: 1
+      _SrcBlend: 1
+      _SwayStrength: 1
+      _TriplanarNormals: 0
+      _UVSec: 0
+      _VertexColorMask: 1
+      _WindTurbulance: 8
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _RotDirection: {r: 1, g: 0, b: 1, a: 1}

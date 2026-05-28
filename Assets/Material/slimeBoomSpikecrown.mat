@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slimeBoomSpikecrown
+  m_Shader: {fileID: 4800000, guid: 794dc67a01b939b478b1abbd9f7cd53f, type: 3}
+  m_ShaderKeywords: _COLORMASK_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Diffuse:
+        m_Texture: {fileID: 2800000, guid: 033366416e17f4147aca9901b5c35c8d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: 35f772e1c1df44f49a2e2b7706910b14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _SaturationMask:
+        m_Texture: {fileID: 2800000, guid: d799b1646962eb64581e3be405d05305, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _ColorMask: 1
+      _Gloss: 0.3
+      _GlossPower: 0.3
+      _NormalSmoothTop: 0
+      _NormalUV1: 0
+      _UnscaledTime: 0
+      __dirty: 0
+    m_Colors:
+      _BlueMask: {r: 0.5, g: 0.5, b: 1, a: 1}
+      _BottomColor: {r: 0.42352942, g: 0, b: 0, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _GreenMask: {r: 0.5, g: 1, b: 0.5, a: 1}
+      _MiddleColor: {r: 0.8156863, g: 0, b: 0, a: 1}
+      _NormalPanSpeed: {r: 0, g: 0, b: 0, a: 0}
+      _RedMask: {r: 1, g: 0.5, b: 0.5, a: 1}
+      _TopColor: {r: 1, g: 0.38431373, b: 0.37254903, a: 1}

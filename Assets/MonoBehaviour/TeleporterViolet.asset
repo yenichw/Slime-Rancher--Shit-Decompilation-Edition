@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: TeleporterViolet
+  m_EditorClassIdentifier:
+  id: 202
+  prefab: {fileID: 1180628834199134, guid: d0bed3d358d8bc04ca42571cd1dca1c1, type: 2}
+  icon: {fileID: 21300000, guid: 6d2489ef1d157134fbdfce7923d0c175, type: 2}
+  pediaLink: 5009
+  blueprintCost: 1250
+  craftCosts:
+  - id: 36
+    amount: 25
+  - id: 11005
+    amount: 10
+  - id: 11002
+    amount: 5
+  - id: 11011
+    amount: 1
+  buyCountLimit: 2
+  countLimit: 2
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 1

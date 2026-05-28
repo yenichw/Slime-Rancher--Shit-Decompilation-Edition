@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1461182410096264
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4389041288347402}
+  - component: {fileID: 114228168844903253}
+  - component: {fileID: 114894092955863069}
+  - component: {fileID: 135039621863457185}
+  - component: {fileID: 114677627981494693}
+  - component: {fileID: 114069563245848958}
+  - component: {fileID: 114938542971815903}
+  - component: {fileID: 114179170782156931}
+  - component: {fileID: 114735135799540625}
+  - component: {fileID: 114235802245127218}
+  - component: {fileID: 114430155243864251}
+  - component: {fileID: 114894716104848630}
+  - component: {fileID: 114283720327565447}
+  - component: {fileID: 114335592574990003}
+  m_Layer: 0
+  m_Name: moduleSlimeQuicksilver
+  m_TagString: Pink Slime
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4389041288347402
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114228168844903253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c03d5a96bad1c0e47672ffe0d570d095, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slimeDefinition: {fileID: 0}
+  chanceToSkipProduce: 0
+  damagePerAttack: 20
+  EatFX: {fileID: 1664729440924938, guid: 4196648a4a4c4b44fb873d016a783659, type: 2}
+  EatFavoriteFX: {fileID: 1447475533152647, guid: d6857fa52efc8dd4dbe9f43b3a7038cc, type: 2}
+  TransformFX: {fileID: 1442582126425924, guid: 521e13c7e843c164ca522cbfb69d119c, type: 2}
+  ProduceFX: {fileID: 1220674327614445, guid: 080ee842af2c5174a8882d1f97552918, type: 2}
+  foodGroupsExceptions: []
+  foodGroupsProduceId:
+  - 167
+  foodGroupsBecomesId: 0
+  foodGroupsDriver: 0
+  foodGroupsExtraDrive: 0
+  foodGroupsMinDrive: 0
+  minDriveToEat: 0.333
+  drivePerEat: 0.333
+  agitationPerEat: 0.15
+  agitationPerFavEat: 0.3
+--- !u!114 &114894092955863069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e15a8a5fec04c3b100f648d37caf7ed, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  straightlineForceFactor: 3
+  canRicochet: 1
+--- !u!135 &135039621863457185
+SphereCollider:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Material: {fileID: 13400000, guid: 19f6bfa7d4bc0864f9800c363dd9ee80, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.35
+  m_Center: {x: 0, y: 0.15, z: 0}
+--- !u!114 &114677627981494693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8fcf0fbe0a65530d48721af3217c917, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114069563245848958
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f31c478aee45f714e1291f8c51cd08, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &114938542971815903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b8e72ed593e631cf1d9d83502b198f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slimeSounds: {fileID: 0}
+--- !u!114 &114179170782156931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d00c4eb7b63bc6b1d2969677874d20b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slimeDefinition: {fileID: 11400000, guid: 3497b9ed9ab823345ba7ee2d9a0736e7, type: 2}
+--- !u!114 &114735135799540625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c01fd77a8aa030836cb04532b70fc64, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stability: 0.5
+  speed: 6
+--- !u!114 &114235802245127218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13a659d660f76125aad7f949be91326a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  straightlineForceFactor: 3
+  facingStability: 1
+  facingSpeed: 5
+  slowSpeedLimit: 0.35
+  slowSpeedInstantFactor: 0.6
+  slowSpeedInstantMaxVelocity: 18
+  rotationDelay: 10
+--- !u!114 &114430155243864251
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf80fcb950542fd196565f9bf6e4be95, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  plortId: 167
+  produceFX: {fileID: 1220674327614445, guid: 080ee842af2c5174a8882d1f97552918, type: 2}
+  cooldownHours: 0.2
+  cooldownFX: {fileID: 1177523123806563, guid: b50a2a0ccb21d6c41a2fec3b78c45eae, type: 2}
+  electricFieldPrefab: {fileID: 1109662483205886, guid: bce26a1772a035144a5cde09a2c69ece, type: 2}
+  onHitSuccessCue: {fileID: 11400000, guid: c7f2c0b11cf060c469d66ef1831e8f5f, type: 2}
+  onHitFailureCue: {fileID: 11400000, guid: 28a8ab686a9aa41459849ff9bbb05684, type: 2}
+--- !u!114 &114894716104848630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 242b1acc51fbf548450439c9d5748c90, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  centersOfBuoyancy:
+  - {x: 0, y: 0, z: 0}
+  buoyancyFactor: 0.5
+--- !u!114 &114283720327565447
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f9709ca833bf10f6c0e78ac3e088ef, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  disappearFX: {fileID: 1911267885758864, guid: d77560cac1eb87448a55f4ebef1f900e, type: 2}
+  facingStability: 1
+  facingSpeed: 5
+  fleeSpeedFactor: 1
+  fleeCue: {fileID: 0}
+--- !u!114 &114335592574990003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1461182410096264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96653ed398cae90e3682b302f9f4247e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  damagePerTouch: 10
+  repeatTime: 1

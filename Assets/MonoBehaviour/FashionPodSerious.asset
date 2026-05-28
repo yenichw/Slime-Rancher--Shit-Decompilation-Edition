@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: FashionPodSerious
+  m_EditorClassIdentifier:
+  id: 604
+  prefab: {fileID: 1405368420984392, guid: 6a4b8620bd7e83640a23c07d95720dc6, type: 2}
+  icon: {fileID: 21300000, guid: 2ea1d7a3e8fc33543b5d75dd25839472, type: 2}
+  pediaLink: 5011
+  blueprintCost: 850
+  craftCosts:
+  - id: 6
+    amount: 25
+  - id: 5
+    amount: 25
+  - id: 11001
+    amount: 25
+  - id: 11006
+    amount: 12
+  - id: 11011
+    amount: 2
+  buyCountLimit: 0
+  countLimit: 0
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: HydroTurret
+  m_EditorClassIdentifier:
+  id: 410
+  prefab: {fileID: 1765333073313337, guid: 9be37e25ea48b5142bbdd261bd4fe9d0, type: 2}
+  icon: {fileID: 21300000, guid: 1cb93eff8a606f84aa3ccbfb837e1943, type: 2}
+  pediaLink: 5008
+  blueprintCost: 650
+  craftCosts:
+  - id: 25
+    amount: 12
+  - id: 73
+    amount: 6
+  - id: 11001
+    amount: 8
+  - id: 11002
+    amount: 3
+  buyCountLimit: 0
+  countLimit: 0
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 0

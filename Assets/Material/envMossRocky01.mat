@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: envMossRocky01
+  m_Shader: {fileID: 4800000, guid: 24e12db6528af944a90c577d082f8ea6, type: 3}
+  m_ShaderKeywords: _ENABLEDETAILTEX_ON _TOPPERENABLEDETAILTEX_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Depth:
+        m_Texture: {fileID: 2800000, guid: 9b01c0a1abb624e4696d51dfef1a749b, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _DetailNoiseMask:
+        m_Texture: {fileID: 2800000, guid: 750a39f2fac13a64d90c6ae1fa0d1eba, type: 3}
+        m_Scale: {x: 0.05, y: 0.05}
+        m_Offset: {x: 0, y: 0}
+      _DetailTex:
+        m_Texture: {fileID: 2800000, guid: 6c44610b7451869429717b7a59cae653, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+      _PrimaryLowerTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PrimaryTex:
+        m_Texture: {fileID: 2800000, guid: 7b7cb30136ec2c44d8273b5661a47a17, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _TopperDepth:
+        m_Texture: {fileID: 2800000, guid: 81fa02fca0ead3640a8212861d4be131, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _TopperDetailTex:
+        m_Texture: {fileID: 2800000, guid: bfda6dd9f2fd82f4c8a571b9987c909a, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _TopperSpecular:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Topper_MainTex:
+        m_Texture: {fileID: 2800000, guid: 6c44610b7451869429717b7a59cae653, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _VerticalRamp:
+        m_Texture: {fileID: 2800000, guid: 7ddb44c33dfad234b975eff9837a2c5d, type: 3}
+        m_Scale: {x: 0.01, y: 0.015}
+        m_Offset: {x: 0, y: -0.08}
+    m_Floats:
+      _DifContrast: 1
+      _DifHue: 0
+      _DifSat: 0
+      _DifVal: 0
+      _EnableDetailTex: 1
+      _Gloss: 0
+      _GlossPower: 0.3
+      _PaintRim: 1
+      _PrimeLowerOffset: 30
+      _PrimeLowerScale: 1
+      _PrimeLowerToggle: 0
+      _RampOffset: 2
+      _RampScale: 0.75
+      _SeaLevelRampObjectPos: 0
+      _SeaLevelRampOffset: -3
+      _SeaLevelRampScale: 1
+      _TopRampOffset: 30
+      _TopRampScale: 1
+      _ToporBottom: 0
+      _TopperCoverage: 0.6
+      _TopperDepthStrength: 0.5
+      _TopperEnableDetailTex: 1
+      _TopperSides: 0
+      _TopperSpecularNoiseAdjust: 0.5
+      _UseMeshUVs: 0
+      _node_2998: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DifOverlay: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+      _RampTop: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _RampUpper: {r: 0.08235294, g: 0.45882356, b: 0.654902, a: 1}
+      _SeaLevelRampLower: {r: 0.3098039, g: 0.4078431, b: 0.3921569, a: 1}
+      _SpecularColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

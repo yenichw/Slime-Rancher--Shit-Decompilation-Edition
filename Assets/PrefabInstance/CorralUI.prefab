@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1211358660811712
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4316519238139916}
+  - component: {fileID: 114786833356168214}
+  - component: {fileID: 114324797716431085}
+  m_Layer: 5
+  m_Name: CorralUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4316519238139916
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211358660811712}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114786833356168214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211358660811712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 082d5cefa89f627ff7ddc4ecb79f814f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  statusArea: {fileID: 0}
+  walls:
+    icon: {fileID: 21300000, guid: 82a6900e10d8def448620fcb7560fde1, type: 2}
+    img: {fileID: 21300000, guid: 82a6900e10d8def448620fcb7560fde1, type: 2}
+    cost: 350
+    upgrade: 1
+  musicBox:
+    icon: {fileID: 21300000, guid: 28f30fed223dae14899e05b497f300b2, type: 2}
+    img: {fileID: 21300000, guid: 28f30fed223dae14899e05b497f300b2, type: 2}
+    cost: 350
+    upgrade: 2
+  airNet:
+    icon: {fileID: 21300000, guid: d3f705479d974eb49ad5b74929d2bdef, type: 2}
+    img: {fileID: 21300000, guid: d3f705479d974eb49ad5b74929d2bdef, type: 2}
+    cost: 425
+    upgrade: 11
+  solarShield:
+    icon: {fileID: 21300000, guid: 5be5103b3d2569c468cb818c7c915f92, type: 2}
+    img: {fileID: 21300000, guid: 5be5103b3d2569c468cb818c7c915f92, type: 2}
+    cost: 425
+    upgrade: 13
+  plortCollector:
+    icon: {fileID: 21300000, guid: 8b995366fc4224047a526b1ed99fe53d, type: 2}
+    img: {fileID: 21300000, guid: 8b995366fc4224047a526b1ed99fe53d, type: 2}
+    cost: 500
+    upgrade: 12
+  feeder:
+    icon: {fileID: 21300000, guid: 75444bed9c21f324c88798e4c2416685, type: 2}
+    img: {fileID: 21300000, guid: 75444bed9c21f324c88798e4c2416685, type: 2}
+    cost: 500
+    upgrade: 9
+  demolish:
+    icon: {fileID: 21300000, guid: 3e44781b72366b549af8ad45e2833229, type: 2}
+    img: {fileID: 21300000, guid: 3e44781b72366b549af8ad45e2833229, type: 2}
+    cost: 100
+    plotPrefab: {fileID: 1378973018571350, guid: 24fce221e119f904e9846e3af9e49313, type: 2}
+  titleIcon: {fileID: 21300000, guid: 1fa9f23d118dade4cbee81cba396b08b, type: 2}
+--- !u!114 &114324797716431085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211358660811712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a44d507276b0e45c715c72dedad085, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  lockEvenSpecialScenes: 0

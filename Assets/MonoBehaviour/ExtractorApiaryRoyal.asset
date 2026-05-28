@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: ExtractorApiaryRoyal
+  m_EditorClassIdentifier:
+  id: 123
+  prefab: {fileID: 1296449862705697, guid: badedab9d64ed184596d6cc6fdecd13d, type: 2}
+  icon: {fileID: 21300000, guid: 4165b80d455531e41943d9332d78a5e7, type: 2}
+  pediaLink: 5007
+  blueprintCost: 3500
+  craftCosts:
+  - id: 6
+    amount: 25
+  - id: 60
+    amount: 20
+  - id: 107
+    amount: 15
+  buyCountLimit: 0
+  countLimit: 6
+  countOtherIds:
+  - 120
+  - 121
+  - 122
+  destroyOnRemoval: 1
+  buyInPairs: 0

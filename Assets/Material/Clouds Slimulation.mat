@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Clouds Slimulation
+  m_Shader: {fileID: 4800000, guid: 5a857b3e0e4c65341811cec04aaff7fe, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: d7fe3040ee0add54ab1c9cfa9581aa93, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Alpha: 10
+      _AlphaCut: 0.01
+      _AmbientOcclusion: 0
+      _AroundSunBias: 0.1
+      _BlendTweaker: 0.12
+      _BottomLighting: 1.25
+      _BottomShadingOpacity: 0.696
+      _BottomTaper: 0.15
+      _BumpScale: 1
+      _CloudDensity: 1.09
+      _CloudFluctuations: 0.25
+      _CloudHeightScale: 1
+      _CloudSoftness: 2.05
+      _CloudSpeed: -0.5
+      _CloudSpeed1: 0.2
+      _CloudSpeed2: 1
+      _CloudSpeedMaster: 0.25
+      _CloudStrength: 1
+      _ColourSunBias: 1
+      _Coverage: 0.5
+      _Cutoff: 0.5
+      _Dayness: 1
+      _DepthFade: 66.1
+      _DepthFadeDistance: 0.9
+      _DepthOffsetMultiplier: 7.22
+      _DepthOffsetPower: 0.15
+      _DetailNormalMapScale: 1
+      _DistanceFade: 76.99
+      _Distancem: 0.04
+      _DstBlend: 0
+      _EdgeBlend: 1
+      _EdgeLength: 28.6
+      _Float1: 2
+      _Float5: 2.5
+      _Fluffylightboost: 0.452
+      _FresnelLightThrough: 0.5
+      _FresnelLightThroughOcclusion: 0.94
+      _GlancingAngleFade: 0.104
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _InnerSize: 4.03
+      _LightColourMultiplier: 0.503
+      _LightingOffsetDistance: 8
+      _LightthroughSize: 2.42
+      _LightthroughStrength: 1
+      _MarchDirectionDistance: 4.47
+      _MarchDirectionScale: 0.157
+      _MarchDistance: 0.51
+      _Metallic: 0
+      _MiddaySSSPower: 10
+      _Mode: 0
+      _Noise2Power: 1.22
+      _NoiseRemapMax: 0.543
+      _NoiseRemapMin: 0.432
+      _NoiseRemapRimMax: 0.929
+      _NoiseRemapRimMin: 0.003
+      _NoiseScaleMaster: 0.5
+      _NoiseSize: 2.05
+      _NoiseTextureScale: 1.3
+      _NoiseTextureScale2: 0.82
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _ParallaxHeight: 0
+      _ParallaxScale: 0
+      _RaymarchSteps: 4
+      _RimBoost: 0.098
+      _RimLightStrength: 0.8
+      _RimPower: 4.5
+      _RimSize: 0.35
+      _RimSoftness: 0.503
+      _Rimaroundsun: 1.67
+      _SSSBoost: 0.615
+      _SSSPower: 75
+      _SSSRim: 0.5
+      _SSSRimSize: 1
+      _SSSStrength: 1
+      _Screenscale: 19.06
+      _ShadingPower: 1
+      _SideLightingMultiplier: 5
+      _SkyBrightnessContribution: 1
+      _SmoothnessTextureChannel: 0
+      _Softness: 0.043
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _SunRimMax: 0.815
+      _SunRimMin: 0.475
+      _SunriseSunsetSSSPower: 3.95
+      _TaperPower: 2
+      _Texture: 0.783
+      _TopDownOffset: 0.54
+      _TopDownShadingLevel: 0.394
+      _TopDownShadingOpacity: 0.667
+      _TopDownShadingSoftness: 0.077
+      _TopLightingBoost: 1
+      _TopLightingMultiplier: 0
+      _TopOffset: 0.52
+      _TopShadingLevel: 0.435
+      _TopShadingOpacity: 0.25
+      _TopShadingSoftness: 0.023
+      _TopTaper: 0.62
+      _UVSec: 0
+      _Undershade: 0
+      _Undershadeopacity: 0.492
+      _UndershaderingMultiplier: 0.625
+      _Undershaderingsoftness: 0.424
+      _Undershading: 2.07
+      _UndershadingPower: 0
+      _Undershadingcoverage: 0.184
+      _Undershadingpower: 1.1
+      _Undershadingstrength: 1.71
+      _VertexOffsetStrength: -0.09
+      _VerticalShadingLevel: 0.586
+      _VerticalShadingOpacity: 0.64
+      _VerticalShadingSoftness: 0.51
+      _VerticalShadingstrength: 1.47
+      _YBoost: -0.02
+      _ZWrite: 1
+      __dirty: 0
+      _cloudHeight: 2.81
+      _midYValue: 4.41
+      _noiseremapmin: 0.406
+      _opacity: 1
+      _tempi: 3.9
+      _verticaloffset: -0.381
+    m_Colors:
+      _BaseColor: {r: 0.9176471, g: 0.9725491, b: 1, a: 1}
+      _BaseColorNight: {r: 0.02745098, g: 0.1294118, b: 0.3411765, a: 0.5019608}
+      _CloudColour: {r: 0.3820755, g: 0.6103533, b: 1, a: 0}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Color0: {r: 0.5538448, g: 0.6878964, b: 0.9245283, a: 0}
+      _Colour: {r: 1, g: 1, b: 1, a: 0}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _GroundColour: {r: 0.15547334, g: 0.33962262, b: 0.05286579, a: 0}
+      _NoiseSize: {r: 1.45, g: 0.04, b: 0, a: 0}
+      _Shading: {r: 0.1803922, g: 0.5882353, b: 0.7882354, a: 0.2392157}
+      _ShadingNight: {r: 0.007843138, g: 0.007843138, b: 0.1686275, a: 0}
+      _SkyColour: {r: 0.899708, g: 0.9227358, b: 0.9485294, a: 0}
+      _Vector1: {r: 0, g: 1, b: 0, a: 0}

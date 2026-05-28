@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slimeBoomTabbyBase
+  m_Shader: {fileID: 4800000, guid: adc92ef3ecbf9ec47833e6969fcfab9e, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _CrackNoise:
+        m_Texture: {fileID: 2800000, guid: b4c7e1f4126f9db4ebd54bef51f10c3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Cracks:
+        m_Texture: {fileID: 8900000, guid: da44b1eeb3418ac45af626d3288a455b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Stripe2Texture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _StripeTexture:
+        m_Texture: {fileID: 2800000, guid: d3401bedbf3e5f54bada47bdbc97b6f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BodyLightingContribution: 1
+      _Char: 0
+      _CrackAmount: 0.5
+      _CrackColorRange: 0.1
+      _CrackNoiseSpeed: 0.25
+      _EmissionLM: 0
+      _Gloss: 1.2
+      _GlossPower: 0.452
+      _LightingUVContribution: 1
+      _LightingUVHorizontalAdjust: 0
+      _Outline: 0.005
+      _RimPower: 2.375
+      _Shininess: 0.5954557
+      _Stripe2UV1: 0
+      _StripeSpeed: 0
+      _StripeUV1: 0
+      _UnscaledTime: 0
+      _VertexOffset: 0
+      __dirty: 1
+    m_Colors:
+      _BottomColor: {r: 0.41960785, g: 0, b: 0, a: 1}
+      _Color: {r: 0.6544118, g: 0.6544118, b: 0.6544118, a: 1}
+      _CrackColor: {r: 1, g: 0.51, b: 0, a: 1}
+      _MiddleColor: {r: 0.80784315, g: 0, b: 0, a: 1}
+      _OutlineColor: {r: 1, g: 0.44852942, b: 0.8451429, a: 0.5019608}
+      _RimColor: {r: 0.5808823, g: 0.34596667, b: 0.43831274, a: 1}
+      _SpecColor: {r: 1, g: 0.88235295, b: 0.9821501, a: 1}
+      _StripeRemap1: {r: 0.5, g: 1, b: 0, a: 1}
+      _StripeRemap2: {r: 0, g: 1, b: 0, a: 1}
+      _TopColor: {r: 1, g: 0.38823527, b: 0.38823527, a: 1}

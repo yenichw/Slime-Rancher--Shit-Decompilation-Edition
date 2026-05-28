@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27de369ffb814913a31b5244286a6334, type: 3}
+  m_Name: RockNormal
+  m_EditorClassIdentifier:
+  NameXlateKey: l.classic_appearance
+  Icon: {fileID: 21300000, guid: 9405987d9b6b55e44bcb2e7b472855cf, type: 2}
+  AnimatorOverride: {fileID: 0}
+  Structures:
+  - DefaultMaterials:
+    - {fileID: 2100000, guid: 85a8e743dd2b1ae45b6ab1b42d517624, type: 2}
+    Element: {fileID: 11400000, guid: 88c7ec7ab291ba4488870a14a191a4f9, type: 2}
+    ElementMaterials:
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    SupportsFaces: 1
+    FaceRules:
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 0
+      ShowMouth: 0
+  - DefaultMaterials:
+    - {fileID: 2100000, guid: 346fedc253a84b6459bd4b0d75cb3588, type: 2}
+    Element: {fileID: 11400000, guid: 2464aa72219aea345add1f6e5029e00d, type: 2}
+    ElementMaterials:
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    SupportsFaces: 0
+    FaceRules: []
+  - DefaultMaterials:
+    - {fileID: 2100000, guid: fc2add03993e66a43a0e6e794921b674, type: 2}
+    Element: {fileID: 11400000, guid: e2b54889036093c4396d57c9d0a4d2e5, type: 2}
+    ElementMaterials:
+    - OverrideDefaults: 0
+      Materials: []
+    SupportsFaces: 0
+    FaceRules: []
+  Face: {fileID: 11400000, guid: 63848aa235cc0e242a7d03cd2ec541d5, type: 2}
+  QubitAppearance: {fileID: 0}
+  ShockedAppearance: {fileID: 0}
+  DependentAppearances: []
+  ColorPalette:
+    Top: {r: 0.47794116, g: 0.8055782, b: 1, a: 1}
+    Middle: {r: 0, g: 0.66896534, b: 1, a: 1}
+    Bottom: {r: 0, g: 0.043356974, b: 0.33088243, a: 1}
+    Ammo: {r: 0.12941177, g: 0.40000004, b: 0.7960785, a: 1}
+  GlintAppearance: {fileID: 0}
+  TornadoAppearance: {fileID: 0}
+  VineAppearance: {fileID: 0}
+  CrystalAppearance: {fileID: 0}
+  ExplosionAppearance: {fileID: 0}
+  DeathAppearance: {fileID: 0}
+  SaveSet: 1

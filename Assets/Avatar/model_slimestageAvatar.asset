@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!90 &9000000
+Avatar:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: model_slimestageAvatar
+  m_AvatarSize: 2392
+  m_Avatar:
+    serializedVersion: 3
+    m_AvatarSkeleton:
+      data:
+        m_Node:
+        - m_ParentId: -1
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 1
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        - m_ParentId: 4
+          m_AxesId: -1
+        - m_ParentId: 5
+          m_AxesId: -1
+        - m_ParentId: 5
+          m_AxesId: -1
+        - m_ParentId: 5
+          m_AxesId: -1
+        - m_ParentId: 5
+          m_AxesId: -1
+        - m_ParentId: 5
+          m_AxesId: -1
+        - m_ParentId: 4
+          m_AxesId: -1
+        - m_ParentId: 11
+          m_AxesId: -1
+        - m_ParentId: 11
+          m_AxesId: -1
+        - m_ParentId: 11
+          m_AxesId: -1
+        - m_ParentId: 11
+          m_AxesId: -1
+        - m_ParentId: 11
+          m_AxesId: -1
+        m_ID:
+        - 0
+        - 2100352529
+        - 3988210753
+        - 397965602
+        - 4091604845
+        - 3028711472
+        - 3109815077
+        - 542462623
+        - 1465016841
+        - 3375822762
+        - 2901124300
+        - 1317619027
+        - 3289168832
+        - 1560668794
+        - 704830188
+        - 3026603855
+        - 4294254229
+        m_AxesArray: []
+    m_AvatarSkeletonPose:
+      data:
+        m_X:
+        - t: {x: 0, y: 0, z: 0}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0, y: 0, z: 0}
+          q: {x: 0, y: -0, z: -0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0, y: 0, z: 0}
+          q: {x: 0, y: -0, z: -0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0, y: 0, z: 0}
+          q: {x: 0, y: -0, z: -0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0, y: 0, z: 0}
+          q: {x: 0, y: -0, z: -0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -1.1131209, y: 0.4490642, z: -0.3616749}
+          q: {x: 1.35465375E-17, y: -0.809017, z: -1.35465375E-17, w: 0.58778524}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0.2659142, y: 0.3552395, z: -5.9044814E-17}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -5.904487E-17, y: 0.3552395, z: 0.26591444}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 0.26591426, y: 0.3552395, z: 1.5674444E-16}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 5.904477E-17, y: 0.3552395, z: -0.265914}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -4.2351646E-24, y: 0.31765813, z: 0}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 1.11312, y: 0.449064, z: -0.361675}
+          q: {x: -0.58778524, y: 3.5991466E-17, z: 0.809017, w: 4.9538004E-17}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 0.26591316, y: -0.35524, z: -1.7749164E-06}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -1.8182041E-07, y: -0.35524, z: -0.26591474}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0.2659141, y: -0.35524, z: 2.0839334E-06}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -4.3621355E-07, y: -0.35524, z: 0.26591283}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 5.4059946E-17, y: -0.317658, z: 1.4210854E-16}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+    m_DefaultPose:
+      data:
+        m_X:
+        - t: {x: 0, y: 0, z: 0}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0, y: 0, z: 0}
+          q: {x: 0, y: -0, z: -0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0, y: 0, z: 0}
+          q: {x: 0, y: -0, z: -0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0, y: 0, z: 0}
+          q: {x: 0, y: -0, z: -0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0, y: 0, z: 0}
+          q: {x: 0, y: -0, z: -0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -1.1131209, y: 0.4490642, z: -0.3616749}
+          q: {x: 1.35465375E-17, y: -0.809017, z: -1.35465375E-17, w: 0.58778524}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0.2659142, y: 0.3552395, z: -5.9044814E-17}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -5.904487E-17, y: 0.3552395, z: 0.26591444}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 0.26591426, y: 0.3552395, z: 1.5674444E-16}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 5.904477E-17, y: 0.3552395, z: -0.265914}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -4.2351646E-24, y: 0.31765813, z: 0}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 1.11312, y: 0.449064, z: -0.361675}
+          q: {x: -0.58778524, y: 3.5991466E-17, z: 0.809017, w: 4.9538004E-17}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 0.26591316, y: -0.35524, z: -1.7749164E-06}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -1.8182041E-07, y: -0.35524, z: -0.26591474}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -0.2659141, y: -0.35524, z: 2.0839334E-06}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: -4.3621355E-07, y: -0.35524, z: 0.26591283}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+        - t: {x: 5.4059946E-17, y: -0.317658, z: 1.4210854E-16}
+          q: {x: -0, y: 0.7071068, z: 0, w: 0.7071068}
+          s: {x: 1, y: 1, z: 1}
+    m_SkeletonNameIDArray:
+    - 0
+    - 2100352529
+    - 4241879051
+    - 115002728
+    - 4091604845
+    - 4223259801
+    - 3622493202
+    - 1323535784
+    - 971291966
+    - 2810194077
+    - 3260906491
+    - 28764666
+    - 61596621
+    - 2594353783
+    - 3987047137
+    - 1942034242
+    - 944916120
+    m_Human:
+      data:
+        serializedVersion: 2
+        m_RootX:
+          t: {x: 0, y: 0, z: 0}
+          q: {x: 0, y: 0, z: 0, w: 1}
+          s: {x: 1, y: 1, z: 1}
+        m_Skeleton:
+          data:
+            m_Node: []
+            m_ID: []
+            m_AxesArray: []
+        m_SkeletonPose:
+          data:
+            m_X: []
+        m_LeftHand:
+          data:
+            m_HandBoneIndex:
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+        m_RightHand:
+          data:
+            m_HandBoneIndex:
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+            - -1
+        m_HumanBoneIndex:
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        - -1
+        m_HumanBoneMass:
+        - 0.14545456
+        - 0.12121213
+        - 0.12121213
+        - 0.048484854
+        - 0.048484854
+        - 0.009696971
+        - 0.009696971
+        - 0.030303033
+        - 0.14545456
+        - 0.14545456
+        - 0.012121214
+        - 0.048484854
+        - 0.006060607
+        - 0.006060607
+        - 0.024242427
+        - 0.024242427
+        - 0.01818182
+        - 0.01818182
+        - 0.006060607
+        - 0.006060607
+        - 0.0024242427
+        - 0.0024242427
+        - 0
+        - 0
+        - 0
+        m_Scale: 1
+        m_ArmTwist: 0.5
+        m_ForeArmTwist: 0.5
+        m_UpperLegTwist: 0.5
+        m_LegTwist: 0.5
+        m_ArmStretch: 0.05
+        m_LegStretch: 0.05
+        m_FeetSpacing: 0
+        m_HasLeftHand: 0
+        m_HasRightHand: 0
+        m_HasTDoF: 0
+    m_HumanSkeletonIndexArray: []
+    m_HumanSkeletonReverseIndexArray: []
+    m_RootMotionBoneIndex: 4
+    m_RootMotionBoneX:
+      t: {x: 0, y: 0, z: 0}
+      q: {x: -0, y: -0, z: -0, w: 1}
+      s: {x: 1, y: 1, z: 1}
+    m_RootMotionSkeleton:
+      data:
+        m_Node:
+        - m_ParentId: -1
+          m_AxesId: -1
+        - m_ParentId: 0
+          m_AxesId: -1
+        m_ID:
+        - 0
+        - 4091604845
+        m_AxesArray: []
+    m_RootMotionSkeletonPose:
+      data:
+        m_X: []
+    m_RootMotionSkeletonIndexArray:
+    - 0
+    - 4
+  m_TOS:
+    542462623: joint_slimestage/joint_lamp_r/joint_flap_r2
+    3988210753: mesh_slimestage/mesh_light_r
+    3109815077: joint_slimestage/joint_lamp_r/joint_flap_r1
+    2901124300: joint_slimestage/joint_lamp_r/joint_light_r
+    1465016841: joint_slimestage/joint_lamp_r/joint_flap_r3
+    3026603855: joint_slimestage/joint_lamp_l/joint_flap_l4
+    1560668794: joint_slimestage/joint_lamp_l/joint_flap_l2
+    3028711472: joint_slimestage/joint_lamp_r
+    397965602: mesh_slimestage/mesh_light_l
+    3289168832: joint_slimestage/joint_lamp_l/joint_flap_l1
+    0:
+    4294254229: joint_slimestage/joint_lamp_l/joint_light_l
+    2100352529: mesh_slimestage
+    704830188: joint_slimestage/joint_lamp_l/joint_flap_l3
+    3375822762: joint_slimestage/joint_lamp_r/joint_flap_r4
+    4091604845: joint_slimestage
+    1317619027: joint_slimestage/joint_lamp_l
+  m_HumanDescription:
+    serializedVersion: 3
+    m_Human: []
+    m_Skeleton: []
+    m_ArmTwist: 0.5
+    m_ForeArmTwist: 0.5
+    m_UpperLegTwist: 0.5
+    m_LegTwist: 0.5
+    m_ArmStretch: 0.05
+    m_LegStretch: 0.05
+    m_FeetSpacing: 0
+    m_GlobalScale: 1
+    m_RootMotionBoneName: joint_slimestage
+    m_HasTranslationDoF: 0
+    m_HasExtraRoot: 0
+    m_SkeletonHasParents: 0

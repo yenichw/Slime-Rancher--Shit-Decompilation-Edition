@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: objAshDune01
+  m_Shader: {fileID: 4800000, guid: 4e4d19c08736c554ea5c46f2e7f26505, type: 3}
+  m_ShaderKeywords: _ENABLEDETAILTEX_ON _TOPPERENABLEDETAILTEX_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2450
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DetailNoiseMask:
+        m_Texture: {fileID: 2800000, guid: 9622f3af117ff4d448e11bf300be6e04, type: 3}
+        m_Scale: {x: 0.025, y: 0.025}
+        m_Offset: {x: 0, y: 0}
+      _TopperDepth:
+        m_Texture: {fileID: 2800000, guid: d6e24ac81f17a75478676aeb37a3b2c0, type: 3}
+        m_Scale: {x: 0.4, y: 0.4}
+        m_Offset: {x: 0, y: 0}
+      _TopperDetailTex:
+        m_Texture: {fileID: 2800000, guid: 1e121cbc9e55c82458c64c5d1de0313b, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+      _TopperSpecular:
+        m_Texture: {fileID: 2800000, guid: 9694a45b520ecb4448c147b1d4a4ac6b, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+      _Topper_MainTex:
+        m_Texture: {fileID: 2800000, guid: 4489f4df7663915478ba5a15e11a47eb, type: 3}
+        m_Scale: {x: 0.4, y: 0.4}
+        m_Offset: {x: 0, y: 0}
+      _VerticalRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Cutoff: 0.5
+      _EnableDetailTex: 1
+      _Gloss: 1
+      _GlossPower: 0.25
+      _OnlyUpwardFaces: 0
+      _RampOffset: 2
+      _RampScale: 1
+      _SeaLevelRampObjectPos: 0
+      _SeaLevelRampOffset: -3
+      _SeaLevelRampScale: 1
+      _ToporBottom: 0
+      _TopperCoverage: 1
+      _TopperDepthStrength: 0.5
+      _TopperEnableDetailTex: 1
+      _TopperSpecularNoiseAdjust: 0.95
+      _UseMeshUVs: 0
+      _WindSpeed: 1
+      _WindStrength: 0
+      _WindTurbulance: 2
+      _node_2998: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _RampUpper: {r: 0.5058824, g: 0.64705884, b: 0.68235296, a: 1}
+      _SeaLevelRampLower: {r: 0.24313727, g: 0.6862745, b: 0.8313726, a: 1}
+      _SpecularColor: {r: 0.24313727, g: 0.6862745, b: 0.8313726, a: 1}

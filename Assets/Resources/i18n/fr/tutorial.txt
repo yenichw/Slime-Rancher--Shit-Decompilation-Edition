@@ -1,0 +1,165 @@
+t.basic_movement = En avant !
+m.input.basic_movement.1 = W
+m.inputdesc.basic_movement.1 = Avancer
+m.input.basic_movement.2 = A
+m.inputdesc.basic_movement.2 = Aller à gauche
+m.input.basic_movement.3 = S
+m.inputdesc.basic_movement.3 = Reculer
+m.input.basic_movement.4 = D
+m.inputdesc.basic_movement.4 = Aller à droite
+m.input.gamepad.basic_movement.1 = Move
+m.inputdesc.gamepad.basic_movement.1 = Bouger
+t.jumping = À pieds joints !
+m.input.jumping.1 = Espace
+m.inputdesc.jumping.1 = Sauter
+m.input.jumping.2 = Maintenir maj
+m.inputdesc.jumping.2 = Sprinter
+m.input.gamepad.jumping.1 = Jump
+m.inputdesc.gamepad.jumping.1 = Sauter
+m.input.gamepad.jumping.2 = Run
+m.inputdesc.gamepad.jumping.2 = Sprinter
+t.vaccing = Aspirer comme les pros
+m.text.vaccing = Votre aspipack peut aspirer des éléments et les stocker dans des réservoirs.
+m.input.vaccing.1 = Maintenir clic droit
+m.inputdesc.vaccing.1 = Aspirer
+m.input.gamepad.vaccing.1 = Vac
+m.inputdesc.gamepad.vaccing.1 = Aspirer
+t.shooting = Vous avez aspiré un slime !
+m.text.shooting = Les slimes sont la clé de votre succès. Tirez des slimes À TRAVERS une barrière dans le corral de votre ranch.
+m.input.shooting.1 = Molette de la souris
+m.inputdesc.shooting.1 = Sélectionner un réservoir de l'Aspipack
+m.input.shooting.2 = Maintenir clic gauche
+m.inputdesc.shooting.2 = Tirer
+m.input.gamepad.shooting.1 = PrevSlot
+m.inputdesc.gamepad.shooting.1 = Sélectionner réservoir précédent
+m.input.gamepad.shooting.2 = NextSlot
+m.inputdesc.gamepad.shooting.2 = Sélectionner réservoir suivant
+m.input.gamepad.shooting.3 = Attack
+m.inputdesc.gamepad.shooting.3 = Tirer
+t.food = Aliments savoureux acquis !
+m.text.food = Les aliments tels que les fruits, les légumes ou les poulets servent à nourrir les slimes. Essayez de les lancer vers un slime rose: ils mangent de tout.
+m.input.food.1 = Molette de la souris
+m.inputdesc.food.1 = Sélectionner réservoir
+m.input.food.2 = Maintenir clic gauche
+m.inputdesc.food.2 = Tirer
+m.input.gamepad.food.1 = PrevSlot
+m.inputdesc.gamepad.food.1 = Sélectionner réservoir précédent
+m.input.gamepad.food.2 = NextSlot
+m.inputdesc.gamepad.food.2 = Sélectionner réservoir suivant
+m.input.gamepad.food.3 = Attack
+m.inputdesc.gamepad.food.3 = Tirer
+t.plort = Vous avez acquis un plorte de slime !
+m.text.plort = Lorsque les slimes mangent, ils fabriquent des plortes.\n\
+\n\
+Rendez-vous au Marché du Plorte pour vendre votre plorte.
+t.market = Marché du Plorte
+m.text.market = Le Marché du Plorte vous donne des néobucks en échange des plortes durement acquis.\n\
+\n\
+Tirez un plorte sur le Marché du Plorte, et gagnez de l'argent !
+m.input.market.1 = Molette de la souris
+m.inputdesc.market.1 = Sélectionner un réservoir
+m.input.market.2 = Maintenir clic gauche
+m.inputdesc.market.2 = Tirer
+m.input.gamepad.market.1 = PrevSlot
+m.inputdesc.gamepad.market.1 = Sélectionner réservoir précédent
+m.input.gamepad.market.2 = NextSlot
+m.inputdesc.gamepad.market.2 = Sélectionner réservoir suivant
+m.input.gamepad.market.3 = Attack
+m.inputdesc.gamepad.market.3 = Tirer
+t.death = On est content de vous revoir...
+m.text.death = Lorsque vous êtes assommé, il vous faut au moins 12 heures pour vous remettre. Trop d'imprudences, et vous risquez de trouver un ranch rempli de slimes affamés et turbulents à votre réveil !
+t.garden = Vous avez construit un jardin !
+m.text.garden = Tirez un fruit ou un légume dans le Réceptacle pour en faire pousser plus !
+t.largo = Nom d'un largo !
+m.text.largo = Les slimes largo sont de gros slimes hybrides formés lorsqu'un slime mange le plorte d'une autre espèce.\n\
+\n\
+Aspirez pour les maintenir sur l'embout, ou tirez pour les envoyer dans les airs !
+t.explore = Voilà, c'est tout pour les bases !
+m.text.explore = Vous avez appris les bases, il est maintenant temps d'aller explorer les lieux !\n\
+\n\
+Souvenez-vous que le meilleur moyen de devenir un(e) pro, c'est d'expérimenter. Qui ne risque rien, n'a rien !
+t.science_barn = Slimologie !
+m.text.science_barn = Vous avez débloqué le Labo, une expansion spéciale du Ranch qui vous permet de créer des gadgets grâce à la Slimologie !\n\
+\n\
+\n\
+Rendez-vous dans la grange et lancez-vous !
+t.science_summary = L'heure du craft a sonné !
+m.text.science_summary = Cette grange contient tout l'équipement nécessaire pour vous lancer dans la confection de gadgets avec la Slimologie. Les gadgets incluent des aides telles que l'assistance à l'exploration, des tourelles défensives, des décorations, etc !
+t.science_refinery = La Raffinerie
+m.text.science_refinery = Afin de fabriquer des gadgets, vous aurez besoin de mettre des ressources dans votre Raffinerie. Essayez de tirer un plorte dans la Raffinerie.\n\
+\n\
+Mais souvenez-vous: les ressources déposées dans la Raffinerie ne peuvent PAS être récupérées.
+t.science_builder_shop = Le Bazar du Bricoleur
+m.text.science_builder_shop = Le Bazar du Bricoleur vous permet d'acheter des plans. Les plans sont nécessaires pour construire des gadgets.\n\
+\n\
+N'oubliez pas d'aller y faire un tour de temps à autre pour voir les nouveaux plans !
+t.science_fabricator = Le Forgeur
+m.text.science_fabricator = Une fois que vous avez un plan, le Forgeur vous permet de créer des gadgets, grâce aux ressources entreposées dans la Raffinerie. Essayez donc !
+t.science_gadget_mode = Mode Gadget
+m.text.science_gadget_mode = Pour placer plus de gadgets, vous devez activer le Mode Gadget.
+m.input.science_gadget_mode.1 = T
+m.inputdesc.science_gadget_mode.1 = Basculer en Mode Gadget
+m.input.gamepad.science_gadget_mode.1 = ToggleGadgetMode
+m.inputdesc.gamepad.science_gadget_mode.1 = Basculer en Mode Gadget
+t.science_sites = Sites de Construction
+m.text.science_sites = En Mode Gadget, vous ne pouvez ni aspirer ni tirer, mais vous pouvez voir tous les sites de construction, où vous pourrez placer vos gadgets. Allez donc faire un tour !
+t.science_place_site = Site de Placement
+m.text.science_place_site = Une fois que vous avez trouvé un site de construction, approchez-vous pour ouvrir le Menu de Placement. Puis, sélectionnez simplement le Gadget que vous souhaitez placer !
+t.science_wrapup = Examen de Science: réussi !
+m.text.science_wrapup = Voilà pour les bases de la Slimologie ! Pour en savoir plus, allez voir le nouvel onglet Slimologie dans votre Slimepédia. Il est rempli d'infos pratiques !
+t.map = Données cartographiques acquises !
+m.text.map = Découvrez les noeuds de données cartographiques dans l'Ouest pour dévoiler plus de zones.
+m.input.map.1 = M
+m.inputdesc.map.1 = Accéder à votre carte
+m.input.gamepad.map.1 = OpenMap
+m.inputdesc.gamepad.map.1 = Accéder à votre carte
+t.water = Plouf !
+m.text.water = Tirer de l'eau douce calmera les slimes pendant une petite période, et/ou dissoudra les terribles goudrrons !\n\
+\n\
+Un jardin arrosé poussera également plus vite !
+t.enter_zone_ogden_ranch = Rendez-vous dans le Refuge d'Ogden !
+m.text.enter_zone_ogden_ranch = Ogden Ortiz vous a proposé de travailler dans son refuge !\n\
+Prenez le téléporteur près de la Luxuriance pour en apprendre plus.
+t.wilds_slimepedia = Slimepédia: Guide de survie dans l'Archipel Sauvage
+m.text.wilds_slimepedia = L'Archipel Sauvage peut être un endroit dangereux, veuillez consulter votre Slimepédia si vous avez besoin d'un guide pratique !
+t.enter_zone_mochi_ranch = Rendez-vous au Manoir des Mochi !
+m.text.enter_zone_mochi_ranch = Mochi Miles vous a proposé de travailler dans son manoir ! \n\
+Prenez le téléporteur dans la Grotte pour en apprendre plus.
+t.valley_slimepedia = Le guide pour les subalternes profanes
+m.text.valley_slimepedia = Consultez votre Slimepédia si vous avez besoin d'une piqûre de rappel.\n\
+\n\
+(Et pour m'éviter de me répéter)
+t.race_start = Bienvenue dans la Vallée Vive
+m.text.race_start = Mets à présent le générateur en marche et sors les slimes vifs-argent de leur torpeur.\n\
+\n\
+Au boulot.
+t.race_generator = À tes marques... prête... AU TRAVAIL !
+m.text.race_generator = Trouve à présent des stations électriques afin de collecter des charges pour ton aspipack.
+t.race_pulseshot = Tir éclair acquis !
+m.text.race_pulseshot = Alimente les slimes vifs-argent en tirs éclairs et fais couler les plortes à flot ! À toi les PROFITS !
+t.race_powerup = Stations électriques
+m.text.race_powerup = Les stations donnent des charges électriques. Apprends à les utiliser toutes les trois.\n\
+\n\
+(Je les maîtrise déjà tous)
+t.race_checkpoint = Anneaux Relais
+m.text.race_checkpoint = Passe à travers les anneaux relais pour charger le générateur et ajouter du temps à l'horloge. Vite, petite abeille !
+t.race_energyboost = Boosters d'énergie
+m.text.race_energyboost = Recharge instantanément ton énergie pour te permettre de continuer à avancer. Crois-moi, tu vas en avoir besoin.
+t.mode_time_limit = Mode Ruée
+m.text.mode_time_limit = Gagnez autant de néobucks que possible avant la fin du temps imparti ! \n\
+\n\
+Terminez les requêtes de la zone d'Échange pour gagner plus de temps !
+t.enter_zone_viktor_lab = Allez voir l'Atelier de Viktor !
+m.text.enter_zone_viktor_lab = Viktor Humphries vous a offert un travail dans son atelier ! Prenez le téléporteur dans le Labo pour en savoir plus. 
+t.slimulations_slimepedia = Les procédures d'analyse adéquates.
+m.text.slimulations_slimepedia = La Slimulation est compliquée à gérer dans son état actuel. Consulte le Slimepédia pour connaître les procédures d'analyse adéquates.
+t.slimulations_start_1 = Cachés sous nos yeux
+m.text.slimulations_start_1 = Cherche des largos et slimes buggés ! Aspire-les pour voir si tu as affaire à des slimes buggés déguisés.
+t.slimulations_start_2 = Attends la sortie
+m.text.slimulations_start_2 = Pour quitter la Slimulation, il faudra attendre qu'un téléporteur s'active. Je te dirai quand l'un d'entre eux apparaît !
+t.slimulations_debug_spray = Spray bugicide
+m.text.slimulations_debug_spray = Utilise du spray bugicide sur les slimes buggés déguisés en objets pour les démasquer !
+t.slimulations_damage = Erreur Erreur Erreur
+m.text.slimulations_damage = Les slimes buggés sont des erreurs infiltrées dans la Slimulation, ils ne respectent donc pas les règles. Ils peuvent s'échapper s'ils te blessent sous leur forme de goudrron corrompu.
+t.slimulations_exit_available = Suis les balises !
+m.text.slimulations_exit_available = Suis les balises de sortie qui te permettront de partir en toute sécurité.

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: DecoFieldKit
+  m_EditorClassIdentifier:
+  id: 17104
+  prefab: {fileID: 1324050649344280, guid: 6b8b06c6b1bc89145a404d4ce14c8c41, type: 2}
+  icon: {fileID: 21300000, guid: a4208e58f52b2a846beec2e356a4ebe7, type: 2}
+  pediaLink: 5010
+  blueprintCost: 0
+  craftCosts:
+  - id: 6
+    amount: 20
+  - id: 5
+    amount: 15
+  - id: 11000
+    amount: 4
+  - id: 11019
+    amount: 2
+  buyCountLimit: 0
+  countLimit: 0
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 0

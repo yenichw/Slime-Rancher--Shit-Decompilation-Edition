@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: LampViolet
+  m_EditorClassIdentifier:
+  id: 502
+  prefab: {fileID: 1291637676697303, guid: cb346cdd32a640a469453aa2cc34499e, type: 2}
+  icon: {fileID: 21300000, guid: 70b1ecdf8c255bb42b1383272c1da461, type: 2}
+  pediaLink: 5010
+  blueprintCost: 850
+  craftCosts:
+  - id: 36
+    amount: 12
+  - id: 6
+    amount: 12
+  - id: 11004
+    amount: 8
+  - id: 11005
+    amount: 8
+  buyCountLimit: 0
+  countLimit: 0
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 0

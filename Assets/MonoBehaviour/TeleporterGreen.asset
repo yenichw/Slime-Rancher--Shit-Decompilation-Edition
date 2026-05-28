@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: TeleporterGreen
+  m_EditorClassIdentifier:
+  id: 204
+  prefab: {fileID: 1200139573416610, guid: 254176cd10c42b34fba0f248e6d666c7, type: 2}
+  icon: {fileID: 21300000, guid: 5b8960c01f3a1d144b2c3b2611e88dd9, type: 2}
+  pediaLink: 5009
+  blueprintCost: 1250
+  craftCosts:
+  - id: 4
+    amount: 25
+  - id: 11009
+    amount: 10
+  - id: 11006
+    amount: 5
+  - id: 11011
+    amount: 1
+  buyCountLimit: 2
+  countLimit: 2
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 1

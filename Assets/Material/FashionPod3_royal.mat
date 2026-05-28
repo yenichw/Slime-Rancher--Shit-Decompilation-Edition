@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FashionPod3_royal
+  m_Shader: {fileID: 4800000, guid: 1f65a50303a89b9468736e2c16278251, type: 3}
+  m_ShaderKeywords: _EMISSION
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: 54da6b310125d504cae62184934e5b31, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColorMask:
+        m_Texture: {fileID: 2800000, guid: cdb13fb88fe68414d8a82ee81175da14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GlowRamp:
+        m_Texture: {fileID: 2800000, guid: ef9c26635825cec47a4f08966759b4da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: 7c2a6e4a9163bf3479c4a2d0f8030fe1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Override:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PaintStrokes:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Rim:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AOUV1: 0
+      _Assemble: 1
+      _AssembleDif: 0.25
+      _AssembleDistance: 15
+      _AssembleFalloff: 1
+      _AssembleOffset: 0.67
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _GlowMultiplier: 1
+      _GlowSpeed: 0
+      _Metallic: 0
+      _Mode: 0
+      _NRMTriplanar: 0
+      _NRMUV1: 0
+      _OcclusionStrength: 1
+      _OverrideUV1: 0
+      _PaintMaskTriplanar: 0
+      _Parallax: 0.02
+      _RimStrength: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SpiralColor: 0
+      _SrcBlend: 1
+      _Transparency: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Color00: {r: 0.39705884, g: 0.1560852, b: 0, a: 0.228}
+      _Color01: {r: 0, g: 0.20725149, b: 0.49264705, a: 0.916}
+      _Color10: {r: 0.12856455, g: 0.09083046, b: 0.58823526, a: 0}
+      _Color11: {r: 0.7767749, g: 0.47794116, b: 1, a: 0}
+      _Color20: {r: 0.29411763, g: 0.2744899, b: 0.26384082, a: 0}
+      _Color21: {r: 0.28676468, g: 0.2198723, b: 0.18977074, a: 0.228}
+      _Color30: {r: 0.4705882, g: 0.26288027, b: 0, a: 0.516}
+      _Color31: {r: 0.83823526, g: 0.7540717, b: 0.28352076, a: 0.666}
+      _Color40: {r: 0.16787414, g: 0.2499403, b: 0.33088237, a: 0}
+      _Color41: {r: 0.31617647, g: 0.24421906, b: 0.19761029, a: 0.428}
+      _Color50: {r: 0.39705884, g: 0.80040556, b: 1, a: 0.491}
+      _Color51: {r: 0.9264706, g: 0.9878296, b: 1, a: 1}
+      _Color60: {r: 0.58823526, g: 0.846653, b: 1, a: 0.266}
+      _Color61: {r: 1, g: 0.95334685, b: 0.85294116, a: 0.872}
+      _Color70: {r: 0.9044118, g: 0.6549189, b: 0, a: 0.659}
+      _Color71: {r: 1, g: 0.97991884, b: 0.27205884, a: 0.778}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slimeGoldFace
+  m_Shader: {fileID: 4800000, guid: 1553c3e0892b5c74abc9b2366a44e632, type: 3}
+  m_ShaderKeywords: _COLORMASK_ON _USEOVERRIDE_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: {}
+    m_Floats:
+      _BodyLightingContribution: 1
+      _EmissionLM: 0
+      _Gloss: 0.358
+      _GlossPower: 0.444
+      _LightingUVContribution: 0
+      _LightingUVHorizontalAdjust: 1
+      _NormalSmoothTop: 0
+      _NormalUV1: 0
+      _Outline: 0.005
+      _OverrideAlphaUV1: 0
+      _OverrideBlend: 1
+      _RimPower: 2.375
+      _Shininess: 0.5954557
+      _Specularity: 0
+      _Stripe2UV1: 0
+      _StripeSpeed: 0
+      _StripeUV1: 0
+      _UnscaledTime: 0
+      _UseOverride: 1
+      __dirty: 0
+    m_Colors:
+      _BottomColor: {r: 0.8301887, g: 0.34738484, b: 0, a: 1}
+      _Color: {r: 0.6544118, g: 0.6544118, b: 0.6544118, a: 1}
+      _GlitterColor: {r: 247.51369, g: 75.161224, b: 6.479416, a: 1}
+      _MiddleColor: {r: 0.8207547, g: 0.39622638, b: 0, a: 1}
+      _NormalPanSpeed: {r: 0, g: 0, b: 0, a: 0}
+      _OutlineColor: {r: 0.2352941, g: 0.5569979, b: 1, a: 0.5019608}
+      _RimColor: {r: 0.34596667, g: 0.4059106, b: 0.5808823, a: 1}
+      _SpecColor: {r: 0.88235295, g: 0.8831643, b: 1, a: 1}
+      _StripeRemap1: {r: 0, g: 1, b: 0, a: 1}
+      _StripeRemap2: {r: 0, g: 1, b: 0, a: 1}
+      _TopColor: {r: 1, g: 0.8019724, b: 0.3066038, a: 1}

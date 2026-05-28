@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: objRuinBarrierBlocks
+  m_Shader: {fileID: 4800000, guid: 380d44bb21bb8af48993585022109c85, type: 3}
+  m_ShaderKeywords: _ENABLEDETAILTEX_ON _TOPPERENABLEDETAILTEX_ON _USEMESHUVS_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _ColorRamp:
+        m_Texture: {fileID: 2800000, guid: 65fa8db2ef517d44988965ed0359b186, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Depth:
+        m_Texture: {fileID: 2800000, guid: cc81c1376b2c48e4daa9066931440cdb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailNoiseMask:
+        m_Texture: {fileID: 2800000, guid: 81967c010c649414c9e42c40a2480668, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: 5d24f088a6ea0ae4b944c97bf7638793, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PrimaryTex:
+        m_Texture: {fileID: 2800000, guid: 1b2fea8f53dd6d74eaa278241d39b7b5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BlurOffset: 0.0075
+      _Cutoff: 0.5
+      _EnableDetailTex: 1
+      _Gloss: 0.575
+      _GlossPower: 0.438
+      _RampOffset: 2
+      _RampScale: 1
+      _SeaLevelRampObjectPos: 0
+      _SeaLevelRampOffset: -3
+      _SeaLevelRampScale: 1
+      _TopperCoverage: 1.6785715
+      _TopperEnableDetailTex: 1
+      _TopperSpecularNoiseAdjust: 0.5
+      _UseMeshUVs: 1
+      _node_2998: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _GlassColor: {r: 0.3671064, g: 0.45363024, b: 0.5147059, a: 1}
+      _RampUpper: {r: 0.5058824, g: 0.64705884, b: 0.68235296, a: 1}
+      _SeaLevelRampLower: {r: 0.3098039, g: 0.4078431, b: 0.3921569, a: 1}
+      _SpecularColor: {r: 0.36045632, g: 0.7919505, b: 0.8308824, a: 1}

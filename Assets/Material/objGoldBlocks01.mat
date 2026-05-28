@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: objGoldBlocks01
+  m_Shader: {fileID: 4800000, guid: 1f65a50303a89b9468736e2c16278251, type: 3}
+  m_ShaderKeywords: _ENABLEDETAILTEX_ON _PAINTMASKTRIPLANAR_ON _TOPPERENABLEDETAILTEX_ON _USEMESHUVS_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: cc81c1376b2c48e4daa9066931440cdb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColorMask:
+        m_Texture: {fileID: 2800000, guid: cdb13fb88fe68414d8a82ee81175da14, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GlowRamp:
+        m_Texture: {fileID: 2800000, guid: ef9c26635825cec47a4f08966759b4da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: 5d24f088a6ea0ae4b944c97bf7638793, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Override:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PaintStrokes:
+        m_Texture: {fileID: 2800000, guid: bbf6823d78a7f8f418a620e7d7e47b95, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+      _Rim:
+        m_Texture: {fileID: 2800000, guid: 820496cb4d74963489abc022b57d4bcd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AOUV1: 0
+      _Assemble: 1
+      _AssembleDif: 0.25
+      _AssembleDistance: 15
+      _AssembleFalloff: 1
+      _AssembleOffset: 0.67
+      _Cutoff: 0.5
+      _DifContrast: 0.88
+      _DifHue: 0
+      _DifSat: 0.03
+      _DifVal: -0.05
+      _EnableDetailTex: 1
+      _Gloss: 0.75
+      _GlossPower: 0.3
+      _GlowMultiplier: 1
+      _GlowSpeed: 0
+      _NRMTriplanar: 0
+      _NRMUV1: 0
+      _OverrideUV1: 0
+      _PaintMaskTriplanar: 1
+      _PaintRim: 1
+      _RampOffset: 0.49
+      _RampScale: 1
+      _RimStrength: 1
+      _SeaLevelRampObjectPos: 0
+      _SeaLevelRampOffset: 1.5
+      _SeaLevelRampScale: 2
+      _SpiralColor: 0
+      _TopRampOffset: 13.73
+      _TopRampScale: 7.8
+      _ToporBottom: 0
+      _TopperCoverage: 0.6
+      _TopperDepthStrength: 0.5
+      _TopperEnableDetailTex: 1
+      _TopperSpecularNoiseAdjust: 0.1
+      _Transparency: 1
+      _UseMeshUVs: 1
+      _node_2998: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Color00: {r: 0.5019608, g: 0, b: 0, a: 0}
+      _Color01: {r: 1, g: 0, b: 0, a: 0}
+      _Color10: {r: 0, g: 0.5, b: 0, a: 0}
+      _Color11: {r: 0, g: 1, b: 0, a: 0}
+      _Color20: {r: 0, g: 0, b: 0.5, a: 0}
+      _Color21: {r: 0, g: 0, b: 1, a: 0}
+      _Color30: {r: 0, g: 0, b: 0, a: 0}
+      _Color31: {r: 0.3, g: 0.3, b: 0.3, a: 0}
+      _Color40: {r: 0.5, g: 0, b: 0.5, a: 0}
+      _Color41: {r: 1, g: 0, b: 1, a: 0}
+      _Color50: {r: 0.5, g: 0.5, b: 0, a: 0}
+      _Color51: {r: 1, g: 1, b: 0, a: 0}
+      _Color60: {r: 0, g: 0.5, b: 0.5, a: 0}
+      _Color61: {r: 0, g: 1, b: 1, a: 0}
+      _Color70: {r: 0.4044118, g: 0.2579048, b: 0.17841697, a: 0}
+      _Color71: {r: 0.5147059, g: 0.18103446, b: 0, a: 1}
+      _DifOverlay: {r: 0.5735294, g: 0.4195897, b: 0.29098183, a: 1}
+      _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+      _RampTop: {r: 0.53460205, g: 0.7058823, b: 0.7058823, a: 1}
+      _RampUpper: {r: 0.23137257, g: 0.68235296, b: 0.8117648, a: 1}
+      _SeaLevelRampLower: {r: 0.6901961, g: 0.56078434, b: 0.45098042, a: 1}
+      _SpecularColor: {r: 0.97647065, g: 0.58431375, b: 0.26666668, a: 1}

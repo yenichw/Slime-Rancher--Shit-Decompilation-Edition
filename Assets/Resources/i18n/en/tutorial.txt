@@ -1,0 +1,208 @@
+# Tutorial Entries Text
+
+t.basic_movement = Let's get moving!
+m.input.basic_movement.1 = W
+m.inputdesc.basic_movement.1 = move forward
+m.input.basic_movement.2 = A
+m.inputdesc.basic_movement.2 = move left
+m.input.basic_movement.3 = S
+m.inputdesc.basic_movement.3 = move backward
+m.input.basic_movement.4 = D
+m.inputdesc.basic_movement.4 = move right
+m.input.gamepad.basic_movement.1 = Move
+m.inputdesc.gamepad.basic_movement.1 = move
+
+t.jumping = Hop to it!
+m.input.jumping.1 = Spacebar
+m.inputdesc.jumping.1 = jump
+m.input.jumping.2 = Hold Shift
+m.inputdesc.jumping.2 = sprint
+m.input.gamepad.jumping.1 = Jump
+m.inputdesc.gamepad.jumping.1 = jump
+m.input.gamepad.jumping.2 = Run
+m.inputdesc.gamepad.jumping.2 = sprint
+
+t.vaccing = How to vac like a rancher
+m.text.vaccing = Your vacpack can vac things up and store them in a vac tank.
+m.input.vaccing.1 = Vac
+m.inputdesc.vaccing.1 = vac
+m.input.gamepad.vaccing.1 = Vac
+m.inputdesc.gamepad.vaccing.1 = vac
+
+t.shooting = You vac'd a slime!
+m.text.shooting = Slimes are key to your success. Shoot slimes THROUGH a corral barrier into the corral on the ranch.
+m.input.shooting.1 = PrevSlot
+m.inputdesc.shooting.1 = select vac tank
+m.input.shooting.2 = Attack
+m.inputdesc.shooting.2 = shoot
+m.input.gamepad.shooting.1 = PrevSlot
+m.inputdesc.gamepad.shooting.1 = select prev vac tank
+m.input.gamepad.shooting.2 = NextSlot
+m.inputdesc.gamepad.shooting.2 = select next vac tank
+m.input.gamepad.shooting.3 = Attack
+m.inputdesc.gamepad.shooting.3 = shoot
+
+t.food = Tasty food acquired!
+m.text.food = Food like fruits, veggies, or chickens are used to feed slimes. Try shooting food at a pink slime; they'll eat anything.
+m.input.food.1 = PrevSlot
+m.inputdesc.food.1 = select vac tank
+m.input.food.2 = Attack
+m.inputdesc.food.2 = shoot
+m.input.gamepad.food.1 = PrevSlot
+m.inputdesc.gamepad.food.1 = select prev vac tank
+m.input.gamepad.food.2 = NextSlot
+m.inputdesc.gamepad.food.2 = select next vac tank
+m.input.gamepad.food.3 = Attack
+m.inputdesc.gamepad.food.3 = shoot
+
+t.plort = You acquired a slime plort!
+m.text.plort = When slimes eat they make plorts.\n\n\
+  Head on over to the Plort Market to cash in your plort.
+
+t.market = The Plort Market
+m.text.market = The Plort Market gives you newbucks for your hard-earned plorts.\n\n\
+  Shoot a plort into the Plort Market and earn some cash!
+m.input.market.1 = PrevSlot
+m.inputdesc.market.1 = select vac tank
+m.input.market.2 = Attack
+m.inputdesc.market.2 = shoot
+m.input.gamepad.market.1 = PrevSlot
+m.inputdesc.gamepad.market.1 = select prev vac tank
+m.input.gamepad.market.2 = NextSlot
+m.inputdesc.gamepad.market.2 = select next vac tank
+m.input.gamepad.market.3 = Attack
+m.inputdesc.gamepad.market.3 = shoot
+
+t.death = Welcome back...
+m.text.death = When you're knocked out you'll rest at least 12 hours in order to recover. If you're not careful, you \
+  might wake up to a mob of hungry, unruly slimes on your ranch!
+
+t.garden = You built a garden!
+m.text.garden = Shoot a fruit or veggie into the depositor to begin growing more of that type!
+
+t.largo = Oh my largo!
+m.text.largo = Largo slimes are large slime hybrids formed when a slime eats a plort unlike its own.\n\
+  \n\
+  Vac to keep them on your nozzle, or shoot to send them flying!
+
+t.explore = That about covers the basics!
+m.text.explore = You've learned the fundamentals, now it's time to get out there and explore!\n\
+  \n\
+  Remember, the best way to become a pro rancher is to experiment. Nothing ventured, nothing gained!
+
+t.science_barn = Slime Science!
+m.text.science_barn = You've unlocked The Lab, a special Ranch expansion that will allow you to create gadgets using \
+  Slime Science!\n\
+  \n\
+  Head on over to the barn and get started!
+
+t.science_summary = Time to get crafty!
+m.text.science_summary = This barn has all the equipment you'll need to begin crafting gadgets using Slime Science. \
+  Gadgets include useful utilities to aid in exploring, defensive turrets, decorations, and more!
+
+t.science_refinery = The Refinery
+m.text.science_refinery = In order to fabricate gadgets, you'll need resources in your Refinery. Try shooting a plort \
+  into the Refinery.\n\
+  \n\
+  But remember: any resources deposited into a Refinery CANNOT be removed.
+
+t.science_builder_shop = The Builder's Shop
+m.text.science_builder_shop = The Builder's Shop allows you to purchase blueprints. A blueprint is required to build \
+  any gadget.\n\
+  \n\
+  Be sure to check the Builder's Shop often for new blueprints!
+
+t.science_fabricator = The Fabricator
+m.text.science_fabricator = Once you have a blueprint, the Fabricator allows you to craft gadgets, using resources stored \
+  in the Refinery. \
+  Give it a try!
+
+t.science_gadget_mode = Gadget Mode
+m.text.science_gadget_mode = In order to place gadgets, you need to enable Gadget Mode.
+m.input.science_gadget_mode.1 = T
+m.inputdesc.science_gadget_mode.1 = Toggle Gadget Mode
+m.input.gamepad.science_gadget_mode.1 = ToggleGadgetMode
+m.inputdesc.gamepad.science_gadget_mode.1 = Toggle Gadget Mode
+
+t.science_sites = Build Sites
+m.text.science_sites = In Gadget Mode you cannot vac or shoot, but you can see all the build sites in the world that \
+  you can place your gadgets. \
+  Have a look around!
+
+t.science_place_site = Place Site
+m.text.science_place_site = Once you've found a build site, approach it to open to Place Gadget menu. Then simply \
+  select the gadget you wish to place!
+
+t.science_wrapup = Science Class: Passed!
+m.text.science_wrapup = That covers the basics of Slime Science! To learn more, check out the new Slime Science \
+  section in your Slimepedia. It's loaded with handy info!
+
+t.map = Map Data Acquired!
+m.text.map = Discover map data nodes across the range to uncover more of your map.
+m.input.map.1 = M
+m.inputdesc.map.1 = Access your Map
+m.input.gamepad.map.1 = OpenMap
+m.inputdesc.gamepad.map.1 = Access your Map
+
+t.water = Make a splash!
+m.text.water = A blast of fresh water will calm down any slime for a short while, or dissolve those terrible tarr slimes!\n\n\
+  A watered garden's crops also grow faster!
+
+t.enter_zone_ogden_ranch = Visit Ogden’s Retreat!
+m.text.enter_zone_ogden_ranch = Ogden Ortiz has offered you a job working at his Retreat! Enter the teleporter near the Overgrowth to learn more.
+
+t.wilds_slimepedia = Slimepedia: Survival Guide to The Wilds
+m.text.wilds_slimepedia = The Wilds can be a dangerous place so check your Slimepedia if you need a handy guide!
+
+t.enter_zone_mochi_ranch = Visit Mochi's Manor!
+m.text.enter_zone_mochi_ranch = Mochi Miles has offered you a job working at her Manor! Enter the teleporter in the Grotto to learn more.
+
+t.valley_slimepedia = Slimepedia: New Employee Handbook
+m.text.valley_slimepedia = Check your Slimepedia if you need a reminder of how this all works.\n\n\
+  (So I don't need to repeat myself)
+
+t.race_start = Welcome to the Nimble Valley
+m.text.race_start = Now start the generator and get those quicksilver slimes moving.\n\n\
+  Get to work.
+
+t.race_generator = Ready...set...WORK!
+m.text.race_generator = Now find some charge stations to collect electrical charges for your vacpack.
+
+t.race_pulseshot = Spark Shot Acquired!
+m.text.race_pulseshot = Feed a Spark Shots to quicksilver slimes and let the plorts flow! Sweet PROFITS!
+
+t.race_powerup = Charge Stations
+m.text.race_powerup = Charge stations grant a random electrical power shot. Learn to use all three. \n\n\
+  (I've already mastered them all)
+
+t.race_checkpoint = Relay Rings
+m.text.race_checkpoint = Passing through relay rings charges the generator and adds time to the clock. \
+  Hurry, worker bee!
+
+t.race_energyboost = Energy Boost Stations
+m.text.race_energyboost = Instantly refills all your energy to keep you moving. And you'll need it.
+
+t.mode_time_limit = Rush Mode
+m.text.mode_time_limit = Earn as many newbucks as you can before time runs out!\n\n\
+  Complete Range Exchange requests to earn more time!
+
+t.enter_zone_viktor_lab = Visit Viktor's Workshop!
+m.text.enter_zone_viktor_lab = Viktor Humphries has offered you a job working at his Workshop! Enter the teleporter in the Lab to learn more.
+
+t.slimulations_slimepedia = Slimepedia: Proper Testing Procedures
+m.text.slimulations_slimepedia = The Slimeulation is a lot to handle in its current state. Check the Slimepedia for proper testing procedures.
+
+t.slimulations_start_1 = Hidden in Plain Sight
+m.text.slimulations_start_1 = Be on the lookout for glitched largos and slimes! Vac them up to see if they're glitch slimes in disguise.
+
+t.slimulations_start_2 = Wait for an Exit
+m.text.slimulations_start_2 = To exit the Slimeulation you'll need to wait for a teleporter to activate.  I'll let you know when one appears!
+
+t.slimulations_debug_spray = Debug Spray
+m.text.slimulations_debug_spray = Use debug spray on glitch slimes disguised as objects to reveal them!
+
+t.slimulations_damage = Error Error Error
+m.text.slimulations_damage = Glitch slimes are bugs in the Slimeulation, so they don't play by the rules. They can escape if you take damage from the tarr-like corruption!
+
+t.slimulations_exit_available = Follow the Beacons!
+m.text.slimulations_exit_available = Follow the exit beacons to help guide you to a safe way out.

@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: objSeaWall01
+  m_Shader: {fileID: 4800000, guid: 24e12db6528af944a90c577d082f8ea6, type: 3}
+  m_ShaderKeywords: _ENABLEDETAILTEX_ON _USEMESHUVS_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Depth:
+        m_Texture: {fileID: 2800000, guid: b48981b11c6418c4cb4ce3229aedf2d0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailNoiseMask:
+        m_Texture: {fileID: 2800000, guid: 9622f3af117ff4d448e11bf300be6e04, type: 3}
+        m_Scale: {x: 0.05, y: 0.05}
+        m_Offset: {x: 0, y: 0}
+      _DetailTex:
+        m_Texture: {fileID: 2800000, guid: b8b8dcb865929ec4eb128a9632cb5cb6, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+      _PrimaryLowerTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PrimaryTex:
+        m_Texture: {fileID: 2800000, guid: 53832c5039e63fa4b9cc7f61c951de06, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TopperDepth:
+        m_Texture: {fileID: 2800000, guid: 9622f3af117ff4d448e11bf300be6e04, type: 3}
+        m_Scale: {x: 0.4, y: 0.4}
+        m_Offset: {x: 0, y: 0}
+      _TopperDetailTex:
+        m_Texture: {fileID: 2800000, guid: d4a83288a19216a43a90bf1996ea4714, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+      _TopperSpecular:
+        m_Texture: {fileID: 2800000, guid: 96cfa1b6e252539448876baf341b4e2a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Topper_MainTex:
+        m_Texture: {fileID: 2800000, guid: b8b8dcb865929ec4eb128a9632cb5cb6, type: 3}
+        m_Scale: {x: 0.4, y: 0.4}
+        m_Offset: {x: 0, y: 0}
+      _VerticalRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _DifContrast: 1
+      _DifHue: 0
+      _DifSat: 0
+      _DifVal: 0
+      _EnableDetailTex: 1
+      _Gloss: 0
+      _GlossPower: 0.3
+      _PaintRim: 1
+      _PrimeLowerOffset: 30
+      _PrimeLowerScale: 1
+      _PrimeLowerToggle: 0
+      _RampOffset: 2
+      _RampScale: 1
+      _SeaLevelRampObjectPos: 0
+      _SeaLevelRampOffset: -3
+      _SeaLevelRampScale: 1
+      _TopRampOffset: 30
+      _TopRampScale: 1
+      _ToporBottom: 0
+      _TopperCoverage: 0.65
+      _TopperDepthStrength: 1
+      _TopperEnableDetailTex: 0
+      _TopperSides: 0
+      _TopperSpecularNoiseAdjust: 0.5
+      _UseMeshUVs: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DifOverlay: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+      _RampTop: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _RampUpper: {r: 0.4431373, g: 0.3921569, b: 0.5686275, a: 1}
+      _SeaLevelRampLower: {r: 0.3098039, g: 0.4078431, b: 0.3921569, a: 1}
+      _SpecularColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}

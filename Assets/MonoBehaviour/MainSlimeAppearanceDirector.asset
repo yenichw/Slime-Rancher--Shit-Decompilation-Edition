@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46128dd293042ae2ce2be7611ac0a88, type: 3}
+  m_Name: MainSlimeAppearanceDirector
+  m_EditorClassIdentifier:
+  SlimeDefinitions: {fileID: 11400000, guid: 9d9d58739cfe6084fa50716b4f220988, type: 2}
+  missingIcon: {fileID: 21300000, guid: 299aca88e82c7e14396c922f2a7c9d22, type: 2}
+  appearancePopupUI: {fileID: 1347010885508851, guid: bbf9ad1aef72902458c41aee0881b0c0, type: 2}
+  defaultAnimatorController: {fileID: 9100000, guid: aecd11fd1335620468c18a9ae9faee48, type: 2}

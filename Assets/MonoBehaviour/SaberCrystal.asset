@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b4fae4ff5f97241a58c4b07a86ae2b, type: 3}
+  m_Name: SaberCrystal
+  m_EditorClassIdentifier:
+  Name: Saber Crystal
+  IdentifiableId: 162
+  BaseSlimes:
+  - {fileID: 11400000, guid: 02a5ed6f4026ff741bc8bea8cf26e6c6, type: 2}
+  - {fileID: 11400000, guid: b0998005a994e6d42bb0ee85c0a2469e, type: 2}
+  IsLargo: 1
+  CanLargofy: 0
+  PrefabScale: 2
+  AppearancesDefault:
+  - {fileID: 11400000, guid: f21e4188bc0c95440bc0257cda8e6697, type: 2}
+  Sounds: {fileID: 11400000, guid: 365820afc5d2b9840a3b20de0623901e, type: 2}
+  Diet:
+    MajorFoodGroups:
+    - 2
+    - 1
+    Favorites:
+    - 88
+    AdditionalFoods:
+    - 149
+    Produces:
+    - 164
+    - 78
+    FavoriteProductionCount: 2
+  FavoriteToys:
+  - 13015
+  - 13008
+  BaseModule: {fileID: 1446035495220259, guid: d0d75a86ba1bc5747a71a96678a2e1f3, type: 2}
+  SlimeModules:
+  - {fileID: 1407236336387898, guid: e933e2e837f912a408c62f412a5fa52a, type: 2}
+  - {fileID: 1080526572801827, guid: 81cbedcf4411d62478a4d4e21c092d7b, type: 2}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: eyeFeral_0
+  m_Shader: {fileID: 4800000, guid: b6300004fd6bf014eacffff275d6f06d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Drips:
+        m_Texture: {fileID: 2800000, guid: 87231a86b874d2844af00a9dadc87f6c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FaceAtlas:
+        m_Texture: {fileID: 2800000, guid: f40d5bc6e51dae94bb0e8f5d673e5645, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlowNoise:
+        m_Texture: {fileID: 2800000, guid: 8eeed3f38041089468528539e5e14998, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.5
+    - _EmissionLM: 0
+    - _EnableGlow: 0
+    - _GlowNoiseSpeed: 1
+    - _ScaleAmplitude: 0.1
+    - _UnscaledTime: 0
+    - _WiggleAmplitude: 0.025
+    - _XScaleSpeed: -5
+    - _XWiggleSpeed: 1
+    - _YScaleSpeed: 2.5
+    - _YWiggleSpeed: -0.5
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EyeBlue: {r: 0.13207549, g: 0.042862236, b: 0.020558922, a: 1}
+    - _EyeGreen: {r: 4, g: 0.78431374, b: 0.972549, a: 1}
+    - _EyeRed: {r: 0.1981132, g: 0.067874044, b: 0.058873262, a: 1}
+    - _GlowColor: {r: 2, g: 1.8039216, b: 0, a: 1}

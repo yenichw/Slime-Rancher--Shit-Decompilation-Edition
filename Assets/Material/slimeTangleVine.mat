@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slimeTangleVine
+  m_Shader: {fileID: 4800000, guid: 57205d3759be9f048b30694b8247b792, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Depth:
+        m_Texture: {fileID: 2800000, guid: 5687320f16f4df8458494129848cc435, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Mask:
+        m_Texture: {fileID: 2800000, guid: d4042b4519b5d074787ac041db409354, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: ddad1a433cf67294d8c024df7670b3ae, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Stripes:
+        m_Texture: {fileID: 2800000, guid: 9fe0d77437a4d334f8def424245bc373, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Alpha: 0.99999
+      _Cutoff: 0.5
+      _StripesInvert: 0
+    m_Colors:
+      _BottomColor: {r: 0.12715109, g: 0.22794116, b: 0.09553415, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EndColor: {r: 0.7884799, g: 0.9705882, b: 0.44247407, a: 1}
+      _MiddleColor: {r: 0.31825444, g: 0.58823526, b: 0.23356402, a: 1}
+      _TopColor: {r: 0.50200605, g: 0.64705884, b: 0.38538063, a: 1}

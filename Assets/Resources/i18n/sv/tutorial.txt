@@ -1,0 +1,162 @@
+t.basic_movement = Nu rör vi på oss!
+m.input.basic_movement.1 = W
+m.inputdesc.basic_movement.1 = gå framåt
+m.input.basic_movement.2 = A
+m.inputdesc.basic_movement.2 = gå vänster
+m.input.basic_movement.3 = S
+m.inputdesc.basic_movement.3 = gå bakåt
+m.input.basic_movement.4 = D
+m.inputdesc.basic_movement.4 = gå höger
+m.input.gamepad.basic_movement.1 = Move
+m.inputdesc.gamepad.basic_movement.1 = gå
+t.jumping = Hoppa fram!
+m.input.jumping.1 = Mellanslag
+m.inputdesc.jumping.1 = hoppa
+m.input.jumping.2 = Håll ned Shift
+m.inputdesc.jumping.2 = spring
+m.input.gamepad.jumping.1 = Jump
+m.inputdesc.gamepad.jumping.1 = hoppa
+m.input.gamepad.jumping.2 = Run
+m.inputdesc.gamepad.jumping.2 = spring
+t.vaccing = Sug som en rancher
+m.text.vaccing = Din vacpack kan suga upp saker och förvara dem i en vactank.
+m.input.vaccing.1 = Håll Ned Höger Musknapp
+m.inputdesc.vaccing.1 = sug
+m.input.gamepad.vaccing.1 = Vac
+m.inputdesc.gamepad.vaccing.1 = sug
+t.shooting = Du sög upp en slime!
+m.text.shooting = Slime är nyckeln till din framgång. Skjut in slime i en korall GENOM en korallbarriär på ranchen.
+m.input.shooting.1 = Scrollhjul
+m.inputdesc.shooting.1 = välj vactank
+m.input.shooting.2 = Håll Ned Vänster Musknapp
+m.inputdesc.shooting.2 = skjut
+m.input.gamepad.shooting.1 = PrevSlot
+m.inputdesc.gamepad.shooting.1 = välj föregående vactank
+m.input.gamepad.shooting.2 = NextSlot
+m.inputdesc.gamepad.shooting.2 = välj nästa vactank
+m.input.gamepad.shooting.3 = Attack
+m.inputdesc.gamepad.shooting.3 = skjut
+t.food = God mat införskaffad!
+m.text.food = Mat som frukt, grönsaker eller kyckling används för att mata slime. Försök skjuta mat på en rosa slime; de äter vad som helst!
+m.input.food.1 = Scrollhjul
+m.inputdesc.food.1 = välj vactank
+m.input.food.2 = Håll Ned Vänster Musknapp
+m.inputdesc.food.2 = skjut
+m.input.gamepad.food.1 = PrevSlot
+m.inputdesc.gamepad.food.1 = välj föregående vactank
+m.input.gamepad.food.2 = NextSlot
+m.inputdesc.gamepad.food.2 = välj nästa vactank
+m.input.gamepad.food.3 = Attack
+m.inputdesc.gamepad.food.3 = skjut
+t.plort = Du fick en slimeplort!
+m.text.plort = När slime äter skapar de plortar.\n\
+\n\
+Gå till plortmarknaden för att sälja din plort.
+t.market = Plortmarknaden
+m.text.market = Plortmarknaden ger dig newbucks för dina surt förvärvade plortar.\n\
+\n\
+Skjut in en plort i plortmarknaden och tjäna lite pengar!
+m.input.market.1 = Scrollhjul
+m.inputdesc.market.1 = välj vactank
+m.input.market.2 = Håll Ned Vänster Musknapp
+m.inputdesc.market.2 = skjut
+m.input.gamepad.market.1 = PrevSlot
+m.inputdesc.gamepad.market.1 = välj föregående vactank
+m.input.gamepad.market.2 = NextSlot
+m.inputdesc.gamepad.market.2 = välj nästa vactank
+m.input.gamepad.market.3 = Attack
+m.inputdesc.gamepad.market.3 = skjut
+t.death = Välkommen tillbaka...
+m.text.death = När du är utslagen behöver du minst 12 timmars vila för att återhämta dig. Om du inte är försiktig kan du vakna till en skara hunriga, bråkiga slime på din ranch!
+t.garden = Du byggde en rabatt!
+m.text.garden = Skjut in en frukt eller grönsak i insättaren för att börja odla fler av den sorten!
+t.largo = Herre largo!
+m.text.largo = Largoslime är stora slimehybrider som formas när en slime äter en plort olik dess egen.\n\
+\n\
+Skjut för att hålla i dem vid ditt munstycke, eller skjut för att skicka iväg dem!
+t.explore = Det täcker det mesta av grunderna!
+m.text.explore = Du har lärt dig grunderna, nu är att dags att ge dig ut och utforska!\n\
+\n\
+Kom ihåg, det bästa sättet att bli en proffsrancher är att experimentera. Inget vågat, inget tjänat!
+t.science_barn = Slimevetenskap!
+m.text.science_barn = Du har låst upp Labbet, en speciell utvidgning av ranchen som låter dig skapa grunkor med hjälp av Slimevetenskap!\n\
+\n\
+Pallra dig vidare till ladugården och sätt igång!
+t.science_summary = Molijoxer och mojänger, mackapärer och megafixer
+m.text.science_summary = Den här ladugården har all utrustning du behöver för att börja skapa grunkor med hjälp av Slimevetenskap! Grunkor inkluderar användbara verktyg för att hjälpa dig med utforskning, automatiska försvarstorn, dekorationer och mer!
+t.science_refinery = Raffinaderiet
+m.text.science_refinery = För att tillverka grunkor behöver du resurser i ditt Raffinaderi. Testa att skjuta in en plort i Raffinaderiet.\n\
+\n\
+Men kom ihåg: resurser som sätts i ett Raffinaderi kan INTE tas tillbaka.
+t.science_builder_shop = Byggarens Affär
+m.text.science_builder_shop = Byggarens Affär låter dig köpa ritningar. En ritning krävs alltid för att bygga en grunka.\n\
+\n\
+Se till att kolla efter nya ritningar i Byggarens Affär ofta!
+t.science_fabricator = Fabriceraren
+m.text.science_fabricator = När du har en ritning kan Fabriceraren bygga en grunka med resurserna du har sparat i Raffinaderiet. Testa det!
+t.science_gadget_mode = Grunkläge
+m.text.science_gadget_mode = För att placera grunkor måste du aktivera Grunkläget.
+m.input.science_gadget_mode.1 = T
+m.inputdesc.science_gadget_mode.1 = Aktivera/avaktivera Grunkläge
+m.input.gamepad.science_gadget_mode.1 = ToggleGadgetMode
+m.inputdesc.gamepad.science_gadget_mode.1 = Aktivera/avaktivera Grunkläge
+t.science_sites = Byggplatser
+m.text.science_sites = I Grunkläget kan du inte använda din vacpack, men du kan se alla byggplatser i världen som du kan placera grunkor på. Ta dig en titt!
+t.science_place_site = Placeringsplats
+m.text.science_place_site = När du har hittat en byggplats, gå fram till den för att öppna Placera Grunka-menyn. Välj sedan helt enkelt grunkan du vill placera!
+t.science_wrapup = NO-betyg: godkänt!
+m.text.science_wrapup = Det täcker grunderna av Slimevetenskap! För att lära dig mer, ta en titt på den nya Slimevetenskapsdelen av din Slimepedia. Den är laddad med användbar information!
+t.map = Kartdata Mottagen!
+m.text.map = Upptäck kartdatapunkter över vidden för att avslöja mer av din karta.
+m.input.map.1 = M
+m.inputdesc.map.1 = Visa din Karta
+m.input.gamepad.map.1 = OpenMap
+m.inputdesc.gamepad.map.1 = Visa din Karta
+t.water = Stänk ned!
+m.text.water = En skvätt friskt vatten lugnar ner vilken slime som helst ett litet tag eller löser upp en av de där hemska tjärslimen!\n\
+\n\
+En vattnad rabatts grödor växer också snabbare!
+t.enter_zone_ogden_ranch = Besök Ogdens Lustgård!
+m.text.enter_zone_ogden_ranch = Ogden Ortiz har erbjudit dig ett arbete på hans Lustgård. Stig genom portalen nära Överväxten för att ta reda på mer.
+t.wilds_slimepedia = Slimepedia: Överlev Vildmarken
+m.text.wilds_slimepedia = Vildmarken kan vara en farlig plats så kolla din Slimepedia om du behöver en händig guide!
+t.enter_zone_mochi_ranch = Besök Mochis Herrgård
+m.text.enter_zone_mochi_ranch = Mochi Miles har erbjudit dig ett arbete på henner gård! Stig genom teleportören i Grottan för att ta reda på mer.
+t.valley_slimepedia = Slimepedia: Handbok för Nyanställda
+m.text.valley_slimepedia = Kolla din slimepedia om du behöver en påminnelse om hur allt det här fungerar.\n\
+\n\
+(Så att jag inte behöver upprepa mig)
+t.race_start = Välkommen till Snabba Dalen
+m.text.race_start = Sätt nu igång generatorn och sätt fart på kvicksilverslimen.\n\
+\n\
+Sätt igång nu.
+t.race_generator = Klara... färdiga... JOBBA!
+m.text.race_generator = Leta upp några laddningsstationer för att samla elektriska laddningar till din vacpack.
+t.race_pulseshot = Gnistskott Hittat!
+m.text.race_pulseshot = Mata kvicksilverslime med Gnistskott och låt plortarna flöda! Utsökta VINSTER!
+t.race_powerup = Laddningsstationer
+m.text.race_powerup = Laddningsstationer ger ett slumpvalt elektrisk kraftskott. Lär dig att använda alla tre.\n\
+\n\
+(Jag har redan bemästrat allihopa)
+t.race_checkpoint = Stafettringar
+m.text.race_checkpoint = Att passera genom stafettringar laddar generatorn och lägger till tid på klockan. Skynda på, arbetsbi!
+t.race_energyboost = Energilyftstationer
+m.text.race_energyboost = Fyller direkt upp din energi så att du kan hålla igång. Och det kommer du behöva.
+t.mode_time_limit = Ruschläge
+m.text.mode_time_limit = Tjäna så många newbucks du kan innan tiden tar slut!\n\
+\n\
+Uppfyll Viddbyteshandelsförfrågningar för att tjäna mer tid!
+t.enter_zone_viktor_lab = Besök Viktors Verkstad!
+m.text.enter_zone_viktor_lab = Viktor Humphries har erbjudit dig ett jobb i hans Verkstad. Stig genom teleportören i Labbet för att ta reda på mer.
+t.slimulations_slimepedia = Slimepedia: Ordentlig Testprocedur
+m.text.slimulations_slimepedia = Slemuleringen är rätt svårhanterad i sitt nuvarande stadie. Kolla din Slimepedia för att läsa om ordentlig testprocedur.
+t.slimulations_start_1 = Gömd Framför Näsan
+m.text.slimulations_start_1 = Leta efter buggade largon och slime! Sug upp dem för att se om de är förklädda glitchslime.
+t.slimulations_start_2 = Vänta på en Utgång
+m.text.slimulations_start_2 = För att lämna Slemuleringen måste du vänta på att en teleportör aktiveras. Jag säger till när det kommer en!
+t.slimulations_debug_spray = Debuggingsprej
+m.text.slimulations_debug_spray = Använd debuggingsprej på glitchslime förklädda som föremål för att avslöja dem!
+t.slimulations_damage = Error Error Error
+m.text.slimulations_damage = Glitchslime är buggar i Slemuleringen, så de följer inte reglerna. De kan fly om du tar skada från den tjär-liknande korruptionen!
+t.slimulations_exit_available = Följ Ljusen!
+m.text.slimulations_exit_available = Följ ljusen till utgången för att hitta en säker väg ut.

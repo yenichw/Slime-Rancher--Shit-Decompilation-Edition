@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: hexaComb
+  m_Shader: {fileID: 4800000, guid: 1f65a50303a89b9468736e2c16278251, type: 3}
+  m_ShaderKeywords: _VERTEXCOLORMASK_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: 835234f48199df04eba3ba8359026413, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColorMask:
+        m_Texture: {fileID: 2800000, guid: d5d92c709d4ac744a9c368c618153640, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GlowRamp:
+        m_Texture: {fileID: 2800000, guid: ef9c26635825cec47a4f08966759b4da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: 01e11cc2a7110bc4cafe3b69bf925eb4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Override:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PaintStrokes:
+        m_Texture: {fileID: 2800000, guid: bbf6823d78a7f8f418a620e7d7e47b95, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+      _Rim:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AOUV1: 0
+      _Assemble: 1
+      _AssembleDif: 0.25
+      _AssembleDistance: 15
+      _AssembleFalloff: 1
+      _AssembleOffset: 0.67
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossBlack: 0
+      _GlossBlue: 0
+      _GlossGreen: 0.4
+      _GlossPower: 1
+      _GlossPowerBlack: 1
+      _GlossPowerBlue: 1
+      _GlossPowerGreen: 1
+      _GlossPowerRed: 1
+      _GlossRed: 0
+      _Glossiness: 0.5
+      _GlowMultiplier: 1
+      _GlowShift: 0
+      _GlowSpeed: 0
+      _Metallic: 0
+      _Mode: 0
+      _NRMTriplanar: 0
+      _NRMUV1: 0
+      _OcclusionStrength: 1
+      _OverrideUV1: 0
+      _PaintMaskTriplanar: 0
+      _Parallax: 0.02
+      _RimStrength: 1
+      _Rot: 0
+      _SpiralColor: 0
+      _SrcBlend: 1
+      _SwayStrength: 1.5
+      _Transparency: 1
+      _TriplanarNormals: 0
+      _UVSec: 0
+      _VertexColorMask: 1
+      _WindTurbulance: 8
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Color00: {r: 0.64705884, g: 0.44913495, b: 0.09515572, a: 0.416}
+      _Color01: {r: 0.7941176, g: 0.49000117, b: 0.10510381, a: 0.372}
+      _Color10: {r: 0.7352941, g: 0.53752536, b: 0.18382353, a: 0}
+      _Color11: {r: 0.9485294, g: 0.89465755, b: 0.46031573, a: 0}
+      _Color20: {r: 0.64705884, g: 0.44913495, b: 0.09515572, a: 0.416}
+      _Color21: {r: 0.7941176, g: 0.49000117, b: 0.10510381, a: 1}
+      _Color30: {r: 0.61764705, g: 0.49136144, b: 0.33153114, a: 0}
+      _Color31: {r: 0.7794118, g: 0.6402876, b: 0.2750865, a: 0}
+      _Color40: {r: 0, g: 0, b: 0, a: 0}
+      _Color41: {r: 0, g: 0, b: 0, a: 0}
+      _Color50: {r: 0.1544118, g: 0.09855106, b: 0.014759947, a: 0}
+      _Color51: {r: 0.63235295, g: 0.63235295, b: 0.63235295, a: 0}
+      _Color60: {r: 0, g: 0, b: 0, a: 0}
+      _Color61: {r: 0, g: 0, b: 0, a: 0}
+      _Color70: {r: 0, g: 0, b: 0, a: 0}
+      _Color71: {r: 0, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _RotDirection: {r: 1, g: 0, b: 1, a: 1}

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slimeTarrArn
+  m_Shader: {fileID: 4800000, guid: a598bd32a3018b84fa0c6f114ef89fef, type: 3}
+  m_ShaderKeywords:
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _ColorRamp:
+        m_Texture: {fileID: 2800000, guid: 646171c387d511242b670acbf397070e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Depth:
+        m_Texture: {fileID: 2800000, guid: 87231a86b874d2844af00a9dadc87f6c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Noise:
+        m_Texture: {fileID: 8900000, guid: 552b29a8fd6eee5449cd69542cdf8844, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: abef7a73df3d17445a7bd28b073ed466, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Stripes:
+        m_Texture: {fileID: 2800000, guid: 9fe0d77437a4d334f8def424245bc373, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Alpha: 1
+      _Cutoff: 0.5
+      _StripesInvert: 0
+    m_Colors:
+      _BottomColor: {r: 0.1882353, g: 0.1529412, b: 0.1568628, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _MiddleColor: {r: 0.2904635, g: 0.2459991, b: 0.3676471, a: 1}
+      _TopColor: {r: 0.4313726, g: 0.3960784, b: 0.4313726, a: 1}

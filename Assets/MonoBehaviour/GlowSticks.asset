@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: GlowSticks
+  m_EditorClassIdentifier:
+  id: 14004
+  prefab: {fileID: 1485046969190131, guid: b7440c7f596098744beb74ef6f9d515c, type: 2}
+  icon: {fileID: 21300000, guid: 4c129365de6b0d0439a046315d26598f, type: 2}
+  pediaLink: 5010
+  blueprintCost: 850
+  craftCosts:
+  - id: 36
+    amount: 20
+  - id: 99
+    amount: 10
+  - id: 11000
+    amount: 4
+  - id: 11002
+    amount: 2
+  buyCountLimit: 0
+  countLimit: 0
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 0

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: PortableScarecrow
+  m_EditorClassIdentifier:
+  id: 19003
+  prefab: {fileID: 1844862827146901, guid: ecdcf4e077680dd4f8e56121d441a6e5, type: 2}
+  icon: {fileID: 21300000, guid: eaa329957b9deff48b8585f096851457, type: 2}
+  pediaLink: 5008
+  blueprintCost: 0
+  craftCosts:
+  - id: 6
+    amount: 30
+  - id: 25
+    amount: 10
+  - id: 11000
+    amount: 10
+  - id: 11005
+    amount: 5
+  - id: 11019
+    amount: 3
+  buyCountLimit: 0
+  countLimit: 0
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 0

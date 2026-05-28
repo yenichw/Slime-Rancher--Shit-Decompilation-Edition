@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: envQuarRocky03
+  m_Shader: {fileID: 4800000, guid: 1ba91a49aef5be546b83eeff704f84ec, type: 3}
+  m_ShaderKeywords: _ENABLEDETAILTEX_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Depth:
+        m_Texture: {fileID: 2800000, guid: d5a803bd9fe20ee4a86e9e3ea5d25cbd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _DetailNoiseMask:
+        m_Texture: {fileID: 2800000, guid: 8a430298c98af4e4b8389893cbd1fdf9, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _DetailTex:
+        m_Texture: {fileID: 2800000, guid: cf3ff640a7cf1804ca02f71579159e9b, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+      _PrimaryTex:
+        m_Texture: {fileID: 2800000, guid: b5021836512d6cc40b67e80a59d80bff, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _EnableDetailTex: 1
+      _PaintRim: 1
+      _RampOffset: 2
+      _RampScale: 1
+      _SeaLevelRampOffset: -3
+      _SeaLevelRampScale: 1
+      _TopperCoverage: 0.78571427
+      _TopperEnableDetailTex: 0
+      _node_2998: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _RampUpper: {r: 0.5058824, g: 0.64705884, b: 0.68235296, a: 1}
+      _SeaLevelRampLower: {r: 0.3098039, g: 0.4078431, b: 0.3921569, a: 1}

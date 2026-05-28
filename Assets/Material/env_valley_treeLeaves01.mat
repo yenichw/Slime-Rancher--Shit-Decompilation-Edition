@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: env_valley_treeLeaves01
+  m_Shader: {fileID: 4800000, guid: f7b4e6ae7fdc56d4dbc715955a8963d7, type: 3}
+  m_ShaderKeywords: _ALPHA_ON _DISABLENOISE_ON _ENABLEDETAILTEX_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _CoreTex:
+        m_Texture: {fileID: 2800000, guid: 0efe9c66f0c34524eb4f3aad3573f590, type: 3}
+        m_Scale: {x: 1, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+      _Depth:
+        m_Texture: {fileID: 2800000, guid: 006a70509283afa4aa6c25ea92302025, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+      _DetailNoiseMask:
+        m_Texture: {fileID: 2800000, guid: ddecec18eb7db754387b8c44841ab25b, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+      _DetailTex:
+        m_Texture: {fileID: 2800000, guid: 0efe9c66f0c34524eb4f3aad3573f590, type: 3}
+        m_Scale: {x: 0.2, y: 0.2}
+        m_Offset: {x: 0, y: 0}
+      _PrimaryTex:
+        m_Texture: {fileID: 2800000, guid: 0efe9c66f0c34524eb4f3aad3573f590, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Alpha: 1
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _Density: 1
+      _DetailNormalMapScale: 1
+      _DisableNoise: 1
+      _DstBlend: 0
+      _EdgeWindOnly: 1
+      _EnableDetailTex: 1
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _Metallic: 0
+      _Mode: 0
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _SwayStrength: 1
+      _UVSec: 0
+      _VertexColorMask: 0
+      _WindAllorEdge: 0
+      _WindSpeed: 1.5
+      _WindStrength: 1
+      _WindTurbulance: 10
+      _WindatEdgesOnly: 1
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 0, g: 1, b: 0.8982332, a: 1}
+      _DisperseSizeSpeed: {r: 1, g: 1, b: 0, a: 2}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

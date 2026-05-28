@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Depth Water
+  m_Shader: {fileID: 4800000, guid: ee243b62d1eb0bc4fa4aefb0907d8831, type: 3}
+  m_ShaderKeywords: _DEPTHBLEND_ON _REFRACTION_ON _RELECTIONS_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _ColorRamp:
+        m_Texture: {fileID: 2800000, guid: b7a3210c0cbf82a44a69ef69ae941bba, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Dirt:
+        m_Texture: {fileID: 2800000, guid: 0f0349f1fb52782428c22039e3e24cfd, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _Foam:
+        m_Texture: {fileID: 2800000, guid: 8ae1adf8015247547ba30be596b99d36, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _SurfacePattern:
+        m_Texture: {fileID: 2800000, guid: 0f0349f1fb52782428c22039e3e24cfd, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+      _WavesHeight:
+        m_Texture: {fileID: 2800000, guid: 5083c70a812d1ea449cf6362a31e85e2, type: 3}
+        m_Scale: {x: 0.025, y: 0.025}
+        m_Offset: {x: 0, y: 0}
+      _WavesNormal:
+        m_Texture: {fileID: 2800000, guid: 7303b90a83cb79241a46babc48ab156a, type: 3}
+        m_Scale: {x: 0.025, y: 0.025}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Alpha: 1
+      _BlurAmount: 1
+      _BlurOffset: 0.005
+      _BumpScale: 1
+      _ColorDensity: 0.75
+      _ColorFadeEnd: 5
+      _ColorFadeStart: 2
+      _Cutoff: 0.5
+      _Density: 3
+      _DepthBlend: 1
+      _DetailNormalMapScale: 1
+      _DirtFade: 1
+      _DirtOffset: 1
+      _DstBlend: 0
+      _EdgeClipDistance: 1
+      _EdgeFade: 0.333
+      _EdgeHardness: 0.8
+      _EdgeSpeed: 2
+      _EdgeWidth: 1.5
+      _Fade: 1
+      _FadeEnd: 10
+      _FadeStart: 1
+      _Fademax: 20
+      _FallScale: 1
+      _FallSpeed: 1
+      _FreshWater: 0
+      _FresnelStrength: 0
+      _Glossiness: 0.5
+      _Metallic: 0
+      _Mode: 0
+      _NormalStrength: 0.5
+      _OcclusionStrength: 1
+      _Parallax: 0.02
+      _ReflectionDistortionIntensity: 1
+      _ReflectionFade: 1
+      _RefractedLightFade: 2
+      _Refraction: 1
+      _RefractionAmount: 1
+      _Relections: 1
+      _SrcBlend: 1
+      _SurfacePataternFade: 0.1667
+      _UVSec: 0
+      _WaveEnergy: 2
+      _WaveFade: 1
+      _WaveHeight: 2
+      _WaveNoise: 1
+      _WaveOffset: -1
+      _WaveScale: 2
+      _WaveSpeed: 3
+      _WaveWidth: 1
+      _ZWrite: 1
+      _node_6024: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _ColorMultiply: {r: 0, g: 4, b: 2, a: 0}
+      _DisperseSizeSpeed: {r: 10, g: 10, b: 0, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _RGBOffsetU: {r: 0, g: 0, b: 0, a: -0.5}
+      _RGBOffsetV: {r: 0.8, g: 3.2, b: 7.7, a: 5}

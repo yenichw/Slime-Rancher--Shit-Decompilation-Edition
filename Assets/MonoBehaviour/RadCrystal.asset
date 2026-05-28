@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b4fae4ff5f97241a58c4b07a86ae2b, type: 3}
+  m_Name: RadCrystal
+  m_EditorClassIdentifier:
+  Name: Rad Crystal
+  IdentifiableId: 85
+  BaseSlimes:
+  - {fileID: 11400000, guid: c9d98d274eff8b5459d504785d21014c, type: 2}
+  - {fileID: 11400000, guid: b0998005a994e6d42bb0ee85c0a2469e, type: 2}
+  IsLargo: 1
+  CanLargofy: 0
+  PrefabScale: 2
+  AppearancesDefault:
+  - {fileID: 11400000, guid: 2f774bf4594c0af4a8e601e21ba00f28, type: 2}
+  Sounds: {fileID: 11400000, guid: 13176b944fc5d6748b1d4a3aebe9835c, type: 2}
+  Diet:
+    MajorFoodGroups:
+    - 1
+    Favorites:
+    - 20
+    - 88
+    AdditionalFoods:
+    - 149
+    Produces:
+    - 4
+    - 78
+    FavoriteProductionCount: 2
+  FavoriteToys:
+  - 13004
+  - 13008
+  BaseModule: {fileID: 1446035495220259, guid: d0d75a86ba1bc5747a71a96678a2e1f3, type: 2}
+  SlimeModules:
+  - {fileID: 1105416761444291, guid: ac9b29cc511ee1148a48a12aeec5462a, type: 2}
+  - {fileID: 1080526572801827, guid: 81cbedcf4411d62478a4d4e21c092d7b, type: 2}

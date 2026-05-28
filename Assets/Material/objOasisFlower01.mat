@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: objOasisFlower01
+  m_Shader: {fileID: 4800000, guid: 1f65a50303a89b9468736e2c16278251, type: 3}
+  m_ShaderKeywords: _EMISSION _PAINTMASKTRIPLANAR_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: c7e9336ecb6b2b74d90aadcfb786103c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColorMask:
+        m_Texture: {fileID: 2800000, guid: 104d7440e319f5d43b0a20ad25e6483e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GlowRamp:
+        m_Texture: {fileID: 2800000, guid: ef9c26635825cec47a4f08966759b4da, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: e46cad3d9712bd54ba310084d682315d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Override:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PaintStrokes:
+        m_Texture: {fileID: 2800000, guid: bbf6823d78a7f8f418a620e7d7e47b95, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+      _Rim:
+        m_Texture: {fileID: 2800000, guid: c5ad1638bc77651409c2060ab6011a65, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AOUV1: 0
+      _Assemble: 1
+      _AssembleDif: 0.25
+      _AssembleDistance: 15
+      _AssembleFalloff: 1
+      _AssembleOffset: 0.67
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossMapScale: 1
+      _Glossiness: 0.5
+      _GlossyReflections: 1
+      _GlowMultiplier: 1
+      _GlowSpeed: 0
+      _Metallic: 0
+      _Mode: 0
+      _NRMTriplanar: 0
+      _NRMUV1: 0
+      _OcclusionStrength: 1
+      _OverrideUV1: 0
+      _PaintMaskTriplanar: 1
+      _Parallax: 0.02
+      _RimStrength: 1
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SpiralColor: 0
+      _SrcBlend: 1
+      _Transparency: 1
+      _UVSec: 0
+      _ZWrite: 1
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Color00: {r: 1, g: 0.3103448, b: 0, a: 0.809}
+      _Color01: {r: 1, g: 0.4758621, b: 0, a: 0.185}
+      _Color10: {r: 0, g: 0.46369186, b: 0.5294118, a: 0.428}
+      _Color11: {r: 0.29022494, g: 0.64705884, b: 0.42557582, a: 0.291}
+      _Color20: {r: 0, g: 0.9172416, b: 1, a: 0.709}
+      _Color21: {r: 1, g: 0.5586207, b: 0, a: 0.484}
+      _Color30: {r: 0.3455882, g: 0.317128, b: 0.2744377, a: 0.372}
+      _Color31: {r: 0.589041, g: 0.3391003, b: 0.7205882, a: 0}
+      _Color40: {r: 0.5, g: 0, b: 0.5, a: 0}
+      _Color41: {r: 1, g: 0, b: 1, a: 0}
+      _Color50: {r: 0.5, g: 0.5, b: 0, a: 0}
+      _Color51: {r: 1, g: 1, b: 0, a: 0}
+      _Color60: {r: 0, g: 0.5, b: 0.5, a: 0}
+      _Color61: {r: 0, g: 1, b: 1, a: 0}
+      _Color70: {r: 0.5, g: 0.5, b: 0.5, a: 0}
+      _Color71: {r: 1, g: 1, b: 1, a: 0}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

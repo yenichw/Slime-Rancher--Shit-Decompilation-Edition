@@ -1,0 +1,130 @@
+using System.Collections.Generic;
+using System.IO;
+
+namespace MonomiPark.SlimeRancher.Persist
+{
+	public class ActorDataV06 : VersionedPersistedDataSet<ActorDataV05>
+	{
+		public Vector3V02 pos;
+
+		public Vector3V02 rot;
+
+		public int typeId;
+
+		public long actorId;
+
+		public SlimeEmotionDataV02 emotions;
+
+		public double transformTime;
+
+		public double reproduceTime;
+
+		public ResourceCycleDataV03 cycleData;
+
+		public double? disabledAtTime;
+
+		public bool isFeral;
+
+		public List<Identifiable.Id> fashions = new List<Identifiable.Id>();
+
+		private const float ACTOR_MOVE_TOLERANCE = 0.01f;
+
+		public override string Identifier => "SRAD";
+
+		public override uint Version => 6u;
+
+		public ActorDataV06()
+		{
+		}
+
+		public ActorDataV06(ActorDataV05 legacyData)
+		{
+			UpgradeFrom(legacyData);
+		}
+
+		protected override void LoadData(BinaryReader reader)
+		{
+			pos = new Vector3V02();
+			pos.Load(reader.BaseStream);
+			rot = new Vector3V02();
+			rot.Load(reader.BaseStream);
+			actorId = reader.ReadInt64();
+			typeId = reader.ReadInt32();
+			emotions = new SlimeEmotionDataV02();
+			emotions.Load(reader.BaseStream);
+			transformTime = reader.ReadDouble();
+			reproduceTime = reader.ReadDouble();
+			cycleData = new ResourceCycleDataV03();
+			cycleData.Load(reader.BaseStream);
+			if (reader.ReadBoolean())
+			{
+				disabledAtTime = reader.ReadDouble();
+			}
+			isFeral = reader.ReadBoolean();
+			fashions = PersistedDataSet.LoadList(reader, (int v) => (Identifiable.Id)v);
+		}
+
+		protected override void WriteData(BinaryWriter writer)
+		{
+			pos.Write(writer.BaseStream);
+			rot.Write(writer.BaseStream);
+			writer.Write(actorId);
+			writer.Write(typeId);
+			emotions.Write(writer.BaseStream);
+			writer.Write(transformTime);
+			writer.Write(reproduceTime);
+			cycleData.Write(writer.BaseStream);
+			if (disabledAtTime.HasValue)
+			{
+				writer.Write(value: true);
+				writer.Write(disabledAtTime.Value);
+			}
+			else
+			{
+				writer.Write(value: false);
+			}
+			writer.Write(isFeral);
+			PersistedDataSet.WriteList(writer, fashions, (Identifiable.Id v) => (int)v);
+		}
+
+		public static void AssertAreEqual(ActorDataV06 expected, ActorDataV06 actual, bool allowActorMovement = false)
+		{
+			if (allowActorMovement)
+			{
+				Vector3V02.AssertAreApproximatelyEqual(expected.pos, actual.pos, 0.01f);
+			}
+			else
+			{
+				Vector3V02.AssertAreEqual(expected.pos, actual.pos);
+			}
+			Vector3V02.AssertAreApproximatelyEqual(expected.rot, actual.rot, 0.1f);
+			ResourceCycleDataV03.AssertAreEqual(expected.cycleData, actual.cycleData);
+			SlimeEmotionDataV02.AssertAreEqual(expected.emotions, actual.emotions);
+			TestUtil.AssertAreEqual(expected.fashions, actual.fashions, "fashions");
+		}
+
+		public static void AssertAreEqual(ActorDataV05 expected, ActorDataV06 actual)
+		{
+			Vector3V02.AssertAreEqual(expected.pos, actual.pos);
+			Vector3V02.AssertAreEqual(expected.rot, actual.rot);
+			ResourceCycleDataV03.AssertAreEqual(expected.cycleData, actual.cycleData);
+			SlimeEmotionDataV02.AssertAreEqual(expected.emotions, actual.emotions);
+			TestUtil.AssertAreEqual(expected.fashions, actual.fashions, "fashions");
+		}
+
+		protected override void UpgradeFrom(ActorDataV05 legacyData)
+		{
+			pos = legacyData.pos;
+			rot = legacyData.rot;
+			typeId = legacyData.id;
+			emotions = legacyData.emotions;
+			transformTime = legacyData.transformTime;
+			reproduceTime = legacyData.reproduceTime;
+			cycleData = legacyData.cycleData;
+			disabledAtTime = legacyData.disabledAtTime;
+			isFeral = legacyData.isFeral;
+			fashions = legacyData.fashions;
+			actorId = 0L;
+		}
+	}
+}

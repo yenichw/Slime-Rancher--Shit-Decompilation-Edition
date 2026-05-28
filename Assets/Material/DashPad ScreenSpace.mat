@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DashPad ScreenSpace
+  m_Shader: {fileID: 4800000, guid: ee2a0c452b907f641a1fa834e08c4d85, type: 3}
+  m_ShaderKeywords: _BLUEUVSRADIAL_ON _GREENUVSRADIAL_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3500
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _GradientMap:
+        m_Texture: {fileID: 2800000, guid: 0ce8058dd46144e4da9911b68f1e5e0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _MainTexture:
+        m_Texture: {fileID: 2800000, guid: bf63b5e9522dddf4b9a1cf95443cc183, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _BlueUVsRadial: 1
+      _EnableGradientMap: 0
+      _FinalMax: 1
+      _FinalMin: -0.08
+      _Float1: 0
+      _Float2: 0
+      _Float3: 0
+      _GreenUVsRadial: 1
+      _MainTexUVsRadial: 0
+      _RadialMaskMax: 1
+      _RadialMaskMin: 0.37
+      _RadialMax: 0
+      _RadialMin: 0
+      _RedUVsRadial: 0
+      _SmoothStepMax: 1
+      _SmoothStepMin: 0
+      _VerticalMaskMax: 1
+      _VerticalMaskMin: 0.5
+      _VerticalMax: 0
+      _VerticalMin: 0
+      _VerticalOffset: 0
+      _VerticalTiling: 1
+      __dirty: 0
+    m_Colors:
+      _BlueSpeedXYScaleZW: {r: 0.25, g: -0.5, b: 1, a: 0.5}
+      _Color: {r: 0, g: 0.81646824, b: 2, a: 1}
+      _Color2: {r: 0, g: 0.81646824, b: 2, a: 1}
+      _FinalMixOldMinMaxNewMinMax: {r: 0, g: 0.15, b: 0, a: 0.5}
+      _GreenSpeedXYScaleZW: {r: -0.25, g: -0.8, b: 1, a: 0.7}
+      _MainTexPanSpeedXY: {r: 0.34, g: 0, b: 0, a: 0}
+      _MainTexSpeedXYScaleZW: {r: 0, g: 0, b: 1, a: 1}
+      _PanSpeedXY: {r: 0, g: 0, b: 0, a: 0}
+      _RadialMaskTilingOffset: {r: 0.7, g: 0.7, b: 0.15, a: 0.15}
+      _RadialTilingOffset: {r: 1, g: 1, b: 0, a: 0}
+      _RedSpeedXYScaleZW: {r: 0.02, g: 0.5, b: 0.5, a: 0.4}
+      _Vector0: {r: 0, g: 0, b: 0, a: 0}
+      _Vector1: {r: 1, g: 0, b: 0, a: 0}
+      _VerticalMaskTilingOffset: {r: 1, g: 0.5, b: 0, a: 0.03}
+      _VerticalTilingOffset: {r: 1, g: 1, b: 0, a: 0}

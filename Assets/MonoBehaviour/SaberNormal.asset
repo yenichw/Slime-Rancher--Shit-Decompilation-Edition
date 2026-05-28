@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27de369ffb814913a31b5244286a6334, type: 3}
+  m_Name: SaberNormal
+  m_EditorClassIdentifier:
+  NameXlateKey: l.classic_appearance
+  Icon: {fileID: 21300000, guid: d37012acdcfa17d4c8f5f6194fe16892, type: 2}
+  AnimatorOverride: {fileID: 0}
+  Structures:
+  - DefaultMaterials:
+    - {fileID: 2100000, guid: a4f0984d1d18ccf4a8d3b95b504b60e6, type: 2}
+    Element: {fileID: 11400000, guid: 71bf5dfb8557900419f0d1f5067628b4, type: 2}
+    ElementMaterials:
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    SupportsFaces: 1
+    FaceRules:
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 1
+      ShowMouth: 1
+    - ShowEyes: 0
+      ShowMouth: 0
+  Face: {fileID: 11400000, guid: caf2984bcd663314d9572511c7bcae5a, type: 2}
+  QubitAppearance: {fileID: 0}
+  ShockedAppearance: {fileID: 0}
+  DependentAppearances: []
+  ColorPalette:
+    Top: {r: 0.85098046, g: 0.65882355, b: 0.41960788, a: 1}
+    Middle: {r: 0.8014706, g: 0.6166609, b: 0.38894895, a: 1}
+    Bottom: {r: 0.44852942, g: 0.29832608, b: 0.1583045, a: 1}
+    Ammo: {r: 0, g: 0, b: 0, a: 0}
+  GlintAppearance: {fileID: 0}
+  TornadoAppearance: {fileID: 0}
+  VineAppearance: {fileID: 0}
+  CrystalAppearance: {fileID: 0}
+  ExplosionAppearance: {fileID: 0}
+  DeathAppearance: {fileID: 0}
+  SaveSet: 1

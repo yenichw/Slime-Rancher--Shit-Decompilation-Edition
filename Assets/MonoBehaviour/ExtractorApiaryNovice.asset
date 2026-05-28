@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: ExtractorApiaryNovice
+  m_EditorClassIdentifier:
+  id: 120
+  prefab: {fileID: 1202959789504476, guid: 4a6a0c1bde9f2674fb66768e756be258, type: 2}
+  icon: {fileID: 21300000, guid: 55ed86301739c234287f425ecac9761a, type: 2}
+  pediaLink: 5007
+  blueprintCost: 500
+  craftCosts:
+  - id: 6
+    amount: 10
+  - id: 36
+    amount: 6
+  - id: 60
+    amount: 3
+  buyCountLimit: 0
+  countLimit: 6
+  countOtherIds:
+  - 121
+  - 122
+  - 123
+  destroyOnRemoval: 1
+  buyInPairs: 0

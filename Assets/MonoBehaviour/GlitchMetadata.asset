@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ce5591b69951d0cde694eaeb756d5c7, type: 3}
+  m_Name: GlitchMetadata
+  m_EditorClassIdentifier:
+  damageLossExposure:
+    spawnCount: {x: 3, y: 5}
+    spawnRadius: 0
+    velocity: 15
+    velocityRotationX: {x: -45, y: 45}
+    velocityRotationY: {x: -45, y: 45}
+    capturePreventionTime: 0
+    capturePreventionFX: {fileID: 1297631565626391, guid: 8fac6012bcee3284a9fe8bdfdaa5e648, type: 2}
+    onExposedFX: {fileID: 1067200823103523, guid: 45c1f0bccd026eb46a68b9de94ec2edd, type: 2}
+    onExposedSFX: {fileID: 11400000, guid: bf12fc692f1cb214eaa229cacd508091, type: 2}
+  damageLossCooldown: 1
+  damageLossAmmoFX: {fileID: 1006929032213558, guid: 3b1f82268f343b647bdea9fc8861f95e, type: 2}
+  teleportActivationDelay: {x: 5, y: 5}
+  teleportHudPrefab: {fileID: 1630808809996727, guid: 346ee45e226519e4d86d5232d488c11d, type: 2}
+  teleportHudLifetime: 15
+  debugSprayMaxAmmo: 30
+  debugSprayAmmoPerStation: 15
+  dittoStandard:
+    probability: 0.25
+    exposure:
+      spawnCount: {x: 1, y: 1}
+      spawnRadius: 1
+      velocity: 15
+      velocityRotationX: {x: -45, y: 45}
+      velocityRotationY: {x: -35, y: 35}
+      capturePreventionTime: 0.5
+      capturePreventionFX: {fileID: 1297631565626391, guid: 8fac6012bcee3284a9fe8bdfdaa5e648, type: 2}
+      onExposedFX: {fileID: 1067200823103523, guid: 45c1f0bccd026eb46a68b9de94ec2edd, type: 2}
+      onExposedSFX: {fileID: 0}
+  dittoLargo:
+    probability: 0.5
+    exposure:
+      spawnCount: {x: 3, y: 5}
+      spawnRadius: 1.5
+      velocity: 15
+      velocityRotationX: {x: -45, y: 45}
+      velocityRotationY: {x: -45, y: 45}
+      capturePreventionTime: 0.5
+      capturePreventionFX: {fileID: 1297631565626391, guid: 8fac6012bcee3284a9fe8bdfdaa5e648, type: 2}
+      onExposedFX: {fileID: 1067200823103523, guid: 45c1f0bccd026eb46a68b9de94ec2edd, type: 2}
+      onExposedSFX: {fileID: 0}
+  dittoOverrides:
+  - probability: 1
+    exposure:
+      spawnCount: {x: 8, y: 10}
+      spawnRadius: 1.5
+      velocity: 15
+      velocityRotationX: {x: -45, y: 45}
+      velocityRotationY: {x: -35, y: 35}
+      capturePreventionTime: 0.5
+      capturePreventionFX: {fileID: 1297631565626391, guid: 8fac6012bcee3284a9fe8bdfdaa5e648, type: 2}
+      onExposedFX: {fileID: 1067200823103523, guid: 45c1f0bccd026eb46a68b9de94ec2edd, type: 2}
+      onExposedSFX: {fileID: 0}
+    id: 11
+  - probability: 1
+    exposure:
+      spawnCount: {x: 8, y: 10}
+      spawnRadius: 1.5
+      velocity: 15
+      velocityRotationX: {x: -45, y: 45}
+      velocityRotationY: {x: -35, y: 35}
+      capturePreventionTime: 0.5
+      capturePreventionFX: {fileID: 1295478901307588, guid: 480b62cbe23558247975fb6f8ac2f799, type: 2}
+      onExposedFX: {fileID: 1490991378495165, guid: cc831a7c67951f446b2571bd6aae93d1, type: 2}
+      onExposedSFX: {fileID: 0}
+    id: 77
+  impostoExposure:
+    spawnCount: {x: 10, y: 15}
+    spawnRadius: 2
+    velocity: 12
+    velocityRotationX: {x: 0, y: 360}
+    velocityRotationY: {x: 0, y: 360}
+    capturePreventionTime: 0.5
+    capturePreventionFX: {fileID: 1297631565626391, guid: 8fac6012bcee3284a9fe8bdfdaa5e648, type: 2}
+    onExposedFX: {fileID: 1067200823103523, guid: 45c1f0bccd026eb46a68b9de94ec2edd, type: 2}
+    onExposedSFX: {fileID: 11400000, guid: bad7a5f70b3dc9043a9337dfa61ee3e9, type: 2}
+  impostoDeactivateTime: 5
+  impostoDetectionRange: 3000
+  impostoFailedExposedDelayTime: 0.1
+  impostoCooldownTime: 12
+  impostoMinHibernationTime: 2
+  impostoFlickerCooldownTime: {x: 5, y: 15}
+  impostoFlickerSpeed: {x: 2.5, y: 2.5}
+  impostoFlickerRadius: {x: 0.04, y: 0.06}
+  impostoFlickerPoints: 40
+  impostoFlickerFX: {fileID: 0}
+  impostoFlickerCue: {fileID: 0}
+  slimeLifetime: {x: 7, y: 13}
+  slimeExposure:
+    spawnCount: {x: 2, y: 2}
+    spawnRadius: 2
+    velocity: 5
+    velocityRotationX: {x: -45, y: 30}
+    velocityRotationY: {x: 0, y: 360}
+    capturePreventionTime: 0
+    capturePreventionFX: {fileID: 1297631565626391, guid: 8fac6012bcee3284a9fe8bdfdaa5e648, type: 2}
+    onExposedFX: {fileID: 1067200823103523, guid: 45c1f0bccd026eb46a68b9de94ec2edd, type: 2}
+    onExposedSFX: {fileID: 11400000, guid: 2c211d323db53224592d8ee586469ea3, type: 2}
+  slimeBaseExposureChance: 0.5
+  slimeExposureChanceDegradation: 1
+  slimeFleeDelay: 0.5
+  slimeMaxAmmo: 150
+  tarrLifetime: {x: 15, y: 20}
+  tarrBaseMultiplyChance: 0.5
+  tarrMultiplyChanceDegradation: 1
+  tarrMultiplyCount: {x: 2, y: 2}
+  tarrSpawnerThrottleTime: 15
+  tarrNodeActivationDelay: 4
+  tarrNodeActivationDelayPerNode: 0.25
+  tarrNodeMinActivationDistanceSquared: 20000
+  tarrNodeScaleInSpeed: 0.3
+  tarrNodeSpawnDamagePreventionTime: 3
+  tarrNodeMusicDistanceMultiplier: 0.75
+  musicSlimulation:
+    background: {fileID: 11400000, guid: c60f96e33ae51c04c95335cd20051576, type: 2}
+    nightBackground: {fileID: 11400000, guid: c60f96e33ae51c04c95335cd20051576, type: 2}
+  musicViktorLab:
+    background: {fileID: 11400000, guid: d57d532d290f3d949ab08cfda4215675, type: 2}
+    nightBackground: {fileID: 11400000, guid: c9435b3c3ec481049b74afa1c66b9e54, type: 2}
+  ambianceTimeOfDay: 0.6
+  animationFX: {fileID: 1080072245300771, guid: 67f057e9d1fb62d40b8e7f06364671c9, type: 2}
+  animationSeaMaterial: {fileID: 2100000, guid: 5ff433d79504d694fb5a432f1985cb73, type: 2}
+  animationOnTerminalBootupCue: {fileID: 11400000, guid: d9c002e6294af894289945ebf1d8ab8b, type: 2}
+  animationOnTerminalIdleCue: {fileID: 11400000, guid: b7bf2138b2dbaa0479b8e889f397f63a, type: 2}
+  animationOnTeleportInCue: {fileID: 11400000, guid: 8e2c28aa230d2f1428ef4a1dae3a2cdc, type: 2}
+  animationOnTeleportOutCue: {fileID: 11400000, guid: 135f51af888818e4da003a45bed65fe9, type: 2}
+  activatorGuiProgress: {fileID: 1582688535393787, guid: 9206d46a3068b1649b2740f39f4f7705, type: 2}
+  activatorGuiAmmo: {fileID: 1354904139575449, guid: cb9895e6e91528c4292f261867eb4a29, type: 2}
+  activatorGuiPreActive: {fileID: 1392061259268976, guid: 3d43c63138cb20743b37a4fa9831b7b0, type: 2}

@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1462294750134200
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4715602694882927}
+  - component: {fileID: 114742620636988571}
+  - component: {fileID: 114285581404775961}
+  m_Layer: 5
+  m_Name: EmptyPlotUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4715602694882927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462294750134200}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114742620636988571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462294750134200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3f5b4972db4a052e1dd508e5f1a9280, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  statusArea: {fileID: 0}
+  titleIcon: {fileID: 21300000, guid: 89a95879d9a888a4fa0a27d5b23fa331, type: 2}
+  corral:
+    icon: {fileID: 21300000, guid: 1fa9f23d118dade4cbee81cba396b08b, type: 2}
+    img: {fileID: 21300000, guid: 1fa9f23d118dade4cbee81cba396b08b, type: 2}
+    cost: 250
+    plotPrefab: {fileID: 1765678144976877, guid: ac36c414ad0e6854785841af1a495743, type: 2}
+  garden:
+    icon: {fileID: 21300000, guid: c2e4d14d66acf4940bb4dd215c4c46e0, type: 2}
+    img: {fileID: 21300000, guid: c2e4d14d66acf4940bb4dd215c4c46e0, type: 2}
+    cost: 250
+    plotPrefab: {fileID: 1431075720042534, guid: 2a5fbaae9ce432c44b3effb698726b74, type: 2}
+  coop:
+    icon: {fileID: 21300000, guid: 1437051a314cce34dbedaa768583a184, type: 2}
+    img: {fileID: 21300000, guid: 1437051a314cce34dbedaa768583a184, type: 2}
+    cost: 250
+    plotPrefab: {fileID: 1668376451980017, guid: 42ffd982a6dd15f478de59cec69f274f, type: 2}
+  silo:
+    icon: {fileID: 21300000, guid: 48445a6470812944e800131ac8cc5e04, type: 2}
+    img: {fileID: 21300000, guid: 48445a6470812944e800131ac8cc5e04, type: 2}
+    cost: 450
+    plotPrefab: {fileID: 1559336697747509, guid: e21e8ea29d01f17478b36cf64bccbec3, type: 2}
+  incinerator:
+    icon: {fileID: 21300000, guid: f65119332dca47d428f77253936c025f, type: 2}
+    img: {fileID: 21300000, guid: f65119332dca47d428f77253936c025f, type: 2}
+    cost: 450
+    plotPrefab: {fileID: 1394983150881718, guid: 84573d85749440145837161fd2a493d0, type: 2}
+  pond:
+    icon: {fileID: 21300000, guid: ddb55c77efb64d54ab1a2a20d5f72cc3, type: 2}
+    img: {fileID: 21300000, guid: ddb55c77efb64d54ab1a2a20d5f72cc3, type: 2}
+    cost: 450
+    plotPrefab: {fileID: 1214038273876207, guid: 5142a3ba0bdc6054eb016ccdbcdaa7c0, type: 2}
+--- !u!114 &114285581404775961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1462294750134200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a44d507276b0e45c715c72dedad085, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  lockEvenSpecialScenes: 0

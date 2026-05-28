@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8adc1de5759c30f06843dd55a308bc2, type: 3}
+  m_Name: Drone
+  m_EditorClassIdentifier:
+  id: 18000
+  prefab: {fileID: 1878136834721856, guid: 3df85c93f490c344bbad39570c37dae7, type: 2}
+  icon: {fileID: 21300000, guid: b0f2c3c406e3adf458c241323157fc5c, type: 2}
+  pediaLink: 5008
+  blueprintCost: 2000
+  craftCosts:
+  - id: 60
+    amount: 18
+  - id: 99
+    amount: 12
+  - id: 52
+    amount: 6
+  - id: 11005
+    amount: 6
+  - id: 11008
+    amount: 6
+  - id: 11006
+    amount: 2
+  buyCountLimit: 0
+  countLimit: 2
+  countOtherIds: []
+  destroyOnRemoval: 0
+  buyInPairs: 0

@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b4fae4ff5f97241a58c4b07a86ae2b, type: 3}
+  m_Name: HoneyMosaic
+  m_EditorClassIdentifier:
+  Name: Honey Mosaic
+  IdentifiableId: 127
+  BaseSlimes:
+  - {fileID: 11400000, guid: 1a7fda19bbd496940b196ca7ede8d1f6, type: 2}
+  - {fileID: 11400000, guid: d618a8cab6dd0b34595031939294a6f2, type: 2}
+  IsLargo: 1
+  CanLargofy: 0
+  PrefabScale: 2
+  AppearancesDefault:
+  - {fileID: 11400000, guid: b56f039f0369e9c4b8ed082203496ab3, type: 2}
+  Sounds: {fileID: 11400000, guid: 13176b944fc5d6748b1d4a3aebe9835c, type: 2}
+  Diet:
+    MajorFoodGroups:
+    - 0
+    - 1
+    Favorites:
+    - 9
+    - 28
+    AdditionalFoods:
+    - 149
+    Produces:
+    - 60
+    - 105
+    FavoriteProductionCount: 2
+  FavoriteToys:
+  - 13006
+  - 13011
+  BaseModule: {fileID: 1446035495220259, guid: d0d75a86ba1bc5747a71a96678a2e1f3, type: 2}
+  SlimeModules:
+  - {fileID: 1293814990001908, guid: 884350fb926b25d4a949b4a13b2bf940, type: 2}
+  - {fileID: 1822461350099135, guid: a5a602df4a04ce24582b1e6b1506e33e, type: 2}

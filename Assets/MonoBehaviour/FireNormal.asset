@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27de369ffb814913a31b5244286a6334, type: 3}
+  m_Name: FireNormal
+  m_EditorClassIdentifier:
+  NameXlateKey: l.classic_appearance
+  Icon: {fileID: 21300000, guid: 7180c7abf613b8445a66031a170cb696, type: 2}
+  AnimatorOverride: {fileID: 9100000, guid: e72804ea60e4c784183d9f34e9ad7bcf, type: 2}
+  Structures:
+  - DefaultMaterials:
+    - {fileID: 2100000, guid: 58e975c3b647b9040ad9c56ca53acae3, type: 2}
+    Element: {fileID: 11400000, guid: 59f9a6e2448be0444bf7e934ff9d0b1c, type: 2}
+    ElementMaterials:
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    - OverrideDefaults: 0
+      Materials: []
+    SupportsFaces: 1
+    FaceRules:
+    - ShowEyes: 1
+      ShowMouth: 0
+    - ShowEyes: 1
+      ShowMouth: 0
+    - ShowEyes: 1
+      ShowMouth: 0
+    - ShowEyes: 0
+      ShowMouth: 0
+    - ShowEyes: 1
+      ShowMouth: 0
+  - DefaultMaterials: []
+    Element: {fileID: 11400000, guid: b78e7699ec6d49d4ea7ed51e7287588e, type: 2}
+    ElementMaterials:
+    - OverrideDefaults: 0
+      Materials: []
+    SupportsFaces: 0
+    FaceRules: []
+  Face: {fileID: 11400000, guid: 63848aa235cc0e242a7d03cd2ec541d5, type: 2}
+  QubitAppearance: {fileID: 0}
+  ShockedAppearance: {fileID: 0}
+  DependentAppearances: []
+  ColorPalette:
+    Top: {r: 1, g: 0.39310342, b: 0, a: 1}
+    Middle: {r: 0.2647059, g: 0.15656842, b: 0.058390997, a: 1}
+    Bottom: {r: 0.8745098, g: 0.50545275, b: 0, a: 1}
+    Ammo: {r: 0.32352942, g: 0.1078869, b: 0.02854672, a: 1}
+  GlintAppearance: {fileID: 0}
+  TornadoAppearance: {fileID: 0}
+  VineAppearance: {fileID: 0}
+  CrystalAppearance: {fileID: 0}
+  ExplosionAppearance: {fileID: 0}
+  DeathAppearance: {fileID: 11400000, guid: 8524d970276842541ab4fbea5acea282, type: 2}
+  SaveSet: 1

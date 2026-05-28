@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1840077647783204
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4612953977203327}
+  - component: {fileID: 114315786718038872}
+  - component: {fileID: 114517279725288948}
+  - component: {fileID: 114587667391467023}
+  - component: {fileID: 114831315893425425}
+  - component: {fileID: 114645125542582683}
+  - component: {fileID: 114020161253712902}
+  - component: {fileID: 114883879946472883}
+  m_Layer: 0
+  m_Name: moduleSlimeGlitch
+  m_TagString: Pink Slime
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4612953977203327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840077647783204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114315786718038872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840077647783204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d00c4eb7b63bc6b1d2969677874d20b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slimeDefinition: {fileID: 0}
+--- !u!114 &114517279725288948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840077647783204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1469700c1bbe47f87a82695cb9a397d2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  disappearFX: {fileID: 1077936946364118, guid: beef9333a6d811847a9008253b420e2c, type: 2}
+  facingStability: 1
+  facingSpeed: 5
+  fleeSpeedFactor: 0.0025
+  fleeCue: {fileID: 11400000, guid: 850a5c98e73182245aea3d5dda145e20, type: 2}
+--- !u!114 &114587667391467023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840077647783204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc122f62ca0cd3c25874db931ec5bef5, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  stability: 0.7
+  speed: 4
+--- !u!114 &114831315893425425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840077647783204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d888f4e7cae2783be3142b93381176f8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  size: 0
+  onLaunchCue: {fileID: 0}
+--- !u!114 &114645125542582683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840077647783204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94dfbefe460198c662f17f46961de06e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  alarmEyes: {fileID: 2100000, guid: 38b78657106cca54f81dcc2b8d9bde25, type: 2}
+  angryEyes: {fileID: 2100000, guid: d1435f73ffe520c46b6b1a869adc6f63, type: 2}
+  aweEyes: {fileID: 2100000, guid: 39f7570b7cf4bb5449e30acda0826e24, type: 2}
+  blinkEyes: {fileID: 2100000, guid: 3be666da8951e7a44a54875cd0cd74a8, type: 2}
+  elatedEyes: {fileID: 2100000, guid: b6533d164f5c9f34ba37703cec5700f8, type: 2}
+  feralEyes: {fileID: 2100000, guid: 5aaee3b5caf28494bbd7eae8b85304ec, type: 2}
+  happyEyes: {fileID: 2100000, guid: b6533d164f5c9f34ba37703cec5700f8, type: 2}
+  hungryEyes: {fileID: 2100000, guid: 39f7570b7cf4bb5449e30acda0826e24, type: 2}
+  scaredEyes: {fileID: 2100000, guid: dbb30a10c8c694b4899c5c8eb7ba8d0f, type: 2}
+  starvingEyes: {fileID: 2100000, guid: 3be666da8951e7a44a54875cd0cd74a8, type: 2}
+  winceEyes: {fileID: 2100000, guid: 3be666da8951e7a44a54875cd0cd74a8, type: 2}
+  invokeEyes: {fileID: 2100000, guid: 934d59ab9bb9ef84aa51177a31791d8c, type: 2}
+  grimaceEyes: {fileID: 2100000, guid: d1435f73ffe520c46b6b1a869adc6f63, type: 2}
+  friedEyes: {fileID: 2100000, guid: f62edd8422d5810429634adc2c5ffc47, type: 2}
+  attackTelegraphEyes: {fileID: 2100000, guid: a2d4b6d0855ef12498e13de5a7114865, type: 2}
+  chompOpenEyes: {fileID: 2100000, guid: 3be666da8951e7a44a54875cd0cd74a8, type: 2}
+  chompClosedEyes: {fileID: 2100000, guid: 3be666da8951e7a44a54875cd0cd74a8, type: 2}
+  blushEyes: {fileID: 2100000, guid: 22f2dbd46d1853640b46d8e1185a5211, type: 2}
+  blushBlinkEyes: {fileID: 2100000, guid: 9cc1929aac9742f44ab80d643e5446e6, type: 2}
+  glitchEyes: {fileID: 2100000, guid: 833a66d3dba94d54fa9f4e6352ecc3e9, type: 2}
+--- !u!114 &114020161253712902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840077647783204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad47b61a025099535f1c0ceb2f9d620, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  alarmMouth: {fileID: 2100000, guid: 559b61a58b5ab1d44880024a179afde4, type: 2}
+  angryMouth: {fileID: 2100000, guid: 82b7faa48c5a9264783240d37ce44c16, type: 2}
+  aweMouth: {fileID: 2100000, guid: 3c8b3957103ed364588694cb536cf827, type: 2}
+  attackTelegraphMouth: {fileID: 2100000, guid: 744c421d0527f2d45b3a62eaf9edb8c0, type: 2}
+  chompOpenMouth: {fileID: 2100000, guid: b1cc32da02d380b48bbff3352fa9bc92, type: 2}
+  chompClosedMouth: {fileID: 2100000, guid: 0494bd97002f3ff47bf4518732c2f7ce, type: 2}
+  elatedMouth: {fileID: 2100000, guid: b1cc32da02d380b48bbff3352fa9bc92, type: 2}
+  feralMouth: {fileID: 2100000, guid: 82b7faa48c5a9264783240d37ce44c16, type: 2}
+  happyMouth: {fileID: 2100000, guid: 8400bd652bd680045b387b32d4364652, type: 2}
+  hungryMouth: {fileID: 2100000, guid: 6019c720c368b184db609e10145f85b3, type: 2}
+  scaredMouth: {fileID: 2100000, guid: d4507d7bf78703b45a5b9d08d37b49aa, type: 2}
+  starvingMouth: {fileID: 2100000, guid: 6019c720c368b184db609e10145f85b3, type: 2}
+  winceMouth: {fileID: 2100000, guid: 3c8b3957103ed364588694cb536cf827, type: 2}
+  invokeMouth: {fileID: 2100000, guid: 1199a8ac410967143a43037a38c9cc9b, type: 2}
+  grimaceMouth: {fileID: 2100000, guid: 2e8f900e39bdf754ca2457dd8f1db4e4, type: 2}
+  friedMouth: {fileID: 2100000, guid: ab24e15cd1ae0a545bb77a819677272e, type: 2}
+  glitchMouth: {fileID: 2100000, guid: 38c5fe10f25746c479dc71837bd9fce1, type: 2}
+--- !u!114 &114883879946472883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840077647783204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b8e72ed593e631cf1d9d83502b198f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  slimeSounds: {fileID: 0}

@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1799276186297011
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4061225169045624}
+  - component: {fileID: 114556125800717689}
+  - component: {fileID: 114853797277893486}
+  m_Layer: 5
+  m_Name: SiloUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4061225169045624
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799276186297011}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114556125800717689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799276186297011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37f5ac7575047bddbe95b8a3df1e65ee, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  statusArea: {fileID: 0}
+  storage2:
+    icon: {fileID: 21300000, guid: e7f6dbfcd10109042b4857937a97425e, type: 2}
+    img: {fileID: 21300000, guid: e7f6dbfcd10109042b4857937a97425e, type: 2}
+    cost: 500
+    upgrade: 3
+  storage3:
+    icon: {fileID: 21300000, guid: e7f6dbfcd10109042b4857937a97425e, type: 2}
+    img: {fileID: 21300000, guid: e7f6dbfcd10109042b4857937a97425e, type: 2}
+    cost: 575
+    upgrade: 4
+  storage4:
+    icon: {fileID: 21300000, guid: e7f6dbfcd10109042b4857937a97425e, type: 2}
+    img: {fileID: 21300000, guid: e7f6dbfcd10109042b4857937a97425e, type: 2}
+    cost: 650
+    upgrade: 5
+  demolish:
+    icon: {fileID: 21300000, guid: 3e44781b72366b549af8ad45e2833229, type: 2}
+    img: {fileID: 21300000, guid: 3e44781b72366b549af8ad45e2833229, type: 2}
+    cost: 100
+    plotPrefab: {fileID: 1378973018571350, guid: 24fce221e119f904e9846e3af9e49313, type: 2}
+  titleIcon: {fileID: 21300000, guid: 48445a6470812944e800131ac8cc5e04, type: 2}
+--- !u!114 &114853797277893486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799276186297011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1a44d507276b0e45c715c72dedad085, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  lockEvenSpecialScenes: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b4fae4ff5f97241a58c4b07a86ae2b, type: 3}
+  m_Name: Quicksilver
+  m_EditorClassIdentifier:
+  Name: Quicksilver
+  IdentifiableId: 166
+  BaseSlimes: []
+  IsLargo: 0
+  CanLargofy: 0
+  PrefabScale: 1
+  AppearancesDefault:
+  - {fileID: 11400000, guid: 9b10bfdec389ba4479e40dd8d84b0063, type: 2}
+  Sounds: {fileID: 11400000, guid: 15d519def0e292c488e9f9f7e89b458d, type: 2}
+  Diet:
+    MajorFoodGroups: []
+    Favorites: []
+    AdditionalFoods: []
+    Produces: []
+    FavoriteProductionCount: 0
+  FavoriteToys: []
+  BaseModule: {fileID: 1701888289156532, guid: 2d481cfff47e4e948b189e20e0342456, type: 2}
+  SlimeModules:
+  - {fileID: 1461182410096264, guid: 5f5dac5c27374c24caf6b7b670b4537b, type: 2}

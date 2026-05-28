@@ -1,0 +1,3027 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1237709817189936
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4553919319535773}
+  - component: {fileID: 114309489140071746}
+  m_Layer: 0
+  m_Name: UIStyleDirector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4553919319535773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237709817189936}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114309489140071746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237709817189936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 026f6d2fc7a7165848757a4ee83352c0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  textStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: Warning
+    textColor:
+      apply: 1
+      value: {r: 0.5019608, g: 0, b: 0, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: eca56722e235f0f4c8c01a4db72c4b98, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: Small
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 20
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: SmallNoColor
+    textColor:
+      apply: 0
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 20
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: Large
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 30
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: Flavor
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: 17e0ae1608226284793d1c87f1a5d8ff, type: 3}
+    fontStyle:
+      apply: 1
+      value: 2
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: Highlight
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: 17e0ae1608226284793d1c87f1a5d8ff, type: 3}
+    fontStyle:
+      apply: 1
+      value: 3
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: LargeBold
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: ab6cd0a1690afce499199ce375123219, type: 3}
+    fontStyle:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 30
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: Status
+    textColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: Bold
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: ab6cd0a1690afce499199ce375123219, type: 3}
+    fontStyle:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: Title
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: ab6cd0a1690afce499199ce375123219, type: 3}
+    fontStyle:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 40
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: Subtitle
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 40
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+  - name: HUD Huge
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 48
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    outlineWidth:
+      apply: 0
+      value: 1
+  - name: HUD Large
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 36
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    outlineWidth:
+      apply: 0
+      value: 1
+  - name: HUD Medium
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 30
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    outlineWidth:
+      apply: 0
+      value: 0.8
+  - name: HUD Medium Emphasis
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: ec208ff0ba1d2ff4c8054a97d9e4baff, type: 3}
+    fontStyle:
+      apply: 1
+      value: 3
+    fontSize:
+      apply: 1
+      value: 30
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    outlineWidth:
+      apply: 0
+      value: 0.8
+  - name: HUD Watermark
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 0.39215687}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0.39215687}
+    outlineWidth:
+      apply: 0
+      value: 1
+  - name: HUD Small
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 20
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    outlineWidth:
+      apply: 0
+      value: 0.6
+  - name: Rancher Chat
+    textColor:
+      apply: 1
+      value: {r: 0.19607845, g: 0.19607845, b: 0.19607845, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: ab6cd0a1690afce499199ce375123219, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 48
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    outlineWidth:
+      apply: 0
+      value: 1
+  - name: World Large
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: ab6cd0a1690afce499199ce375123219, type: 3}
+    fontStyle:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 30
+    outlineColor:
+      apply: 1
+      value: {r: 0, g: 0, b: 0, a: 1}
+    outlineWidth:
+      apply: 1
+      value: 1
+  - name: World Medium
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: ab6cd0a1690afce499199ce375123219, type: 3}
+    fontStyle:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 18
+    outlineColor:
+      apply: 1
+      value: {r: 0, g: 0, b: 0, a: 1}
+    outlineWidth:
+      apply: 1
+      value: 0.6
+  - name: World Small
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: ab6cd0a1690afce499199ce375123219, type: 3}
+    fontStyle:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 12
+    outlineColor:
+      apply: 1
+      value: {r: 0, g: 0, b: 0, a: 1}
+    outlineWidth:
+      apply: 1
+      value: 0.6
+  - name: Rancher Name
+    textColor:
+      apply: 1
+      value: {r: 0.69803923, g: 0.86274517, b: 0.89019614, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: ab6cd0a1690afce499199ce375123219, type: 3}
+    fontStyle:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 48
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    outlineWidth:
+      apply: 0
+      value: 0.6
+  meshTextStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+  - name: Journal
+    textColor:
+      apply: 1
+      value: {r: 0, g: 0.7607844, b: 0.5529412, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 30
+  - name: Warning
+    textColor:
+      apply: 1
+      value: {r: 0.5019608, g: 0, b: 0, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+  - name: Small
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 20
+  - name: SmallNoColor
+    textColor:
+      apply: 0
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 20
+  - name: Large
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 30
+  - name: Flavor
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 24
+  - name: Highlight
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 24
+  - name: LargeBold
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 30
+  - name: LargeBoldCurrency
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 30
+  - name: Status
+    textColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+  - name: Bold
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+  - name: Title
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 40
+  - name: FancyTitle
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 40
+  - name: Subtitle
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 40
+  - name: HUD Huge
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 48
+  - name: Rancher Chat
+    textColor:
+      apply: 1
+      value: {r: 0.19607845, g: 0.19607845, b: 0.19607845, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 0
+      value: 0
+    italic:
+      apply: 0
+      value: 0
+    fontSize:
+      apply: 1
+      value: 48
+  - name: Credits Title
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 1
+      value: {fileID: 2100000, guid: 309899eaa4e45014dbd34216660745cc, type: 2}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 60
+  - name: HUD Large
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 36
+  - name: HUD Medium
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 30
+  - name: Credits Name
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 1
+      value: {fileID: 2100000, guid: 309899eaa4e45014dbd34216660745cc, type: 2}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 42
+  - name: HUD Medium Emphasis
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 30
+  - name: HUD Watermark
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 0.39215687}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+  - name: HUD Small
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 20
+  - name: World Large
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 30
+  - name: World Medium
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 18
+  - name: World Small
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 12
+  - name: RibbonTitle
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 40
+  - name: Rancher Name
+    textColor:
+      apply: 1
+      value: {r: 0.69803923, g: 0.86274517, b: 0.89019614, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 1
+    fontSize:
+      apply: 1
+      value: 48
+  dropdownStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.3803922, g: 0.5437176, b: 0.9176471, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+    menuBgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    menuBgColor:
+      apply: 1
+      value: {r: 0.21176472, g: 0.7607844, b: 0.92549026, a: 1}
+    itemBgSprite:
+      apply: 1
+      value: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    itemBgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemNormalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 0}
+    itemHighlightedTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemPressedTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemDisabledTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+  - name: Major
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 40
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b27687476a068844ca77ce107d746378, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    menuBgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    menuBgColor:
+      apply: 1
+      value: {r: 0.21176472, g: 0.7607844, b: 0.92549026, a: 1}
+    itemBgSprite:
+      apply: 1
+      value: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    itemBgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemNormalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 0}
+    itemHighlightedTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemPressedTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemDisabledTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+  meshDropdownStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.3803922, g: 0.5437176, b: 0.9176471, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 0.5019608}
+    menuBgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    menuBgColor:
+      apply: 1
+      value: {r: 0.21176472, g: 0.7607844, b: 0.92549026, a: 1}
+    itemBgSprite:
+      apply: 1
+      value: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    itemBgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemNormalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 0}
+    itemHighlightedTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemPressedTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemDisabledTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+  - name: Major
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 40
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b27687476a068844ca77ce107d746378, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    menuBgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    menuBgColor:
+      apply: 1
+      value: {r: 0.21176472, g: 0.7607844, b: 0.92549026, a: 1}
+    itemBgSprite:
+      apply: 1
+      value: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    itemBgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemNormalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 0}
+    itemHighlightedTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemPressedTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    itemDisabledTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+  buttonStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9191176, g: 0.37846017, b: 0.5681646, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1188405136037922, guid: 547801c6486a9da418bda90ec715dbf7, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: DefaultSubmitActive
+    textColor:
+      apply: 1
+      value: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9191176, g: 0.37846017, b: 0.5681646, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1860868178725798, guid: aad7d72547ef8a94cbb40dfe78e0b79f, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: DefaultAltSubmitActive
+    textColor:
+      apply: 1
+      value: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9191176, g: 0.37846017, b: 0.5681646, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1127898802425183, guid: 65c30a03c623ef54dbea19ce0fabeded, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: ListEntry
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.8621323, g: 0.9852941, b: 0.9595908, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    includeChild:
+      apply: 0
+      value: {fileID: 0}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: Close
+    textColor:
+      apply: 1
+      value: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9191176, g: 0.37846017, b: 0.5681646, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 0
+      value: {fileID: 0}
+    hideIfGamepad: 1
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: Major
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 40
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b27687476a068844ca77ce107d746378, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1471240075065823, guid: 72bc16458be908947946f4d45dedaa15, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  meshButtonStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9191176, g: 0.37846017, b: 0.5681646, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1188405136037922, guid: 547801c6486a9da418bda90ec715dbf7, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: DefaultSubmitActive
+    textColor:
+      apply: 1
+      value: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9191176, g: 0.37846017, b: 0.5681646, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1860868178725798, guid: aad7d72547ef8a94cbb40dfe78e0b79f, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: DefaultAltSubmitActive
+    textColor:
+      apply: 1
+      value: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9191176, g: 0.37846017, b: 0.5681646, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1127898802425183, guid: 65c30a03c623ef54dbea19ce0fabeded, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: ListEntry
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.8621323, g: 0.9852941, b: 0.9595908, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.88235295, g: 0.88235295, b: 0.88235295, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    includeChild:
+      apply: 0
+      value: {fileID: 0}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: ListEntryBright
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 0.86274517, g: 0.9843138, b: 0.9607844, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.96470594, g: 1, b: 0.6313726, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    includeChild:
+      apply: 0
+      value: {fileID: 0}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: Close
+    textColor:
+      apply: 1
+      value: {r: 0.9411765, g: 0.9411765, b: 0.9411765, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9191176, g: 0.37846017, b: 0.5681646, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 0
+      value: {fileID: 0}
+    hideIfGamepad: 1
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: Major
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 40
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b27687476a068844ca77ce107d746378, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1471240075065823, guid: 72bc16458be908947946f4d45dedaa15, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 0
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 0}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 0}
+  - name: MessageOfTheDay
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 1
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 40
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: fbc8430ed527ba949b8b3aa03a4d09ff, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1059604846552766, guid: 95218e49f6715e14981df309707ce7ef, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 1
+      value: 2
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: fc4ff00629e144140b314191646cac02, type: 2}
+    pressedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: dd370b7c58e54934c98370c902ae58a0, type: 2}
+  - name: LargeSubmitActive
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9176471, g: 0.3803922, b: 0.5686275, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1951555394605090, guid: 9421242774a84ad408c849aba901ac6f, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 2
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 21300000, guid: fc4ff00629e144140b314191646cac02, type: 2}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 21300000, guid: dd370b7c58e54934c98370c902ae58a0, type: 2}
+  - name: LargeAltSubmitActive
+    textColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9176471, g: 0.3803922, b: 0.5686275, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    includeChild:
+      apply: 1
+      value: {fileID: 1059604846552766, guid: 95218e49f6715e14981df309707ce7ef, type: 2}
+    hideIfGamepad: 0
+    transition:
+      apply: 0
+      value: 2
+    disabledSprite:
+      apply: 0
+      value: {fileID: 0}
+    highlightedSprite:
+      apply: 0
+      value: {fileID: 21300000, guid: fc4ff00629e144140b314191646cac02, type: 2}
+    pressedSprite:
+      apply: 0
+      value: {fileID: 21300000, guid: dd370b7c58e54934c98370c902ae58a0, type: 2}
+  panelStyles:
+  - name: Inner
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.8621323, g: 0.9852941, b: 0.9595908, a: 1}
+  - name: FarInner
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.45996863, g: 0.81806225, b: 0.92549026, a: 1}
+  - name: Default
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: ab69e2d75bad5d74b8165ff04d17d115, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.7309689, g: 0.92332906, b: 0.9558824, a: 1}
+  - name: Outer
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 7ca9fe6605a8e954f83638fc741d20f9, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.21118078, g: 0.7627295, b: 0.9264706, a: 1}
+  - name: Journal
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: aa298be059e75294e9f7c31e453516bf, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0, g: 0.73333335, b: 0.5372549, a: 1}
+  - name: Rancher Chat
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: aa298be059e75294e9f7c31e453516bf, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0, g: 0.73333335, b: 0.5372549, a: 1}
+  - name: WorldOuter
+    bgSprite:
+      apply: 1
+      value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 0.78431374}
+  - name: PurpleOuter
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 7ca9fe6605a8e954f83638fc741d20f9, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.5686275, g: 0.49803922, b: 0.83137256, a: 1}
+  - name: PurpleInner
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.8627451, g: 0.74509805, b: 0.9607843, a: 1}
+  iconStyles:
+  - name: Default
+    sprite:
+      apply: 0
+      value: {fileID: 0}
+    color:
+      apply: 0
+      value: {r: 1, g: 1, b: 1, a: 1}
+  - name: Currency
+    sprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 0baa4d8897ea3a04289229d1436eb671, type: 2}
+    color:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+  - name: Close
+    sprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 50ab99bb82d31b34a901103e981db002, type: 2}
+    color:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+  fieldStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    bgSprite:
+      apply: 1
+      value: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.96470594, g: 1, b: 0.6313726, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    placeholderTextColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 0.5019608}
+    placeholderFont:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    placeholderFontStyle:
+      apply: 1
+      value: 2
+    placeholderFontSize:
+      apply: 1
+      value: 24
+    placeholderOutlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    placeholderOutlineWidth:
+      apply: 0
+      value: 0
+    selectionColor:
+      apply: 1
+      value: {r: 0.91764706, g: 0.64775085, b: 0.7425236, a: 0.76862746}
+  scrollbarStyles:
+  - name: Default
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: ff97fcde390634245bf46b035698173b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.031628437, g: 0.668695, b: 0.8602941, a: 1}
+    handleSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 0e72c8e5d1b839e41b3b9b8914fbcae9, type: 2}
+    handleColor:
+      apply: 1
+      value: {r: 0.3602941, g: 0.70882344, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  checkboxStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    markSprite:
+      apply: 1
+      value: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    markColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Major
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 36
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    markSprite:
+      apply: 1
+      value: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    markColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  meshCheckboxStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    markSprite:
+      apply: 1
+      value: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    markColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  - name: Major
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 36
+    markSprite:
+      apply: 1
+      value: {fileID: 10901, guid: 0000000000000000f000000000000000, type: 0}
+    markColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  toggleButtonStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 0.9644084, g: 1, b: 0.6313726, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9943525, b: 0.8156863, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+  - name: DefaultWithCheck
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 5fb63987f918ca14c9a35604aeabe79a, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9943525, b: 0.8156863, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+  - name: ListEntry
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 0.96470594, g: 1, b: 0.6313726, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.86274517, g: 0.9843138, b: 0.9607844, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9960785, b: 0.81568635, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+  - name: ListEntryUnavail
+    textColor:
+      apply: 1
+      value: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 0.96470594, g: 1, b: 0.6313726, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.926413, g: 0.9843138, b: 0.97310716, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9960785, b: 0.81568635, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+  - name: ListEntryInner
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 0.96470594, g: 1, b: 0.6313726, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9843138, g: 0.9843138, b: 0.9843138, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9960785, b: 0.81568635, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+  - name: Tab
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 12800000, guid: e98719c24ab3afa49be337937fe428d4, type: 3}
+    fontStyle:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    outlineColor:
+      apply: 0
+      value: {r: 0, g: 0, b: 0, a: 0}
+    outlineWidth:
+      apply: 0
+      value: 0
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 8eed4fd87bb275c4794f3491228d9f7a, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 1, g: 0.94624746, b: 0.2205882, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 8eed4fd87bb275c4794f3491228d9f7a, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.49632353, g: 0.99264705, b: 0.7877428, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9943525, b: 0.8156863, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+  meshToggleButtonStyles:
+  - name: Default
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 0.9644084, g: 1, b: 0.6313726, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9943525, b: 0.8156863, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+  - name: DefaultWithCheck
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 5fb63987f918ca14c9a35604aeabe79a, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: b9275d21be1f2674788a4fe49260800b, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9943525, b: 0.8156863, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+  - name: ListEntry
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 0.96470594, g: 1, b: 0.6313726, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.86274517, g: 0.9843138, b: 0.9607844, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9960785, b: 0.81568635, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+  - name: ListEntryUnavail
+    textColor:
+      apply: 1
+      value: {r: 0.59607846, g: 0.59607846, b: 0.59607846, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 0.96470594, g: 1, b: 0.6313726, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.926413, g: 0.9843138, b: 0.97310716, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9960785, b: 0.81568635, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+  - name: ListEntryInner
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 0.96470594, g: 1, b: 0.6313726, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: f3cf3b04bbe7b55408fe4c2bc8912580, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.9843138, g: 0.9843138, b: 0.9843138, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9960785, b: 0.81568635, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+  - name: Tab
+    textColor:
+      apply: 1
+      value: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    font:
+      apply: 1
+      value: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}
+    materialPreset:
+      apply: 0
+      value: {fileID: 0}
+    bold:
+      apply: 1
+      value: 0
+    italic:
+      apply: 1
+      value: 0
+    fontSize:
+      apply: 1
+      value: 24
+    selectedSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 8eed4fd87bb275c4794f3491228d9f7a, type: 2}
+    selectedColor:
+      apply: 1
+      value: {r: 1, g: 0.94624746, b: 0.2205882, a: 1}
+    bgSprite:
+      apply: 1
+      value: {fileID: 21300000, guid: 8eed4fd87bb275c4794f3491228d9f7a, type: 2}
+    bgColor:
+      apply: 1
+      value: {r: 0.49632353, g: 0.99264705, b: 0.7877428, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 1, g: 0.9943525, b: 0.8156863, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+  sliderStyles:
+  - name: Default
+    bgSprite:
+      apply: 1
+      value: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+    bgColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    fillSprite:
+      apply: 1
+      value: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    fillColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    handleSprite:
+      apply: 1
+      value: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+    handleColor:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    normalTint:
+      apply: 1
+      value: {r: 1, g: 1, b: 1, a: 1}
+    highlightedTint:
+      apply: 1
+      value: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
+    pressedTint:
+      apply: 1
+      value: {r: 0.6901961, g: 0.6901961, b: 0.6901961, a: 1}
+    disabledTint:
+      apply: 1
+      value: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  defaultMeshFont: {fileID: 11400000, guid: f7e593323181bcc4896f8fad93a9b972, type: 2}

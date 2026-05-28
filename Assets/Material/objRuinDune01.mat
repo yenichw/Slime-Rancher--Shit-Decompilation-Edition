@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: objRuinDune01
+  m_Shader: {fileID: 4800000, guid: 4e4d19c08736c554ea5c46f2e7f26505, type: 3}
+  m_ShaderKeywords: _ONLYUPWARDFACES_ON _TOPPERENABLEDETAILTEX_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DetailNoiseMask:
+        m_Texture: {fileID: 2800000, guid: 0cc561bfeacb33c4e8ae4a4ace7ccabb, type: 3}
+        m_Scale: {x: 0.0625, y: 0.0625}
+        m_Offset: {x: 0, y: 0}
+      _TopperDepth:
+        m_Texture: {fileID: 2800000, guid: 4bc58468fb7d1854c8e18b2e0e684757, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _TopperDetailTex:
+        m_Texture: {fileID: 2800000, guid: e54044ef8fa39a5459c81c31b22b1df2, type: 3}
+        m_Scale: {x: 0.3, y: 0.3}
+        m_Offset: {x: 0, y: 0}
+      _TopperSpecular:
+        m_Texture: {fileID: 2800000, guid: 96cfa1b6e252539448876baf341b4e2a, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _Topper_MainTex:
+        m_Texture: {fileID: 2800000, guid: e54044ef8fa39a5459c81c31b22b1df2, type: 3}
+        m_Scale: {x: 0.1, y: 0.1}
+        m_Offset: {x: 0, y: 0}
+      _VerticalRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.01, y: 0.0333}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Cutoff: 0.5
+      _DifContrast: 1
+      _DifHue: 1
+      _DifSat: -0.047
+      _DifVal: 0.095
+      _EnableDetailTex: 0
+      _Gloss: 0
+      _GlossPower: 0
+      _OnlyUpwardFaces: 1
+      _PaintRim: 1
+      _RampOffset: 2
+      _RampScale: 0.75
+      _SeaLevelRampObjectPos: 0
+      _SeaLevelRampOffset: -0.35
+      _SeaLevelRampScale: 0.91
+      _TopRampOffset: 30
+      _TopRampScale: 1
+      _ToporBottom: 0
+      _TopperCoverage: 1.5
+      _TopperDepthStrength: 1
+      _TopperEnableDetailTex: 1
+      _TopperSpecularNoiseAdjust: 0.5
+      _UseMeshUVs: 0
+      _WindSpeed: 1
+      _WindStrength: 0
+      _WindTurbulance: 2
+      _node_2998: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DifOverlay: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+      _RampTop: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _RampUpper: {r: 0.08235294, g: 0.45882356, b: 0.654902, a: 1}
+      _SeaLevelRampLower: {r: 0.24653979, g: 0.3896008, b: 0.41911763, a: 1}
+      _SpecularColor: {r: 0, g: 0, b: 0, a: 1}

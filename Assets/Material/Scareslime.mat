@@ -1,0 +1,106 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Scareslime
+  m_Shader: {fileID: 4800000, guid: 1f65a50303a89b9468736e2c16278251, type: 3}
+  m_ShaderKeywords: _AOUV1_ON _MASKUVSET1_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: aa4da962049af544dabb158c7cc8f478, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColorMask:
+        m_Texture: {fileID: 2800000, guid: e2a141f8f5f526f4da5c712989234068, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GlowRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: da35f626a8736984c943ec1ee606cbbc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Override:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PaintStrokes:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Rim:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AOUV1: 1
+      _AOUVSet: 0
+      _Assemble: 1
+      _AssembleDif: 0.25
+      _AssembleDistance: 15
+      _AssembleFalloff: 1
+      _AssembleOffset: 0.67
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossBlack: 0.257
+      _GlossBlue: 0
+      _GlossGreen: 1
+      _GlossRed: 0.58
+      _Glossiness: 0.5
+      _GlowColor: 0
+      _GlowMultiplier: 1
+      _GlowShift: 0
+      _GlowSpeed: 0
+      _MaskUVSet1: 1
+      _Metallic: 0
+      _Mode: 0
+      _NRMTriplanar: 0
+      _NRMUV1: 0
+      _OcclusionStrength: 1
+      _OverrideUV1: 0
+      _PaintMaskTriplanar: 0
+      _Parallax: 0.02
+      _RimStrength: 1
+      _SpiralColor: 0
+      _SrcBlend: 1
+      _Transparency: 1
+      _TriplanarNormals: 0
+      _UVSec: 0
+      _ZWrite: 1
+      _node_5608: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Color00: {r: 0.29411763, g: 0.051903106, b: 0.09700511, a: 0.197}
+      _Color01: {r: 0.875, g: 0.46501017, b: 0.19944851, a: 0.853}
+      _Color10: {r: 0.43258002, g: 0.43279144, b: 0.46323532, a: 0}
+      _Color11: {r: 0.6755515, g: 0.8172287, b: 0.875, a: 0.497}
+      _Color20: {r: 0.7581098, g: 0.7629206, b: 0.83823526, a: 0.247}
+      _Color21: {r: 0.65707356, g: 0.66176474, b: 0.5206531, a: 0}
+      _Color30: {r: 0.21561569, g: 0.18176903, b: 0.30147058, a: 0}
+      _Color31: {r: 0.28676468, g: 0.26355594, b: 0.24248484, a: 0}
+      _Color40: {r: 0, g: 0, b: 0, a: 0}
+      _Color41: {r: 0, g: 0, b: 0, a: 0}
+      _Color50: {r: 0, g: 0, b: 0, a: 0}
+      _Color51: {r: 0, g: 0, b: 0, a: 0}
+      _Color60: {r: 0, g: 0, b: 0, a: 0}
+      _Color61: {r: 0, g: 0, b: 0, a: 0}
+      _Color70: {r: 0, g: 0, b: 0, a: 0}
+      _Color71: {r: 0, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

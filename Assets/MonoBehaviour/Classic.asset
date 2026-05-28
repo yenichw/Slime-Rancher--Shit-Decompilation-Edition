@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f177bda36061ab19aa1cc92f6dd5538, type: 3}
+  m_Name: Classic
+  m_EditorClassIdentifier:
+  initCurrency: 250
+  pctCurrencyLostOnDeath: 0
+  hoursLostOnDeath: 0
+  hoursTilDawnOnDeath: 1
+  exchangeStartDay: 2
+  exchangeRewardsGoldPlorts: 0
+  plortMarketDynamic: 1
+  endAtNoonDay: 0
+  endGameUIPrefab: {fileID: 0}
+  assumeExperiencedUser: 0
+  immediateUpgrades: 0
+  enablePartnerRewards: 1
+  suppressStory: 0
+  playerDamageMultiplier: 1
+  preventHostiles: 0
+  blueprintsEnabled: 1
+  enableOgdenMissions: 1
+  enableMochiMissions: 1
+  enableViktorMissions: 1
+  newGamePrefab: {fileID: 1427212555778219, guid: 3bfe0ccaf7203224ba497b740397d321, type: 2}
+  enableEventGordos: 1
+  enableEchoNoteGordos: 1
+  enableDLC: 1

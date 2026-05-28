@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: objFlowers02
+  m_Shader: {fileID: 4800000, guid: a4785e6bd0ddead46bc3dc22340e13de, type: 3}
+  m_ShaderKeywords: _ENABLEDETAILTEX_ON _VERTEXCOLORMASK_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2500
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _MainTex:
+        m_Texture: {fileID: 2800000, guid: c89b9adabd5a820409b8be97bbe9d3c7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _Cutoff: 0.5
+      _DisableNearCamClip: 1
+      _DisableNoise: 1.544346
+      _EnableDetailTex: 1
+      _Gloss: 0.33
+      _NormalIntensity: 1
+      _RampAdjust: 0
+      _RampContrast: 0.75
+      _RampOffset: 0
+      _RampScale: 1.25
+      _SeaLevelRampOffset: -3
+      _SeaLevelRampScale: 1
+      _SwayStrength: 1.5
+      _TopRampOffset: 30
+      _TopRampScale: 1
+      _VertexColorMask: 1
+      _WindTurbulance: 0.5
+      _YOffset: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _DisperseSizeSpeed: {r: 1, g: 1, b: 0, a: 2}
+      _EmissiveColor: {r: 0, g: 0, b: 0, a: 0}
+      _LightWrapping: {r: 0.5921569, g: 0.2, b: 0.1019608, a: 1}
+      _RampTop: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _RampUpper: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _SeaLevelRampLower: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      _Specular: {r: 0.025790079, g: 0.07928119, b: 0.15294117, a: 1}
+      _WindDirection: {r: 1, g: 1, b: 1, a: 1}
+      _Wrapping: {r: 0.1102941, g: 0.0774296, b: 0.018652678, a: 1}
+      _WrappingBase: {r: 0.2941177, g: 0.17079109, b: 0.058823533, a: 1}
+      _WrappingBlue: {r: 0.39215687, g: 0.31190917, b: 0.19069588, a: 1}
+      _WrappingGreen: {r: 0.33823532, g: 0.15814047, b: 0.07709775, a: 1}
+      _WrappingRed: {r: 0.48627448, g: 0.11372549, b: 0.39891815, a: 1}

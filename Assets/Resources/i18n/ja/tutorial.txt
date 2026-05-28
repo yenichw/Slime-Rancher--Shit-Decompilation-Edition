@@ -1,0 +1,195 @@
+t.basic_movement = 動いて\n\
+みよう！
+m.input.basic_movement.1 = W
+m.inputdesc.basic_movement.1 = 前進
+m.input.basic_movement.2 = A
+m.inputdesc.basic_movement.2 = 左へ移動
+m.input.basic_movement.3 = S
+m.inputdesc.basic_movement.3 = 後退
+m.input.basic_movement.4 = D
+m.inputdesc.basic_movement.4 = 右へ移動
+m.input.gamepad.basic_movement.1 = Move
+m.inputdesc.gamepad.basic_movement.1 = 移動
+t.jumping = ジャンプと\n\
+ダッシュを\n\
+してみよう！
+m.input.jumping.1 = スペースキー
+m.inputdesc.jumping.1 = ジャンプ
+m.input.jumping.2 = Shift長押し
+m.inputdesc.jumping.2 = ダッシュ
+m.input.gamepad.jumping.1 = Jump
+m.inputdesc.gamepad.jumping.1 = ジャンプ
+m.input.gamepad.jumping.2 = Run
+m.inputdesc.gamepad.jumping.2 = ダッシュ
+t.vaccing = バキュームを使ってみよう
+m.text.vaccing = バキュームパックでアイテムを吸い込んで、バキュームタンクに保存できるぞ。
+m.input.vaccing.1 = 右マウスボタン長押し
+m.inputdesc.vaccing.1 = 吸引
+m.input.gamepad.vaccing.1 = Vac
+m.inputdesc.gamepad.vaccing.1 = 吸引
+t.shooting = スライムをゲット！
+m.text.shooting = さっそくスライムを飼育してみよう。牧場のケージにスライムを入れるときは、ケージの外からバリアごしに撃ち込めばOKだ。
+m.input.shooting.1 = マウスホイール
+m.inputdesc.shooting.1 = バキュームタンクを選択
+m.input.shooting.2 = 左マウスボタン長押し
+m.inputdesc.shooting.2 = 発射
+m.input.gamepad.shooting.1 = PrevSlot
+m.inputdesc.gamepad.shooting.1 = 前のバキュームタンクを選択
+m.input.gamepad.shooting.2 = NextSlot
+m.inputdesc.gamepad.shooting.2 = 次のバキュームタンクを選択
+m.input.gamepad.shooting.3 = Attack
+m.inputdesc.gamepad.shooting.3 = 発射
+t.food = おいしいエサをゲット！
+m.text.food = 野菜や果物やニワトリは、スライムに食べさせるエサだ。ピンクスライムめがけてエサを撃ってみよう。雑食だからなんでも食べるぞ。
+m.input.food.1 = マウスホイール
+m.inputdesc.food.1 = バキュームタンクを選択
+m.input.food.2 = 左マウスボタン長押し
+m.inputdesc.food.2 = 発射
+m.input.gamepad.food.1 = PrevSlot
+m.inputdesc.gamepad.food.1 = 前のバキュームタンクを選択
+m.input.gamepad.food.2 = NextSlot
+m.inputdesc.gamepad.food.2 = 次のバキュームタンクを選択
+m.input.gamepad.food.3 = Attack
+m.inputdesc.gamepad.food.3 = 発射
+t.plort = スライム\n\
+プリットを\n\
+ゲット！
+m.text.plort = エサを食べたスライムは、プリットを出すぞ。\n\
+\n\
+回収したプリットは、プリットマーケット端末で換金しよう。
+t.market = プリットマーケット
+m.text.market = 牧場で生産したプリットは、プリットマーケットでニューバックスに換金できるぞ。\n\
+\n\
+プリットマーケット端末にプリットを撃ち込んで、換金してみよう！
+m.input.market.1 = マウスホイール
+m.inputdesc.market.1 = バキュームタンクを選択
+m.input.market.2 = 左マウスボタン長押し
+m.inputdesc.market.2 = 発射
+m.input.gamepad.market.1 = PrevSlot
+m.inputdesc.gamepad.market.1 = 前のバキュームタンクを選択
+m.input.gamepad.market.2 = NextSlot
+m.inputdesc.gamepad.market.2 = 次のバキュームタンクを選択
+m.input.gamepad.market.3 = Attack
+m.inputdesc.gamepad.market.3 = 発射
+t.death = おかえり…
+m.text.death = ノックアウトされると、体力が回復するまで最低でも12時間は眠りつづけてしまう。あまり何度もノックアウトされると、牧場のスライムたちがおなかをすかせて暴れ出すかもしれない。気をつけよう！
+t.garden = 畑が完成！
+m.text.garden = デポジッターに野菜か果物を1つ撃ち込むと、その作物をたくさん栽培できるぞ！
+t.largo = ラルゴ体、発見！
+m.text.largo = スライムは、自分と異なる種類のスライムのプリットを食べると、ハイブリッドのラルゴ体に変化する。\n\
+\n\
+ラルゴ体は、バキュームでノズルの先に吸い寄せたまま運んだり、発射して遠くに飛ばしたりできるぞ。
+t.explore = これで基本はバッチリ！
+m.text.explore = 以上で、新人研修は修了！あとは自由に冒険してみよう。\n\
+\n\
+成功への近道は、失敗を恐れないこと。いろんなことをどんどん試してみよう。
+t.science_barn = スライム\n\
+サイエンス！
+m.text.science_barn = ラボでは、スライムサイエンス技術を応用して、いろいろなガジェットを組み立てられる。\n\
+\n\
+納屋へ行って、実際にやってみよう！
+t.science_summary = 発明\n\
+タイム！
+m.text.science_summary = 納屋には、スライムサイエンスガジェットを作る装置がそろっている。冒険をサポートしてくれる便利なマシンや、防衛用のタレット、装飾用のアクセサリーなど、いろんなガジェットを作れるぞ！
+t.science_refinery = 精製マシン
+m.text.science_refinery = ガジェットを組み立てるには、まず精製マシンに素材を投入する必要がある。精製マシンにプリットを1つ撃ち込んでみよう。\n\
+\n\
+ただし、一度精製マシンに入れた素材は取り出せないから、要注意だ。
+t.science_builder_shop = ビルダー\n\
+ショップ
+m.text.science_builder_shop = ガジェットづくりには設計図も必要だ。設計図は、ビルダーショップで買えるぞ。\n\
+\n\
+ビルダーショップには、新しい設計図がどんどん追加される。こまめにチェックしよう！
+t.science_fabricator = アセン\n\
+ブラー
+m.text.science_fabricator = 設計図を手に入れたら、精製マシンに投入した素材を使って、アセンブラーでガジェットを組み立てられるぞ。さっそく組み立ててみよう！
+t.science_gadget_mode = ガジェットモード
+m.text.science_gadget_mode = ガジェットモードをONにすると、ガジェットを設置できるようになるぞ。
+m.input.science_gadget_mode.1 = T
+m.inputdesc.science_gadget_mode.1 = ガジェットモードON/OFF
+m.input.gamepad.science_gadget_mode.1 = ToggleGadgetMode
+m.inputdesc.gamepad.science_gadget_mode.1 = ガジェットモードON/OFF
+t.science_sites = 設置\n\
+スポット
+m.text.science_sites = ガジェットモードをONにすると、バキュームでの吸引や発射はできなくなる。その代わり、ガジェットを設置できるスポットがすべて画面上に表示されるぞ。まわりをよく見てみよう！
+t.science_place_site = 設置\n\
+メニュー
+m.text.science_place_site = ガジェットをどこに設置するか決めたら、そのスポットに近づいて設置メニューを開こう。あとは、設置したいガジェットを選ぶだけだ。
+t.science_wrapup = 入門コース\n\
+修了！
+m.text.science_wrapup = 以上で、スライムサイエンスの基本はバッチリだ！詳しくは、スライムペディアに追加されているスライムサイエンスの項目を読んでみよう。ためになる情報が盛りだくさんだぞ。
+t.map = マップデータ\n\
+をゲット！
+m.text.map = ハルカーナ星のあちこちにあるマップデータノードを発見すると、マップに情報が追加されるぞ。
+m.input.map.1 = M
+m.inputdesc.map.1 = マップを表示
+m.input.gamepad.map.1 = OpenMap
+m.inputdesc.gamepad.map.1 = マップを表示
+t.water = 水でっぽう！
+m.text.water = 暴れているスライムに水をかけると、少しのあいだおとなしくなる。手ごわいタールスライムも、水をかければ溶けてしまうぞ。\n\
+\n\
+畑の作物は、水をやると早く収穫できるようになるぞ。
+t.enter_zone_ogden_ranch = オグデンの\n\
+別荘へ！
+m.text.enter_zone_ogden_ranch = オグデン・オルティスから、別荘での仕事の依頼が届いたぞ。フォレストへの通路にあるテレポーターで現地へ向かい、詳しい話を聞いてみよう。
+t.wilds_slimepedia = ワイルド諸島\n\
+サバイバル\n\
+ガイド
+m.text.wilds_slimepedia = ワイルド諸島は危険がいっぱい。スライムペディアに、お役立ちガイドが載ってるぞ！
+t.enter_zone_mochi_ranch = モチ・\n\
+マイルズ\n\
+邸へ！
+m.text.enter_zone_mochi_ranch = モチ・マイルズから、お屋敷での仕事の依頼が届いたぞ。ケイブにあるテレポーターで現地へ向かい、詳しい話を聞いてみよう。
+t.valley_slimepedia = 新人バイト用\n\
+ハンドブック
+m.text.valley_slimepedia = 仕事の手順を忘れたら、スライムペディアを確認すること。\n\
+\n\
+（同じこと何度も説明するの、めんどいから）
+t.race_start = ツルット谷へ\n\
+ようこそ
+m.text.race_start = ジェネレーターを起動すると、クイックシルバースライムが走り出すよ。\n\
+\n\
+ほら、ぐずぐずしない！
+t.race_generator = 位置について\n\
+用意…始業！
+m.text.race_generator = 充電ステーションに立ち寄って、バキュームパックに電気を補充！
+t.race_pulseshot = スパーク\n\
+ショットを\n\
+ゲット！
+m.text.race_pulseshot = スライムにスパークショットを命中させると、プリットが飛び出すよ。さー、じゃんじゃん儲けよう！
+t.race_powerup = パワー\n\
+ステーション
+m.text.race_powerup = パワーステーションを通過すると、ランダムにパワーショットが手に入るよ。3種類あるから、全部使いかたを覚えて。\n\
+\n\
+（ちなみに、あたしは全種類マスター済み！）
+t.race_checkpoint = リレーリング
+m.text.race_checkpoint = リレーリングを通過すると、ジェネレーターが充電されて、レースの残り時間が延長される。タイム・イズ・マネーだよ！
+t.race_energyboost = エネルギー\n\
+ブースト\n\
+ステーション
+m.text.race_energyboost = ダッシュしつづけてエネルギーが減っても、このステーションで一瞬で回復できるよ。エネルギー、超重要！
+t.mode_time_limit = ラッシュ\n\
+モード
+m.text.mode_time_limit = 制限時間内にできるだけたくさんニューバックスを稼げ！\n\
+\n\
+ハルカーナネットの依頼をこなすと、制限時間が延びるぞ！
+t.enter_zone_viktor_lab = ビクターの\n\
+研究所を\n\
+訪ねよう！
+m.text.enter_zone_viktor_lab = ビクター・ハンフリーズから、研究所での仕事の依頼が届いたぞ。ラボにあるテレポーターで現地へ向かい、詳しい話を聞いてみよう。
+t.slimulations_slimepedia = 公式\n\
+テストガイド
+m.text.slimulations_slimepedia = 現在スライミュレーションには問題が山積みだ。テストの詳しい手順は、スライムペディアに載っているぞ。
+t.slimulations_start_1 = 隠れたバグを\n\
+見つけ出せ
+m.text.slimulations_start_1 = バグったラルゴ体やスライムを探してほしい。バグスライムだった場合、バキュームパックで吸い込むと正体を現すぞ。
+t.slimulations_start_2 = 出口が\n\
+開くのを待て
+m.text.slimulations_start_2 = スライミュレーションから離脱するには、テレポーターが起動するのを待つ必要がある。脱出口が出現したら、僕から知らせよう！
+t.slimulations_debug_spray = デバッグスプレー
+m.text.slimulations_debug_spray = 物に化けているバグスライムには、デバッグスプレーを吹きかけると正体を現すぞ！
+t.slimulations_damage = ERROR! ERROR! ERROR!
+m.text.slimulations_damage = バグスライムの正体は、スライミュレーション内のバグ。常識外の行動を取ることもしばしばだ。タール状の破損データからダメージを受けると、捕獲済みのバグスライムが逃げ出すこともあるから注意してくれ！
+t.slimulations_exit_available = ビーコンの\n\
+示すほうへ！
+m.text.slimulations_exit_available = 出口への道順を示すビーコンに従って進めば、安全に脱出できるぞ。

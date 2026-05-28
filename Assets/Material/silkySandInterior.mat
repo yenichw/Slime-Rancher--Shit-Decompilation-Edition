@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: silkySandInterior
+  m_Shader: {fileID: 4800000, guid: 6d97d3c05a0cdd348b4a38c7cd266d08, type: 3}
+  m_ShaderKeywords: _ENABLEDETAILTEX_ON _TOPPERENABLEDETAILTEX_ON
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _DetailNoiseMask:
+        m_Texture: {fileID: 2800000, guid: 9622f3af117ff4d448e11bf300be6e04, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+      _LowDetail:
+        m_Texture: {fileID: 2800000, guid: fbb5821f060906840b97a50902ff1671, type: 3}
+        m_Scale: {x: 0.001, y: 0.001}
+        m_Offset: {x: 0, y: 0}
+      _TopperDepth:
+        m_Texture: {fileID: 2800000, guid: 9b50de5e85a3b314d8a739b93fc15042, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.1, y: 0.1}
+      _TopperDetailTex:
+        m_Texture: {fileID: 2800000, guid: d18bcccd683ebc74a86e956cee0e1604, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _TopperSpecular:
+        m_Texture: {fileID: 2800000, guid: 3cd1e364e311160419e09489113badf6, type: 3}
+        m_Scale: {x: 0.025, y: 0.025}
+        m_Offset: {x: 0, y: 0}
+      _Topper_MainTex:
+        m_Texture: {fileID: 2800000, guid: fe336619b1ce30f419397ac1f775e02e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _WaveMap:
+        m_Texture: {fileID: 2800000, guid: 3d6b559531aaf4a4b97fc333167b9b01, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _WaveNoise:
+        m_Texture: {fileID: 2800000, guid: 8eeed3f38041089468528539e5e14998, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _CrestSpeed: 0
+      _Cutoff: 0.5
+      _EnableDetailTex: 1
+      _FreshWater: 0
+      _FresnelStrength: 0
+      _Gloss: 0.75
+      _GlossPower: 0.3
+      _NormalStrength: 1
+      _OnlyUpwardFaces: 0
+      _RampOffset: 2
+      _RampScale: 1
+      _Refraction: 0
+      _SeaLevelRampObjectPos: 0
+      _SeaLevelRampOffset: 993.6
+      _SeaLevelRampScale: 1
+      _ToporBottom: 0
+      _TopperCoverage: 2
+      _TopperDepthStrength: 1
+      _TopperEnableDetailTex: 1
+      _TopperSpecularNoiseAdjust: 0.5
+      _UseMeshUVs: 0
+      _WaveEnergy: 2
+      _WaveOffset: 0
+      _WaveScale: 0
+      _WaveSpeed: 0
+      _WindSpeed: 0.1
+      _WindStrength: 5
+      _WindTurbulance: 20
+      _node_2998: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _ColorBottom: {r: 0.5147059, g: 0.5147059, b: 0.5147059, a: 1}
+      _ColorTop: {r: 0.49264705, g: 0.49264705, b: 0.49264705, a: 1}
+      _DisperseSizeSpeed: {r: 10, g: 10, b: 0, a: 1}
+      _RampUpper: {r: 1, g: 1, b: 1, a: 1}
+      _SeaLevelRampLower: {r: 0.21107265, g: 0.4387036, b: 0.44852942, a: 1}
+      _SpecularColor: {r: 0.45588237, g: 0.45588237, b: 0.45588237, a: 1}

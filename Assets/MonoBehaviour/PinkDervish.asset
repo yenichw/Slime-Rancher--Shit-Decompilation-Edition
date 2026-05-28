@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9b4fae4ff5f97241a58c4b07a86ae2b, type: 3}
+  m_Name: PinkDervish
+  m_EditorClassIdentifier:
+  Name: Pink Dervish
+  IdentifiableId: 136
+  BaseSlimes:
+  - {fileID: 11400000, guid: 7e76ca175aaf1854699a4db14d86cf4f, type: 2}
+  - {fileID: 11400000, guid: 7b14a984468fdf94ea08053f7f891056, type: 2}
+  IsLargo: 1
+  CanLargofy: 0
+  PrefabScale: 2
+  AppearancesDefault:
+  - {fileID: 11400000, guid: 95515750efa62dd4aac2c5cf5db20754, type: 2}
+  Sounds: {fileID: 11400000, guid: 13176b944fc5d6748b1d4a3aebe9835c, type: 2}
+  Diet:
+    MajorFoodGroups:
+    - 0
+    - 1
+    - 2
+    Favorites:
+    - 26
+    AdditionalFoods:
+    - 149
+    Produces:
+    - 6
+    - 103
+    FavoriteProductionCount: 2
+  FavoriteToys:
+  - 13000
+  - 13012
+  BaseModule: {fileID: 1446035495220259, guid: d0d75a86ba1bc5747a71a96678a2e1f3, type: 2}
+  SlimeModules:
+  - {fileID: 1835056271758468, guid: 69a0171bc68463a4492fc4bc9590bf76, type: 2}
+  - {fileID: 1156274726924456, guid: 681e8392c81b37448ac186fec73ece1b, type: 2}

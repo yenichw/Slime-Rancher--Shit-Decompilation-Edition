@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ValleyRanchTech
+  m_Shader: {fileID: 4800000, guid: 1f65a50303a89b9468736e2c16278251, type: 3}
+  m_ShaderKeywords: _AOUV1_ON _NRMTRIPLANAR_ON _OVERRIDEUV1_ON _PAINTMASKTRIPLANAR_ON _TRIPLANARNORMALS_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _AmbientOcclusion:
+        m_Texture: {fileID: 2800000, guid: 84afd414e554e43419b40f6baac17c67, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _ColorMask:
+        m_Texture: {fileID: 2800000, guid: af2ade562e6bf82489d00ba281572e57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _GlowRamp:
+        m_Texture: {fileID: 2800000, guid: b7e7d8b5edd6de441b938e045208196c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Normal:
+        m_Texture: {fileID: 2800000, guid: 8215d957e2023804db7197c11978007d, type: 3}
+        m_Scale: {x: 0.25, y: 0.25}
+        m_Offset: {x: 0, y: 0}
+      _Override:
+        m_Texture: {fileID: 2800000, guid: 2d16b0a1e43406148a6de5d83a437a0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _PaintStrokes:
+        m_Texture: {fileID: 2800000, guid: bbf6823d78a7f8f418a620e7d7e47b95, type: 3}
+        m_Scale: {x: 0.15, y: 0.15}
+        m_Offset: {x: 0, y: 0}
+      _Rim:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+      _AOUV1: 1
+      _Assemble: 1
+      _AssembleDif: 0.25
+      _AssembleDistance: 15
+      _AssembleFalloff: 1
+      _AssembleOffset: 0.67
+      _BumpScale: 1
+      _Cutoff: 0.5
+      _DetailNormalMapScale: 1
+      _DstBlend: 0
+      _GlossBlack: 0.1
+      _GlossBlue: 0
+      _GlossGreen: 0.5
+      _GlossRed: 0
+      _Glossiness: 0.5
+      _GlowColor: 0
+      _GlowMultiplier: 1
+      _GlowShift: 0
+      _GlowSpeed: 0
+      _Metallic: 0
+      _Mode: 0
+      _NRMTriplanar: 1
+      _NRMUV1: 0
+      _OcclusionStrength: 1
+      _OverrideUV1: 1
+      _PaintMaskTriplanar: 1
+      _Parallax: 0.02
+      _RimStrength: 1
+      _SpiralColor: 0.5
+      _SrcBlend: 1
+      _Transparency: 1
+      _TriplanarNormals: 1
+      _UVSec: 0
+      _ZWrite: 1
+      _node_5608: 0
+    m_Colors:
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _Color00: {r: 0.21568629, g: 0.121568635, b: 0.40000004, a: 0}
+      _Color01: {r: 0.28235295, g: 0.227451, b: 0.6784314, a: 0.134}
+      _Color10: {r: 0.50329804, g: 0.6397059, b: 0.5268166, a: 0}
+      _Color11: {r: 0.73572665, g: 0.8841874, b: 0.9264706, a: 0.622}
+      _Color20: {r: 0.20392159, g: 0.21960786, b: 0.21568629, a: 0}
+      _Color21: {r: 0.21568629, g: 0.227451, b: 0.23137257, a: 0.616}
+      _Color30: {r: 0.43137258, g: 0.50980395, b: 0.5647059, a: 0}
+      _Color31: {r: 0.7372549, g: 0.882353, b: 0.92549026, a: 0}
+      _Color40: {r: 0.7686275, g: 0.13333334, b: 0.2509804, a: 0}
+      _Color41: {r: 0.9686275, g: 0.21568629, b: 0.50980395, a: 0}
+      _Color50: {r: 0.7137255, g: 0.5176471, b: 0.25882354, a: 0.244}
+      _Color51: {r: 1, g: 0.8117648, b: 0.22352943, a: 0}
+      _Color60: {r: 0, g: 0, b: 0, a: 0}
+      _Color61: {r: 0, g: 0, b: 0, a: 0}
+      _Color70: {r: 0, g: 0, b: 0, a: 0}
+      _Color71: {r: 0, g: 0, b: 0, a: 0}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
